@@ -835,6 +835,12 @@ outline: none;
 .tabcontent{
   display: none;
 }
+#London{
+  display: block;
+}
+#Tokyo1{
+  display: block;
+}
 .tabcontent2{
   display: none;
 }

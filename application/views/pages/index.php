@@ -142,7 +142,7 @@
         <button class="tablinks" onmouseover="openCity(event, 'London','tab1')" id="tab1">
           <div class="services-box text-center">
             <div class="row">
-              <div class="trans " style="width:80px; height:80px">
+              <div class="trans active-trans " style="width:80px; height:80px">
                 <svg class="svg mt-3 ml-3" x="0px" y="0px" width="58px"
       height="55px" viewBox="0 0 70 57" enable-background="new 0 0 70 57" xml:space="preserve">
 
@@ -160,7 +160,7 @@
 
                 </svg>
               </div>
-                <h3 class="align-self-center service-h3">Website Design</h3>
+                <h3 class="align-self-center active-h3 service-h3">Website Design</h3>
             </div>
 
             </div></button>
@@ -461,8 +461,8 @@
         <button class="tablinks" onmouseover="openCity2(event, 'Tokyo1','tab7')" id="tab7">
           <div class="services-box text-center">
             <div class="row">
-                <h3 class="align-self-center service-h3-2">Printing Services</h3>
-              <div class="trans2 " style="width:80px; height:80px">
+                <h3 class="align-self-center active-h3 service-h3-2">Printing Services</h3>
+              <div class="trans2 active-trans " style="width:80px; height:80px">
                 <svg class="svg mt-3" x="0px" y="0px" width="50px"
       height="50px" viewBox="0 0 77 77" enable-background="new 0 0 77 77" xml:space="preserve">
 
