@@ -13,6 +13,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="clear navbar-nav ml-auto topnav">
                 <li><a class="home" href="<?php echo base_url(); ?>">Home</a></li>
+                <!-- <li><a class="home" href="<?php echo base_url();?>Services">Services</a></li> -->
                 <li><a href="<?php echo base_url(); ?>Creative-Design-Portfolio">Portfolio</a></li>
                 <li><a href="<?php echo base_url(); ?>Testimonials">Testimonials</a></li>
                 <li class="last"><a href="<?php echo base_url(); ?>Contact">Contact</a></li>

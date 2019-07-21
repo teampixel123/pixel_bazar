@@ -34,6 +34,11 @@ class Welcome extends CI_Controller {
 		// $this->output->cache(60);
 		$this->load->view('pages/contact');
 	}
+	public function Services()
+	{
+		// $this->output->cache(60);
+		$this->load->view('pages/services');
+	}
 	public function portfolio()
 	{
 		// $this->output->cache(60);
@@ -302,7 +307,7 @@ class Welcome extends CI_Controller {
 	      $mailheader = "From: dhananjay@pixelbazar.com \r\n";
 	      mail($recipient, $subject, 'Demo mail Konark', $mailheader) or die("Error!");
 	}
-	
+
 	 public function send_enquiry(){
 		$name = $this->input->post('name');
 		$email = $this->input->post('email');
