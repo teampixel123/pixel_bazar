@@ -1,4 +1,8 @@
-<?php include('head.php'); ?>
+<?php
+$title="Logo Design, Website & Print Designing in Kolhapur | PixelBazar";
+$description="Best &#10004; Logo Design &#10004; Website Design &#10004; Print Design Company in Kolhapur. Over 15+ Years of experience in all industry verticals. Book Now !";
+$keywords="graphic designer, design, designer, web design, websites, Logo design in Kolhapur, Innovative branding, Kolhapur,logo design,website design, graphic design, web design, logo, web page design, company logo, website development, web design company, business logo, logo creator, company logo design, custom logo design, business logo design, web development company, custom logo, Digital Marketing, SEO, Branding, Digital marketing sevices in kolhapur, logo design company in kolhapur, graphics design company in kolhapur, printing services in kolhapur, logo printing.";
+include('head.php'); ?>
 <body class="woocommerce pc">
 	<!-- page header -->
   <?php include('header.php'); ?>

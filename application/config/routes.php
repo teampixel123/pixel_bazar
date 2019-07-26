@@ -52,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'Welcome';
 $route['Graphic-Web-Design-Company'] = 'Welcome/home';
 $route['Creative-Design-Portfolio'] = 'Welcome/portfolio';
-$route['Services'] = 'Welcome/Services';
+$route['logo-design-kolhapur'] = 'Welcome/Services';
 $route['Testimonials'] = 'Welcome/testimonials';
 $route['Contact'] = 'Welcome/contact';
 $route['Add-Portfolio'] = 'Welcome/add_portfolio';

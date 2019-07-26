@@ -37,7 +37,7 @@ class Welcome extends CI_Controller {
 	public function Services()
 	{
 		// $this->output->cache(60);
-		$this->load->view('pages/services');
+		$this->load->view('pages/services2');
 	}
 	public function portfolio()
 	{
@@ -160,6 +160,8 @@ class Welcome extends CI_Controller {
 	     else{
 	 			$this->session->set_flashdata("email_msg","email_error");
 	     }
+
+
 // 		$page_url = $this->input->post('page_url');
 // 		$photo = $this->input->post('photo');
 // 		$title = $this->input->post('title');
@@ -226,6 +228,53 @@ class Welcome extends CI_Controller {
 // 			  }
 	}
 
+	public function send_service_email(){
+			$page_url = $this->input->post('page_url');
+		$title = $this->input->post('title');
+		$name = $this->input->post('name');
+		$sender_email = 'info@pixelbazar.com';
+		$rec_email = $this->input->post('rec_email');
+		 // $message = '
+			//  <p style="text-align:center; color:#698291; font-weight: normal; margin: 0; padding: 0; line-height: 20px; font-size: 20px;font-family: Georgia, serif; ">
+			//  Welcome to Pixel Bazar
+			//  </p><br>
+			//  <p style="text-align:center; color:#698291; font-weight: normal; margin: 0; padding: 0; line-height: 20px; font-size: 14px;font-family: Georgia, serif; ">
+			//  Pixelbazar is the #1 place in kolhapur for graphic design, logo design, web design and brand identity
+			//  </p><br>
+			//  <p style="text-align:center; color:#698291; font-weight: normal; margin: 0; padding: 0; line-height: 20px; font-size: 16px;font-family: Georgia, serif; ">
+			//  <img src="'.base_url().'assets/images/portfolio/'.$photo.'">
+			//  </p>
+			//  <p style="text-align:center; color:#698291; font-weight: normal; margin: 0; padding: 0; line-height: 20px; font-size: 16px;font-family: Georgia, serif; ">
+			//  '.$title.'
+			//  </p>
+			//  <p style="text-align:center; color:#767676; font-weight: normal; margin: 0; padding: 0; line-height: 20px; font-size: 14px;font-family: Georgia, serif; ">
+			//  '.$short_info.'
+			//  </p>
+			//  <p style="text-align:center; color:#767676; font-weight: normal; margin: 0; padding: 0; line-height: 20px; font-size: 14px;font-family: Georgia, serif; ">
+			//  <a href='.$page_url.'>Details</a> | <a href='.base_url().'Creative-Design-Portfolio>See More Work</a>
+			//  </p>
+			// 	<hr>
+			//  <br>
+			//  <p style="color:#767676; font-weight: normal; margin: 0; padding: 0; line-height: 20px; font-size: 14px;font-family: Georgia, serif; ">
+			//  Sender: '.$name.'
+			//  </p>
+		 // ';
+
+			 $subject = 'Pixel Bazar Portfolio';
+
+			 $headers  = 'MIME-Version: 1.0' . "\r\n";
+			 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+			 $headers .= 'From: '.$sender_email."\r\n".
+									 'Reply-To: '.$sender_email."\r\n" .
+									 'X-Mailer: PHP/' . phpversion();
+
+			 if(mail($rec_email, $subject, $message, $headers)){
+				$this->session->set_flashdata("email_msg","email_success");
+			 }
+			 else{
+				$this->session->set_flashdata("email_msg","email_error");
+			 }
+		 }
 	public function send_feedback(){
 		$name = $this->input->post('name');
 		$email = $this->input->post('email');

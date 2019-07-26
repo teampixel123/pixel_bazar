@@ -2,12 +2,12 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-        <title>Design | Logo, Website & Print Designing | PixelBazar - Kolhapur</title>
+        <title><?php  echo $title; ?></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta property="og:url" content="https://pixelbazar.com/">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta name="description" content="Creative Team for graphic design: logo, website and more. Create your identity with talented designers with extensive experienced. Start to grow your business.">
-    <meta name="keywords" content="graphic designer, design, designer, web design, websites, Logo design in Kolhapur, Innovative branding, Kolhapur">
+    <meta name="description" content="<?php echo $description; ?>">
+    <meta name="keywords" content="<?php echo $keywords; ?>">
     <meta property="fb:app_id" content="249175275438959">
     <meta property="og:title" content="Logos, Web design, Graphic Designer &amp; More. | PixelBazar">
     <meta property="og:description" content="Creative Team for graphic design: logo, website and more. Create your identity with talented designers with extensive experienced. Start to grow your business.">

@@ -13,7 +13,7 @@ include('head.php'); ?>
   <div class="container service-pg-container">
     <div class="row ">
       <div class="col-md-8">
-          <h1 class="service-title">Website Design</h1>
+          <h1 class="service-title">Logo Design</h1>
           <h3 class="service-sub-title red-color">Great Things about logo design you can learn </h3>
           <div class="social-media">
             <!-- <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo base_url(); ?>Portfolio-Details/<?php echo $portfolio_details[0]['id']; ?>"> -->
