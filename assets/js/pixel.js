@@ -457,13 +457,15 @@ function star_rating(){
 }
 
 // Portfolio Scroll Mouse Hover Effect
-
+// $('.tile1').removeClass("margin-minus-20");
 $('.scroller').mousedown(function(event) {
   $(this).data('down', true).data('x', event.clientX).data('scrollLeft', this.scrollLeft);
   return false;
 }).mouseup(function(event) {
   $(this).data('down', false);
 }).mousemove(function(event) {
+  $('.tile1').removeClass("margin-minus-20");
+    // alert('this-div');
   if ($(this).data('down') == true) {
       this.scrollLeft = $(this).data('scrollLeft') + $(this).data('x') - event.clientX;
   }

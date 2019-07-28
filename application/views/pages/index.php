@@ -562,7 +562,6 @@ include('head.php');
       <h1 class="title text-center ">
         <span class="">Our Services</span>
       </h1>
-
       <div class="accordion" id="accordionExample">
   <div class="card">
     <div class="card-header" id="headingOne">
@@ -1017,7 +1016,7 @@ include('head.php');
 
 
 <!-- Counter Start-->
-<section class="home-counter" id="counter">
+<section class="home-counter mt-5" id="counter">
   <div class="container pt-5" >
   <div class="row text-center">
     <div class="col-md-3 col-12">
@@ -1078,8 +1077,8 @@ include('head.php');
 </section> -->
   <!-- Brand Design End -->
   <!-- info box -->
-  <section id="info-box">
-  	<div class="row info-box">
+  <!-- <section id="info-box">
+  	<div class="row info-box"> -->
       <!-- <div class="col-md-5">
         <div class="home-enquiry2 shadow" style="background-color:#D3D3D3; ">
           <div class="pt-2 pb-2 pr-3 pl-3 enquiry_form1" style="background-color:#fff;">
@@ -1121,13 +1120,13 @@ include('head.php');
           </div>
     	  </div>
       </div> -->
-  		<div class="col-md-12  align-self-center text-center">
+  		<!-- <div class="col-md-12  align-self-center text-center">
   			  <h1 class="font-25 set-font"><b>Designing | Developing | Printing & More</b></h1>
           <h3>One stop solution for all your business needs</h3><br>
           <a class="" href="tel:+919158995505"><h1 class="mob-num2 set-font">Call Us +91 9158 99 5505</h1></a>
-      </div>
-  	</div>
-  </section>
+      </div> -->
+  	<!-- </div>
+  </section> -->
   <!-- /info box -->
   <!-- Web Design -->
 <!-- <section class="web_design" id="web_design">
@@ -1150,25 +1149,53 @@ include('head.php');
     </div>
   </div>
 </section> -->
-<hr>
+<!-- <hr> -->
 <!-- Web Design end -->
-
+<div class="container des-info">
+  <div class="mt-5">
+    <div class="row">
+      <div class="col-md-7 offset-md-1">
+        <h1 class="title">
+          <span class="">Designing, Developing,<br>Training, Printing and More</span>
+        </h1>
+        <div class="w-75">
+          <hr style="border: .5px solid rgba(0,0,0,.2); text-align: left;">
+        </div>
+        <p style="float:left;">One stop solution for all your business needs</p>
+      </div>
+      <div class="col-md-4 align-self-center">
+        <a class="btn btn-lg btn-outline-warning margin-top " href="http://localhost/pixelbazar/Creative-Design-Portfolio">See More Designs</a>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Portfolio -->
 <section id="gallery" class="home_portfolio pl-0 pr-0">
-  <h1 class="title text-center">
+  <!-- <h1 class="title text-center">
     <span class="animated rotateIn">Portfolio</span>
   </h1>
-  <p class="sub-title1 text-center mb-3">Here are some featured work</p>
+  <p class="sub-title1 text-center mb-3">Here are some featured work</p> -->
   <div class="container-flued">
     <section class="row scroller" id="scroller">
           <!-- Opacity declared inline because I thought it might help with the fade in -->
           <div class="scroll-left" style="opacity: 0;"></div>
           <div class="row-scroll row">
+              <div class="tile tile1">
+                <div class="card image">
+                  <div class="img-wrapper">
+                    <a data-href="<?php echo base_url(); ?>assets/images/home_portfolio/4.jpg" class="boxout2 progressive replace">
+                      <img src="<?php echo base_url(); ?>assets/images/home_portfolio/4.jpg" alt="cave" class="preview card-img-top img-responsive">
+                    </a>
+                    <div class="img-overlay">
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="tile">
                 <div class="card image">
                   <div class="img-wrapper">
-                    <a data-href="<?php echo base_url(); ?>assets/images/portfolio/logo_e_revolution.jpg" class="boxout2 progressive replace">
-                      <img src="<?php echo base_url(); ?>assets/images/portfolio/logo_e_revolution.jpg" alt="cave" class="preview card-img-top img-responsive">
+                    <a data-href="<?php echo base_url(); ?>assets/images/home_portfolio/2.jpg" class="boxout2 progressive replace">
+                      <img src="<?php echo base_url(); ?>assets/images/home_portfolio/2.jpg" alt="cave" class="preview card-img-top img-responsive">
                     </a>
                     <div class="img-overlay">
 
@@ -1179,8 +1206,8 @@ include('head.php');
               <div class="tile">
                 <div class="card image">
                   <div class="img-wrapper">
-                    <a data-href="<?php echo base_url(); ?>assets/images/portfolio/identity_zing_print.jpg" class="boxout2 progressive replace">
-                      <img src="<?php echo base_url(); ?>assets/images/portfolio/identity_zing_print.jpg" alt="cave" class="preview card-img-top img-responsive">
+                    <a data-href="<?php echo base_url(); ?>assets/images/home_portfolio/6.jpg" class="boxout2 progressive replace">
+                      <img src="<?php echo base_url(); ?>assets/images/home_portfolio/6.jpg" class="preview card-img-top img-responsive">
                     </a>
                     <div class="img-overlay">
 
@@ -1191,9 +1218,7 @@ include('head.php');
               <div class="tile">
                 <div class="card image">
                   <div class="img-wrapper">
-                    <a data-href="<?php echo base_url(); ?>assets/images/portfolio/logo_bandhan.jpg" class="boxout2 progressive replace">
-                      <img src="<?php echo base_url(); ?>assets/images/portfolio/logo_bandhan.jpg" class="preview card-img-top img-responsive">
-                    </a>
+                    <img src="<?php echo base_url(); ?>assets/images/home_portfolio/1.jpg" class="card-img-top img-responsive">
                     <div class="img-overlay">
 
                     </div>
@@ -1203,7 +1228,7 @@ include('head.php');
               <div class="tile">
                 <div class="card image">
                   <div class="img-wrapper">
-                    <img src="<?php echo base_url(); ?>assets/images/portfolio/logo_evo_centric.jpg" class="card-img-top img-responsive">
+                    <img src="<?php echo base_url(); ?>assets/images/home_portfolio/5.jpg" class="card-img-top img-responsive">
                     <div class="img-overlay">
 
                     </div>
@@ -1213,33 +1238,23 @@ include('head.php');
               <div class="tile">
                 <div class="card image">
                   <div class="img-wrapper">
-                    <img src="<?php echo base_url(); ?>assets/images/portfolio/logo_zoo_business_media.jpg" class="card-img-top img-responsive">
+                    <img src="<?php echo base_url(); ?>assets/images/home_portfolio/3.jpg" class="card-img-top img-responsive">
                     <div class="img-overlay">
 
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="tile">
+              <!-- <div class="tile">
                 <div class="card image">
                   <div class="img-wrapper">
-                    <img src="<?php echo base_url(); ?>assets/images/portfolio/logo_zenvar_group.jpg" class="card-img-top img-responsive">
+                    <img src="<?php echo base_url(); ?>assets/images/home_portfolio/logo_influx_inc.jpg" class="card-img-top img-responsive">
                     <div class="img-overlay">
 
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="tile">
-                <div class="card image">
-                  <div class="img-wrapper">
-                    <img src="<?php echo base_url(); ?>assets/images/portfolio/logo_influx_inc.jpg" class="card-img-top img-responsive">
-                    <div class="img-overlay">
-
-                    </div>
-                  </div>
-                </div>
-              </div>
+              </div> -->
           </div>
           <div class="scroll-right" style="opacity: 0;"></div>
       </section>
@@ -1254,38 +1269,35 @@ include('head.php');
 
 
 <div id="portfolio_mobile" class="carousel slide" data-ride="carousel">
-  <h1 class="title text-center">
-    <span class="">Portfolio</span>
-  </h1>
-  <p class="sub-title1 text-center mb-3">Here are some featured work</p>
+
   <div class="carousel-inner">
     <div class="carousel-item active">
       <a data-href="<?php echo base_url(); ?>assets/images/portfolio/logo_e_revolution.jpg" class="boxout2 progressive replace">
-        <img class="preview d-block w-100" src="<?php echo base_url(); ?>assets/images/portfolio/logo_e_revolution.jpg" alt="First slide">
+        <img class="preview d-block w-100" src="<?php echo base_url(); ?>assets/images/home_portfolio/1.jpg" alt="First slide">
       </a>
     </div>
     <div class="carousel-item ">
       <a data-href="<?php echo base_url(); ?>assets/images/portfolio/identity_zing_print.jpg" class="boxout2 progressive replace">
-        <img class="preview d-block w-100" src="<?php echo base_url(); ?>assets/images/portfolio/identity_zing_print.jpg" alt="First slide">
+        <img class="preview d-block w-100" src="<?php echo base_url(); ?>assets/images/home_portfolio/2.jpg" alt="First slide">
       </a>
     </div>
     <div class="carousel-item ">
       <a data-href="<?php echo base_url(); ?>assets/images/portfolio/logo_bandhan.jpg" class="boxout2 progressive replace">
-        <img class="preview d-block w-100" src="<?php echo base_url(); ?>assets/images/portfolio/logo_bandhan.jpg" alt="First slide">
+        <img class="preview d-block w-100" src="<?php echo base_url(); ?>assets/images/home_portfolio/3.jpg" alt="First slide">
       </a>
     </div>
     <div class="carousel-item ">
-      <img class="d-block w-100" src="<?php echo base_url(); ?>assets/images/portfolio/logo_evo_centric.jpg" alt="First slide">
+      <img class="d-block w-100" src="<?php echo base_url(); ?>assets/images/home_portfolio/4.jpg" alt="First slide">
     </div>
     <div class="carousel-item ">
-      <img class="d-block w-100" src="<?php echo base_url(); ?>assets/images/portfolio/logo_zoo_business_media.jpg" alt="First slide">
+      <img class="d-block w-100" src="<?php echo base_url(); ?>assets/images/home_portfolio/5.jpg" alt="First slide">
     </div>
     <div class="carousel-item ">
-      <img class="d-block w-100" src="<?php echo base_url(); ?>assets/images/portfolio/logo_zenvar_group.jpg" alt="First slide">
+      <img class="d-block w-100" src="<?php echo base_url(); ?>assets/images/home_portfolio/6.jpg" alt="First slide">
     </div>
-    <div class="carousel-item ">
+    <!-- <div class="carousel-item ">
       <img class="d-block w-100" src="<?php echo base_url(); ?>assets/images/portfolio/logo_influx_inc.jpg" alt="First slide">
-    </div>
+    </div> -->
   </div>
   <p class="text-center mb-1 mt-1">
     <a class="btn btn-lg btn-outline-warning margin-top" href="<?php echo base_url(); ?>Creative-Design-Portfolio">SEE MORE WORK</a>
@@ -1310,74 +1322,74 @@ include('head.php');
   <div class="cust-div">
     <div class="row customer-row" style="height:112px;">
       <div class="col-md-1 col-sm-4 col-4 mx-auto m-0 show-color mb-5 autocast">
-        <div class="customer-g-autocast-mumbai gray"></div>
-        <div class="customer-autocast-mumbai color"></div>
+        <!-- <div class="customer-g-autocast-mumbai gray"></div> -->
+        <div class="customer-autocast-mumbai gray"></div>
       </div>
       <div class="col-md-1 col-sm-4 col-4 mx-auto m-0 show-color mb-5 new-melting">
-        <div class="customer-g-new-melting-center-kolhapur gray"></div>
-        <div class="customer-new-melting-center-kolhapur color"></div>
+        <!-- <div class="customer-g-new-melting-center-kolhapur gray"></div> -->
+        <div class="customer-new-melting-center-kolhapur gray"></div>
       </div>
       <div class="col-md-1 col-sm-4 col-4 mx-auto m-0 show-color mb-5 atharv-jaju">
-        <div class="customer-g-atharv-jaju-group-kolhapur gray"></div>
-        <div class="customer-atharv-jaju-group-kolhapur color"></div>
+        <!-- <div class="customer-g-atharv-jaju-group-kolhapur gray"></div> -->
+        <div class="customer-atharv-jaju-group-kolhapur gray"></div>
       </div>
       <div class="col-md-1 col-sm-4 col-4 mx-auto m-0 show-color mb-5 gov-polytechnic">
-        <div class="customer-g-govt-polytechnic-kolhapur gray"></div>
-        <div class="customer-govt-polytechnic-kolhapur color"></div>
+        <!-- <div class="customer-g-govt-polytechnic-kolhapur gray"></div> -->
+        <div class="customer-govt-polytechnic-kolhapur gray"></div>
       </div>
       <div class="col-md-1 col-sm-4 col-4 mx-auto m-0 show-color mb-5 d-cyrus">
-        <div class="customer-g-d-cyrus-school-kolhapur gray"></div>
-        <div class="customer-d-cyrus-school-kolhapur color"></div>
+        <!-- <div class="customer-g-d-cyrus-school-kolhapur gray"></div> -->
+        <div class="customer-d-cyrus-school-kolhapur gray"></div>
       </div>
       <div class="col-md-1 col-sm-4 col-4 mx-auto m-0 show-color mb-5 konark">
-        <div class="customer-g-konark-win-door-kolhapur gray"></div>
-        <div class="customer-konark-win-door-kolhapur color"></div>
+        <!-- <div class="customer-g-konark-win-door-kolhapur gray"></div> -->
+        <div class="customer-konark-win-door-kolhapur gray"></div>
       </div>
       <div class="col-md-1 col-sm-4 col-4 mx-auto m-0 show-color mb-5 maharaja">
-        <div class="customer-g-maharaja-group-kolhapur gray"></div>
-        <div class="customer-maharaja-group-kolhapur color"></div>
+        <!-- <div class="customer-g-maharaja-group-kolhapur gray"></div> -->
+        <div class="customer-maharaja-group-kolhapur gray"></div>
       </div>
       <div class="col-md-1 col-sm-4 col-4 mx-auto m-0 show-color mb-5 net-set">
-        <div class="customer-g-net-set-academy-kolhapur gray"></div>
-        <div class="customer-net-set-academy-kolhapur color"></div>
+        <!-- <div class="customer-g-net-set-academy-kolhapur gray"></div> -->
+        <div class="customer-net-set-academy-kolhapur gray"></div>
       </div>
       <div class="col-md-1 col-sm-4 col-4 mx-auto m-0 show-color mb-5 bhosale">
-        <div class="customer-g-bhosle-group-kolhapur gray"></div>
-        <div class="customer-bhosle-group-kolhapur color"></div>
+        <!-- <div class="customer-g-bhosle-group-kolhapur gray"></div> -->
+        <div class="customer-bhosle-group-kolhapur gray"></div>
       </div>
       <div class="col-md-1 col-sm-4 col-4 mx-auto m-0 show-color mb-5 khyati">
-        <div class="customer-g-kyati-foods-kolhapur gray"></div>
-        <div class="customer-kyati-foods-kolhapur color"></div>
+        <!-- <div class="customer-g-kyati-foods-kolhapur gray"></div> -->
+        <div class="customer-kyati-foods-kolhapur gray"></div>
       </div>
     </div>
     <div class="row customer-row" style="height:112px;">
       <div class="col-md-1 col-sm-4 col-4 mx-auto m-0 show-color mb-5 bharat-palace">
-        <div class="customer-g-bharat-palace-bikaner gray"></div>
-        <div class="customer-bharat-palace-bikaner color"></div>
+        <!-- <div class="customer-g-bharat-palace-bikaner gray"></div> -->
+        <div class="customer-bharat-palace-bikaner gray"></div>
       </div>
       <div class="col-md-1 col-sm-4 col-4 mx-auto m-0 show-color mb-5 asm">
-        <div class="customer-g-asm-legal-kolhapur gray"></div>
-        <div class="customer-asm-legal-kolhapur color"></div>
+        <!-- <div class="customer-g-asm-legal-kolhapur gray"></div> -->
+        <div class="customer-asm-legal-kolhapur gray"></div>
       </div>
       <div class="col-md-1 col-sm-4 col-4 mx-auto m-0 show-color mb-5 amz">
-        <div class="customer-g-amz-automotive-bikaner gray"></div>
-        <div class="customer-amz-automotive-bikaner color"></div>
+        <!-- <div class="customer-g-amz-automotive-bikaner gray"></div> -->
+        <div class="customer-amz-automotive-bikaner gray"></div>
       </div>
       <div class="col-md-1 col-sm-4 col-4 mx-auto m-0 show-color mb-5 bandhan">
-        <div class="customer-g-bandhan-tourism-mumbai gray"></div>
-        <div class="customer-bandhan-tourism-mumbai color"></div>
+        <!-- <div class="customer-g-bandhan-tourism-mumbai gray"></div> -->
+        <div class="customer-bandhan-tourism-mumbai gray"></div>
       </div>
       <div class="col-md-1 col-sm-4 col-4 mx-auto m-0 show-color mb-5 fairdeal">
-        <div class="customer-g-fairdeal-enterprises-kolhapur gray"></div>
-        <div class="customer-fairdeal-enterprises-kolhapur color"></div>
+        <!-- <div class="customer-g-fairdeal-enterprises-kolhapur gray"></div> -->
+        <div class="customer-fairdeal-enterprises-kolhapur gray"></div>
       </div>
       <div class="col-md-1 col-sm-4 col-4 mx-auto m-0 show-color mb-5 technomet">
-        <div class="customer-g-technomet-enterprises-kolhapur gray"></div>
-        <div class="customer-technomet-enterprises-kolhapur color"></div>
+        <!-- <div class="customer-g-technomet-enterprises-kolhapur gray"></div> -->
+        <div class="customer-technomet-enterprises-kolhapur gray"></div>
       </div>
       <div class="col-md-1 col-sm-4 col-4 mx-auto m-0 show-color mb-5 white-gold">
-        <div class="customer-g-white-gold-kagal gray"></div>
-        <div class="customer-white-gold-kagal color"></div>
+        <!-- <div class="customer-g-white-gold-kagal gray"></div> -->
+        <div class="customer-white-gold-kagal gray"></div>
       </div>
     </div>
   </div>
@@ -1591,6 +1603,7 @@ include('head.php');
       var req = width/3;
       req = req;
       $(".tile").width(req);
+      $('.tile1').addClass("margin-minus-20");
     });
   </script>
 

@@ -322,12 +322,20 @@ text-align: center;
   margin-top: 50px;
 }
 .frist-div img{
-  width: 370px!important;
+  width: 370px;
 }
 .frist-div a{
-  width: 370px!important;
+  width: 370px;
 }
 
+@media screen and (max-width:470px) {
+  .frist-div img{
+    width: 100%!important;
+  }
+  .frist-div a{
+    width: 100%!important;
+  }
+}
 @-webkit-keyframes fadeInUp {
   from {
     opacity: 0;
@@ -686,9 +694,29 @@ text-align: center;
 section{
   padding: 4rem 1rem 2rem 1rem;
 }
+.des-info .title{
+  font-size:40px;
+  margin-bottom:20px;
+}
 @media screen and (max-width: 479px) {
   section{
     padding: 2rem 1rem 2rem 1rem;
+  }
+
+  .des-info .title{
+    line-height: 2rem !important;
+    font-size: 20px !important;
+    margin-bottom:10px !important;
+  }
+  .des-info hr{
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+  .des-info .col-md-4 a{
+    margin-left: 15px !important;
+  }
+  .des-info .row{
+    margin-bottom: 20px !important;
   }
 }
 .paragraph{
@@ -719,7 +747,7 @@ section{
 .trans{
   background-color: #fff;
   border-radius: 50%;
-  fill:#ced4da;
+  fill:#888;
   /* border: 2px solid #ced4da; */
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1), 0 0 15px rgba(0, 0, 0, 0.1);
   -webkit-transition: all .30s ease-in;
@@ -733,7 +761,7 @@ section{
   border-radius: 50%;
   /* border: 2px solid #ced4da; */
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1), 0 0 15px rgba(0, 0, 0, 0.1);
-  fill:#ced4da ;
+  fill:#888 ;
   -webkit-transition: all .30s ease-in;
   -moz-transition: all .30s ease-in;
   -ms-transition: all .30s ease-in;
@@ -819,7 +847,7 @@ section{
     margin-right: -15px!important;
     width: 300px;
     z-index: -1;
-    color: #999A9D;
+    color: #888;
 }
 .tabcontent{
   padding: 10px;
@@ -1159,7 +1187,7 @@ outline: none;
       width: 230px!important;
       z-index: -1;
       position: relative;
-      color: #999A9D;
+      color: #888;
   }
   .card{
     border: none!important;
@@ -1420,6 +1448,7 @@ text-align: center!important;
   display: inline-block;
   /* width: 404px; */
   /* height: 300px; */
+  padding-left: 20px;
 }
 
 .tile-image {
@@ -1458,7 +1487,7 @@ text-align: center!important;
   margin-left:15% !important;
 }
 .show-color:hover .gray{
-	display:none;
+	/* display:none; */
 }
 .show-color:hover .color{
 	display:block;
@@ -2067,4 +2096,8 @@ footer .social-media {
   .modal .col-form-label{
     text-align: left !important;
   }
+}
+
+.margin-minus-20{
+  margin-left: -7%;
 }
