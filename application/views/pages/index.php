@@ -1520,7 +1520,8 @@ include('head.php');
         </div>
     </div><br><br>
     <div class="row">
-      <div class="col-md-9">
+
+      <div class="col-md-9 pl-5">
         <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d122291.28963608075!2d74.1737755064194!3d16.696748218966967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3bc1003e50f49e35%3A0xe0887b8c17821958!2spixelbazar!3m2!1d16.696759999999998!2d74.243816!5e0!3m2!1sen!2sin!4v1485068681227" width="100%" height="450" frameborder="0" class="border-0" allowfullscreen=""></iframe>
       </div>
 
@@ -1626,6 +1627,8 @@ include('head.php');
     // $('#'+cityName).fadeIn();
     $('#'+tab).find('.trans').addClass('active-trans');
     $('#'+tab).find('.service-h3').addClass('active-h3');
+    $('#'+cityName).find('img').addClass("animated");
+    $('#'+cityName).find('img').addClass("fadeInUp");
     $('#'+cityName).addClass("animated");
     $('#'+cityName).addClass("fadeInUp");
   }
@@ -1644,6 +1647,8 @@ include('head.php');
     document.getElementById(cityName).style.display = "block";
     $('#'+tab).find('.trans2').addClass('active-trans');
     $('#'+tab).find('.service-h3-2').addClass('active-h3');
+    $('#'+cityName).find('img').addClass("animated");
+    $('#'+cityName).find('img').addClass("fadeInUp");
     $('#'+cityName).addClass("animated");
     $('#'+cityName).addClass("fadeInUp");
   }
