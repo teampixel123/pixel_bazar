@@ -309,9 +309,66 @@ text-align: center;
 
 
 .home-enquiry2{
-  width:60%;
-  margin-left: 20%;
+  width:90%;
+  margin-right: 10%;
+  margin-left: 5%;
+  height: 450px;
+
 }
+.home-enquiry2 .enquiry_form1{
+  height: 450px;
+}
+.home-enquiry2 h4{
+  margin-top: 50px;
+}
+.frist-div img{
+  width: 370px!important;
+}
+.frist-div a{
+  width: 370px!important;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
 .home-enquiry2 .form-row{
   padding: 0px 0px 5px 0px !important;
 }
@@ -664,7 +721,7 @@ section{
   border-radius: 50%;
   fill:#ced4da;
   /* border: 2px solid #ced4da; */
-  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1), 0 0 15px rgba(0, 0, 0, 0.1);
   -webkit-transition: all .30s ease-in;
   -moz-transition: all .30s ease-in;
   -ms-transition: all .30s ease-in;
@@ -675,7 +732,7 @@ section{
   background-color: #fff;
   border-radius: 50%;
   /* border: 2px solid #ced4da; */
-    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1), 0 0 15px rgba(0, 0, 0, 0.1);
   fill:#ced4da ;
   -webkit-transition: all .30s ease-in;
   -moz-transition: all .30s ease-in;
@@ -1001,7 +1058,7 @@ outline: none;
     border-radius: 50%;
     fill:#ced4da!important;
     /* border: 2px solid #ced4da; */
-    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.3), 0 0 5px rgba(0, 0, 0, 0.3);
     -webkit-transition: all .30s ease-in;
     -moz-transition: all .30s ease-in;
     -ms-transition: all .30s ease-in;

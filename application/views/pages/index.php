@@ -115,7 +115,16 @@ include('head.php');
 <section class="home-about" id="about">
   <div class="container">
   <div class="row">
-    <div class="col-md-6 col-12 pb-3">
+
+    <div class="col-md-6 col-12 info ">
+      <div data-aos="fade-up"     data-aos-easing="linear"     data-aos-duration="1500">
+      <p class="paragraph">At PixelBazar, we create a compelling brand presence for your company with the help of our extremely talented and professional group of web developers and graphic designers. We are innovative and creative while providing an absorbing corporate identity for companies in various sectors. We are very much passionate about what we do and that is why we have flourished and delivered some of the superlative development and design solutions to our large clientele. Over the past 15 years, we have created a reputation for providing standout solutions for companies of various verticals.  The efficient team of PixelBazar is providing support to a wide array of businesses and making them satisfied with prowess. Currently, we are adding more to our long list of providing attractive logos, digital marketing, signage solutions, website design services and website development services to multiple businesses. All our services are comprehensive encompassing the expectations set by our clientele. We are also very much thankful to our clientele for giving us the opportunity of serving them holistically.
+      </dt>
+      </p><br>
+    <a class="btn btn-lg btn-outline-warning margin-top" href="<?php echo base_url(); ?>Contact">Just Drop us mail</a>
+    </div>
+  </div>
+    <div class="col-md-6 col-12 pb-3 frist-div">
         <h1 class="title ">
           <span class=""><span class="title-small">Your </span>Business<br/>
           Branding <span class="title-small">Partner<br/>
@@ -124,12 +133,6 @@ include('head.php');
       <a data-href="<?php echo base_url(); ?>assets/images/site/logo_design_services_kolhapur.jpg" class="boxout2 progressive replace">
         <img src="<?php echo base_url(); ?>assets/images/site/logo_design_services_kolhapur.jpg" class="preview" alt="logo design, website design, graphic design, web design, web page design, company logo, website development, web design company, business logo, website design services in kolhapur, logo design services in kolhapur, Graphic design services in kolhapur" />
       </a>
-    </div>
-    <div class="col-md-6 col-12 info ">
-      <p class="paragraph">At PixelBazar, we create a compelling brand presence for your company with the help of our extremely talented and professional group of web developers and graphic designers. We are innovative and creative while providing an absorbing corporate identity for companies in various sectors. We are very much passionate about what we do and that is why we have flourished and delivered some of the superlative development and design solutions to our large clientele. Over the past 15 years, we have created a reputation for providing standout solutions for companies of various verticals.  The efficient team of PixelBazar is providing support to a wide array of businesses and making them satisfied with prowess. Currently, we are adding more to our long list of providing attractive logos, digital marketing, signage solutions, website design services and website development services to multiple businesses. All our services are comprehensive encompassing the expectations set by our clientele. We are also very much thankful to our clientele for giving us the opportunity of serving them holistically.
-      </dt>
-      </p><br>
-    <a class="btn btn-lg btn-outline-warning margin-top" href="<?php echo base_url(); ?>Contact">Just Drop us mail</a>
     </div>
   </div>
 </div>
@@ -171,7 +174,7 @@ include('head.php');
             </div></button>
         <button class="tablinks" onmouseover="openCity(event, 'Paris','tab2')" id="tab2">
           <div class="services-box text-center">
-            <div class="row">
+            <div class="row animation-click">
               <div class="trans " style="width:80px; height:80px">
                 <svg class="svg mt-3 ml-3" x="0px" y="0px" width="58px"
       height="55px" viewBox="0 0 70 57" enable-background="new 0 0 70 57" xml:space="preserve">
@@ -284,29 +287,33 @@ include('head.php');
       </p>
         </div>
       </div> -->
+      <div data-aos="fade-up"     data-aos-easing="linear"     data-aos-duration="1500">
       <div id="London" class="tabcontent shadow ">
         <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
         <div class="sub-tabcontent">
-        <img class="service-image" src="<?php echo base_url(); ?>assets/images/site/website_design_kolhapur.gif" alt="website design, website, website development, website developer, application developer, static website, dynamic website, ecommerce website, website design company in kolhapur">
+          <div data-aos="fade-up"     data-aos-easing="linear"     data-aos-duration="1500"><img class="service-image" src="<?php echo base_url(); ?>assets/images/site/website_design_kolhapur.gif" alt="website design, website, website development, website developer, application developer, static website, dynamic website, ecommerce website, website design company in kolhapur"></div>
       <p class="paragraph service-para">Website is the face of your brand, our designers can give it an appealing look which can generate more traffic and ultimately quality leads in your pocket. Our website design company in Kolhapur is what you need to make your website stand out.</p>
-      <p class="service-btn"><a class="btn btn-md btn-outline-warning margin-top " href="<?php echo base_url(); ?>Creative-Design-Portfolio">VIEW MORE</a>
+        <div data-aos="fade-up"     data-aos-easing="linear"     data-aos-duration="1500"><p class="service-btn"><a class="btn btn-md btn-outline-warning margin-top " href="<?php echo base_url(); ?>Creative-Design-Portfolio">VIEW MORE</a>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a class="btn btn-md btn-outline-warning2 margin-top" href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
-      </p>
+      </p></div>
         </div>
     </div>
+  </div>
 
+    <div class="animation">
     <div id="Paris" class="tabcontent  shadow">
       <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
       <div class="sub-tabcontent">
       <img class="service-image" src="<?php echo base_url(); ?>assets/images/site/graphic_design_kolhapur.gif" alt="Graphic design, graphic design company in kolhapur, graphic design service in kolhapur, graphic designers">
     <p class="paragraph service-para">Awesome graphics! So, what else you need? Whether you need graphic designing services for your brochure, flyer or for corporate profile. We are here for making you stand out with our stunning graphics. We have a team of designers who have done graduate diploma in GD ARTS. Our award winning designs are very much proficient in delivering creative designing work for our clientele. </p>
-    <p class="service-btn"><a class="btn btn-md btn-outline-warning margin-top " href="<?php echo base_url(); ?>Creative-Design-Portfolio">VIEW MORE</a>
+    <p class="service-btn"><a class="btn btn-md btn-outline-warning margin-top " href="<?php echo base_url(); ?>graphic-design-services-kolhapur">READ MORE</a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a class="btn btn-md btn-outline-warning2 margin-top" href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
     </p>
       </div>
       </div>
+    </div>
 
     <div id="Tokyo" class="tabcontent shadow">
       <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
@@ -341,6 +348,7 @@ include('head.php');
         <div class="image-default2 ">
           <img class="bounce" src="" alt="" width="100%">
         </div>
+
         <div id="London1" class="tabcontent2 shadow">
           <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
           <div class="sub-tabcontent">
@@ -350,7 +358,7 @@ include('head.php');
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a class="btn btn-md btn-outline-warning2 margin-top" href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
         </p>
-          </div>  </div>
+      </div>  </div>
 
       <div id="Paris1" class="tabcontent2 shadow">
         <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
@@ -363,6 +371,7 @@ include('head.php');
       </p>
         </div></div>
 
+      <div data-aos="fade-up"     data-aos-easing="linear"     data-aos-duration="1500">
       <div id="Tokyo1" class="tabcontent2 shadow">
         <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
         <div class="sub-tabcontent">
@@ -372,7 +381,7 @@ include('head.php');
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a class="btn btn-md btn-outline-warning2 margin-top" href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
       </p>
-        </div>  </div>
+    </div></div></div>
 
       <div id="delhi1" class="tabcontent2 shadow">
         <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
@@ -651,7 +660,7 @@ include('head.php');
               <div class="sub-tabcontent">
               <img class="service-image" src="<?php echo base_url(); ?>assets/images/site/graphic_design_kolhapur.gif" alt="Graphic design, graphic design company in kolhapur, graphic design service in kolhapur, graphic designers">
             <p class="paragraph service-para">Awesome graphics! So, what else you need? Whether you need graphic designing services for your brochure, flyer or for corporate profile. We are here for making you stand out with our stunning graphics. We have a team of designers who have done graduate diploma in GD ARTS. Our award winning designs are very much proficient in delivering creative designing work for our clientele. </p>
-            <p class="service-btn mb-5"><a class="btn btn-md btn-outline-warning margin-top mr-2" href="<?php echo base_url(); ?>Creative-Design-Portfolio">VIEW MORE</a>
+            <p class="service-btn mb-5"><a class="btn btn-md btn-outline-warning margin-top mr-2" href="<?php echo base_url(); ?>graphic-design-services-kolhapur">READ MORE</a>
                 <a class="btn btn-md btn-outline-warning2 margin-top " href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
             </p>
               </div>
@@ -1071,7 +1080,7 @@ include('head.php');
   <!-- info box -->
   <section id="info-box">
   	<div class="row info-box">
-      <div class="col-md-5">
+      <!-- <div class="col-md-5">
         <div class="home-enquiry2 shadow" style="background-color:#D3D3D3; ">
           <div class="pt-2 pb-2 pr-3 pl-3 enquiry_form1" style="background-color:#fff;">
             <form  action="<?php echo base_url(); ?>welcome/send_enquiry" method="post" id="enquiry_form3" autocomplete="off" >
@@ -1111,8 +1120,8 @@ include('head.php');
       			</div>
           </div>
     	  </div>
-      </div>
-  		<div class="col-md-7  align-self-center text-center">
+      </div> -->
+  		<div class="col-md-12  align-self-center text-center">
   			  <h1 class="font-25 set-font"><b>Designing | Developing | Printing & More</b></h1>
           <h3>One stop solution for all your business needs</h3><br>
           <a class="" href="tel:+919158995505"><h1 class="mob-num2 set-font">Call Us +91 9158 99 5505</h1></a>
@@ -1498,8 +1507,55 @@ include('head.php');
           </div>
         </div>
     </div><br><br>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d122291.28963608075!2d74.1737755064194!3d16.696748218966967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3bc1003e50f49e35%3A0xe0887b8c17821958!2spixelbazar!3m2!1d16.696759999999998!2d74.243816!5e0!3m2!1sen!2sin!4v1485068681227" width="100%" height="450" frameborder="0" class="border-0" allowfullscreen=""></iframe>
-  </section>
+    <div class="row">
+      <div class="col-md-9">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d122291.28963608075!2d74.1737755064194!3d16.696748218966967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3bc1003e50f49e35%3A0xe0887b8c17821958!2spixelbazar!3m2!1d16.696759999999998!2d74.243816!5e0!3m2!1sen!2sin!4v1485068681227" width="100%" height="450" frameborder="0" class="border-0" allowfullscreen=""></iframe>
+      </div>
+
+        <div class="col-md-3 d-none d-sm-block">
+          <div class="home-enquiry2 shadow" style="background-color:#D3D3D3; ">
+            <div class="pt-2 pb-2 pr-3 pl-3 enquiry_form1" style="background-color:#fff;">
+              <form  action="<?php echo base_url(); ?>welcome/send_enquiry" method="post" id="enquiry_form3" autocomplete="off" >
+        			<div class="text-center set-font pb-1 pt-1">
+        			  <h4><b>Get a Free Quote</b></h4>
+        			</div>
+              <div class="pl-1 alert-danger" style="display:none;">
+                Request Not Sent
+              </div>
+              <div class="pl-1 alert-success" style="display:none;">
+                Request Sent Successfully
+              </div>
+        			<div class="form-row">
+        			  <div class="col-md-12 col-12">
+        				<label for="exampleInputEmail1">Name/Company</label>
+        				<input style="" type="text" id="name3" name="name" class="form-control valid" placeholder="Full Name">
+        			  </div>
+        			</div>
+        			<div class="form-row">
+        			  <div class="col-md-12 col-12">
+        				<label for="exampleInputEmail1">Email</label>
+        				<input type="text" id="email3" name="email" class="form-control valid" placeholder="Email Address">
+        			  </div>
+        			</div>
+        			<div class="form-row">
+        			  <div class="col-md-12 col-12">
+        				<label for="exampleInputEmail1">Mobile Number</label>
+        				<input type="number" id="mobile3" name="mobile" class="form-control valid" placeholder="Enter Mobile Number">
+        			  </div>
+        			</div>
+        			<br>
+        		  </form>
+              <div class="form-row">
+        			  <div class="col-md-12 col-12 text-center" >
+                  <button id="btn_enquiry3" type="button" class="btn btn-md btn-outline-warning2">Submit</button>
+        			  </div>
+        			</div>
+            </div>
+      	  </div>
+        </div>
+
+    </div>
+    </section>
   <div id="snackbar"></div>
 <!-- Contact End -->
   <?php include('footer.php'); ?>
@@ -1557,6 +1613,8 @@ include('head.php');
     // $('#'+cityName).fadeIn();
     $('#'+tab).find('.trans').addClass('active-trans');
     $('#'+tab).find('.service-h3').addClass('active-h3');
+    $('#'+cityName).addClass("animated");
+    $('#'+cityName).addClass("fadeInUp");
   }
 
   function openCity2(evt, cityName, tab) {
@@ -1573,6 +1631,8 @@ include('head.php');
     document.getElementById(cityName).style.display = "block";
     $('#'+tab).find('.trans2').addClass('active-trans');
     $('#'+tab).find('.service-h3-2').addClass('active-h3');
+    $('#'+cityName).addClass("animated");
+    $('#'+cityName).addClass("fadeInUp");
   }
   </script>
   <script type="text/javascript">
@@ -1588,5 +1648,8 @@ include('head.php');
     });
   });
   </script>
+  <script>
+  AOS.init();
+</script>
     </body>
   </html>

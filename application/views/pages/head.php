@@ -22,6 +22,8 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/progressive-image.min.css">
     <!-- <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/animate.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="<?php echo base_url(); ?>assets/css/aos.css" rel="stylesheet">
+    <script src="<?php echo base_url(); ?>assets/js/aos.js"></script>
     <meta name="author" content="pixelbazar">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -34,6 +36,7 @@
     </script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-730554823"></script>
+
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}

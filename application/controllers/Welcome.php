@@ -34,11 +34,18 @@ class Welcome extends CI_Controller {
 		// $this->output->cache(60);
 		$this->load->view('pages/contact');
 	}
-	public function Services()
+	public function Logo_design()
 	{
 		// $this->output->cache(60);
-		$this->load->view('pages/services2');
+		$this->load->view('pages/logo_design');
 	}
+
+	public function Graphic_design()
+	{
+		// $this->output->cache(60);
+		$this->load->view('pages/graphic_design');
+	}
+
 	public function portfolio()
 	{
 		// $this->output->cache(60);
