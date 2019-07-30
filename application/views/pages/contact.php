@@ -64,7 +64,7 @@ include('head.php'); ?>
         </div>
       </div>
       <div class="col-md-9">
-        <div id="required_error" class="alert alert-danger d-none" role="alert">
+        <!-- <div id="required_error" class="alert alert-danger d-none" role="alert">
           <div id="error_message">Fsdfg</div>
         </div>
         <?php
@@ -72,7 +72,6 @@ include('head.php'); ?>
           if($email_msg == 'email_error'){
         ?>
         <div class="alert alert-danger" role="alert">
-          <!-- <button type="button" class="close" data-dismiss="alert">&times;</button> -->
           Email Not Sent
         </div>
         <?php
@@ -83,7 +82,7 @@ include('head.php'); ?>
         </div>
         <?php
           }
-         ?>
+         ?> -->
         <form action="<?php echo base_url(); ?>welcome/send_feedback" method="post" id="contact_form">
           <div class="form-row">
             <div class="col-md-4 col-12">
@@ -116,7 +115,35 @@ include('head.php'); ?>
     </div>
   </section>
 	<!--/ page content -->
+
 	<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d122291.28963608075!2d74.1737755064194!3d16.696748218966967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3bc1003e50f49e35%3A0xe0887b8c17821958!2spixelbazar!3m2!1d16.696759999999998!2d74.243816!5e0!3m2!1sen!2sin!4v1485068681227" width="100%" height="450" frameborder="0" class="border-0" allowfullscreen=""></iframe>
+<div id="snackbar"></div>
 <?php include('footer.php'); ?>
+
+<?php if($this->session->flashdata("contact_status")){
+    $contact_status = $this->session->flashdata("contact_status");
+  ?>
+  <input type="hidden" id="contact_status" name="contact_status" value="<?php echo $contact_status; ?>">
+  <script>
+    $('document').ready(function(){
+      function myFunction() {
+        var x = document.getElementById("snackbar");
+        var contact_status = $('#contact_status').val();
+        if(contact_status == 'email_success'){
+          x.className = "show_success";
+          $('#snackbar').html('<b>Mail sent successfully.</b>');
+          setTimeout(function(){ x.className = x.className.replace("show_success", ""); }, 3000);
+        }
+        else{
+          x.className = "show_error";
+          $('#snackbar').html('<b>Mail not sent.</b>');
+          setTimeout(function(){ x.className = x.className.replace("show_error", ""); }, 3000);
+        }
+      }
+      myFunction();
+    });
+  </script>
+<?php } ?>
+
   </body>
 </html>

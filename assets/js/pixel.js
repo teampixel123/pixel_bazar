@@ -501,3 +501,8 @@ $(".scroll-right").hover(function() {
     $(this).parent().stop();
     $(this).fadeOut('fast');
 });
+
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    document.getElementById("whats_app").href = "https://api.whatsapp.com/send?phone=+919158995505";   //change url
+    document.getElementById("whats_app").target = "_blank";     //change target
+}

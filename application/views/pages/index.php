@@ -343,6 +343,7 @@ include('head.php');
     </div>
     </div>
     <br><br>
+
     <div class="row">
       <div class="col-md-8 service-row-text">
         <div class="image-default2 ">
@@ -551,7 +552,6 @@ include('head.php');
 
     </div>
     </div>
-
 </section>
 
 
@@ -933,7 +933,7 @@ include('head.php');
         </div>
     </div>
   </div>
-  <div class="card">
+  <div class="card no-bt-br">
     <div class="card-header" id="headingEight">
       <h2 class="mb-0">
         <button class="btn btn-link service-btn-mob " type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
@@ -1269,7 +1269,6 @@ include('head.php');
 
 
 <div id="portfolio_mobile" class="carousel slide" data-ride="carousel">
-
   <div class="carousel-inner">
     <div class="carousel-item active">
       <a data-href="<?php echo base_url(); ?>assets/images/portfolio/logo_e_revolution.jpg" class="boxout2 progressive replace">
@@ -1303,7 +1302,6 @@ include('head.php');
     <a class="btn btn-lg btn-outline-warning margin-top" href="<?php echo base_url(); ?>Creative-Design-Portfolio">SEE MORE WORK</a>
   </p>
 </div>
-
 <hr>
 
 
@@ -1519,12 +1517,11 @@ include('head.php');
           </div>
         </div>
     </div><br><br>
-    <div class="row">
 
-      <div class="col-md-9 pl-5">
+    <div class="row">
+      <div class="col-md-9 map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d122291.28963608075!2d74.1737755064194!3d16.696748218966967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3bc1003e50f49e35%3A0xe0887b8c17821958!2spixelbazar!3m2!1d16.696759999999998!2d74.243816!5e0!3m2!1sen!2sin!4v1485068681227" width="100%" height="450" frameborder="0" class="border-0" allowfullscreen=""></iframe>
       </div>
-
         <div class="col-md-3 d-none d-sm-block">
           <div class="home-enquiry2 shadow" style="background-color:#D3D3D3; ">
             <div class="pt-2 pb-2 pr-3 pl-3 enquiry_form1" style="background-color:#fff;">
@@ -1631,6 +1628,7 @@ include('head.php');
     $('#'+cityName).find('img').addClass("fadeInUp");
     $('#'+cityName).addClass("animated");
     $('#'+cityName).addClass("fadeInUp");
+    // paragraph
   }
 
   function openCity2(evt, cityName, tab) {

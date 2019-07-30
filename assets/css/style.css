@@ -176,14 +176,15 @@ body{
       min-height: 220px !important;
       position: relative;
   }
+
+
 }
 
 /* // Toast Massage / snackbar */
 #snackbar {
   visibility: hidden;
-  min-width: 250px;
+  min-width: 350px;
   margin-left: -125px;
-  /* background-color: green; */
   color: #fff;
   text-align: center;
   border-radius: 2px;
@@ -191,7 +192,7 @@ body{
   position: fixed;
   z-index: 1;
   left: 50%;
-  top: 30px;
+  top: 60px;
   font-size: 17px;
 }
 
@@ -211,21 +212,21 @@ body{
 
 @-webkit-keyframes fadein {
   from {top: 0; opacity: 0;}
-  to {top: 30px; opacity: 1;}
+  to {top: 60px; opacity: 1;}
 }
 
 @keyframes fadein {
   from {top: 0; opacity: 0;}
-  to {top: 30px; opacity: 1;}
+  to {top: 60px; opacity: 1;}
 }
 
 @-webkit-keyframes fadeout {
-  from {top: 30px; opacity: 1;}
+  from {top: 60px; opacity: 1;}
   to {top: 0; opacity: 0;}
 }
 
 @keyframes fadeout {
-  from {top: 30px; opacity: 1;}
+  from {top: 60px; opacity: 1;}
   to {top: 0; opacity: 0;}
 }
 
@@ -277,6 +278,7 @@ text-align: center;
   width:18px;
   padding-bottom:2px;
 }
+
 /* Home Page.. enquiry form.. */
 
 .home-enquiry .form-row{
@@ -352,14 +354,19 @@ text-align: center;
 
 @keyframes fadeInUp {
   from {
-    opacity: 0;
+    opacity: 1;
+    /* width:50px;
+    height:50px;
+    font-size: 0px;
     -webkit-transform: translate3d(0, 100%, 0);
+    transform: rotate(0deg); */
     transform: translate3d(0, 100%, 0);
   }
 
   to {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
+    /* transform: rotate(360deg); */
     transform: translate3d(0, 0, 0);
   }
 }
@@ -376,6 +383,19 @@ text-align: center;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+
+/* .turn{
+    transition: width 2s, height 2s, transform 2s;
+    width: 300px;
+    height: 300px;
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+} */
+
+
+
+
+
 
 
 .home-enquiry2 .form-row{
@@ -420,6 +440,9 @@ text-align: center;
   .banner-mob-num svg{
     width:13px !important;
     padding-bottom:2px;
+  }
+  .banner-mob-num a{
+    color: #fff !important;
   }
   .contain .home-enquiry{
     display: none;
@@ -743,6 +766,9 @@ section{
   .home-about .image{
     padding-top:0px;
   }
+  .home-about .frist-div{
+    padding-top:40px !important;
+  }
 }
 /* Our services */
 .trans{
@@ -777,6 +803,27 @@ section{
   fill:#fdc14d ;
 }
 @media screen and (max-width: 479px) {
+  .mobile-section .card{
+    border-bottom: 1px solid #000 !important;
+  }
+  .mobile-section .no-bt-br{
+    border-bottom: none !important;
+  }
+  .mobile-section .trans{
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .mobile-section .trans svg{
+    width:35px !important;
+    height: 35px !important;
+    margin-top: 12px !important;
+    margin-left: 12px !important;
+  }
+  .mobile-section .service-h3{
+    margin-top: 2px !important;
+    padding-top: 12px !important;
+    padding-bottom: 13px !important;
+  }
   /* .trans{
     background-color: #fdc14d !important;
     border-radius: 50% !important;
@@ -813,10 +860,7 @@ section{
   z-index: -1;
   background-color: #fdc14d;
   color: #000!important;
-
 }
-
-
 
 .services-box:hover .service-h3-2 {
   z-index: -1;
@@ -832,11 +876,11 @@ section{
   background-color: #fdc14d;
   color: #000!important;
 }
-.col-md-4, .col-md-8{
+.home-services .col-md-4, .home-services .col-md-8{
   padding: 0px!important;
 
 }
-.col-md-8{
+.home-services .col-md-8{
   z-index: 1;
 }
 .home-services h3 {
@@ -883,7 +927,6 @@ section{
 .service-btn .btn-outline-warning2:hover{
   background-color: #fff;
   color: #000!important;
-
 }
 /* service page design */
 .service-pg-container{
@@ -1674,6 +1717,12 @@ text-align: center!important;
   height: 50px;
 }
 
+@media screen and (max-width:470px){
+  .home_contact .map{
+    padding: 0px !important;
+  }
+}
+/*Home contact End */
 /* contact Page*/
 .home_contact i,
 .contact-page i {
@@ -1702,13 +1751,13 @@ footer .social-media .media-round {
   margin-top: 5px;
 }
 footer #copyright span{
-	font-weight: 800;
-	color: #fdc14d;
+	font-weight: 600;
+	color: #000;
 }
 footer .social-media {
 	display: table-cell;
 	vertical-align: middle;
-	text-align: right !important;
+	text-align: right;
 }
 .footer {
     width: 100%;
@@ -1716,8 +1765,8 @@ footer .social-media {
 }
 .media-round {
 	margin-bottom: 4px;
-	width: 46px;
-	height: 46px;
+	width: 32px;
+	height: 32px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
@@ -1765,20 +1814,61 @@ footer .social-media {
 .media-round:hover{
 	background-color: #fdc14d !important;
 }
+.facebook .media-round{
+  background: #3b5998;
+}
+.facebook .media-round:hover{
+  background: #26427a !important;
+}
+.whats-app .media-round{
+  background: #25D366;
+}
+.whats-app .media-round:hover{
+  background: #13b04e !important;
+}
+
 .footer #copyright {
-    display: table-cell;
+    /* display: table-cell; */
     font-size: 14px;
     font-weight: 300;
-    color: #6d6d6d;
+    color: #000;
     vertical-align: middle;
     padding-left:20px;
+}
+.pc-none{
+  display: none;
 }
 @media screen and (max-width: 479px) {
   .footer #copyright{
   	text-align: center !important;
   }
+  .whats-app .media-round, .facebook .media-round{
+    height: 25px !important;
+    width: 25px !important;
+  }
   .social-media{
     text-align: center !important;
+  }
+  .go-top{
+    display: none !important;
+  }
+  .myrow{
+    display: table-row !important;
+    text-align: center !important;
+  }
+  .mob-none{
+    display: none !important;
+  }
+  .pc-none{
+    display: block !important;
+  }
+  .mob-div1{
+    -webkit-order: 1 !important;
+    order: 1  !important;
+  }
+  .mob-div2{
+    -webkit-order: 2 !important;
+    order: 2  !important;
   }
 }
 .go-top {
@@ -1812,7 +1902,8 @@ footer .social-media {
 .go-top{
   bottom: 6rem;
 }
-@media screen and (max-width: 479px) {
+
+/* @media screen and (max-width: 479px) {
   .whats-app {
     position: fixed;
     z-index: 500;
@@ -1824,10 +1915,8 @@ footer .social-media {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-     /* background: #fff !important; */
     font-size: 40px;
     text-align: center;
-    /* color: #fff !important; */
 
     transition: background 0.3s, color 0.3s;
     -ms-transition: background 0.3s, color 0.3s;
@@ -1840,11 +1929,11 @@ footer .social-media {
   .whats-app .media-round{
     background: green !important;
   }
-}
-.whats-app
+} */
+/* .whats-app
 {
   display:none;
-}
+} */
 
 /* Portfolio Page */
 /* page title */

@@ -21,7 +21,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/progressive-image.min.css">
     <!-- <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/animate.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
     <link href="<?php echo base_url(); ?>assets/css/aos.css" rel="stylesheet">
     <script src="<?php echo base_url(); ?>assets/js/aos.js"></script>
     <meta name="author" content="pixelbazar">
