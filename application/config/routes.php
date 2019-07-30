@@ -53,6 +53,7 @@ $route['default_controller'] = 'Welcome';
 $route['Graphic-Web-Design-Company'] = 'Welcome/home';
 $route['Creative-Design-Portfolio'] = 'Welcome/portfolio';
 $route['logo-design-kolhapur'] = 'Welcome/Logo_design';
+$route['website-design-development-kolhapur'] = 'Welcome/website_design';
 $route['graphic-design-services-kolhapur'] = 'Welcome/Graphic_design';
 $route['Testimonials'] = 'Welcome/testimonials';
 $route['Contact'] = 'Welcome/contact';
