@@ -45,7 +45,26 @@ class Welcome extends CI_Controller {
 		// $this->output->cache(60);
 		$this->load->view('pages/graphic_design');
 	}
-
+	public function website_design()
+	{
+		// $this->output->cache(60);
+		$this->load->view('pages/website_design');
+	}
+	public function digital_marketing()
+	{
+		// $this->output->cache(60);
+		$this->load->view('pages/digital');
+	}
+	public function signage()
+	{
+		// $this->output->cache(60);
+		$this->load->view('pages/signage');
+	}
+	public function branding()
+	{
+		// $this->output->cache(60);
+		$this->load->view('pages/branding');
+	}
 	public function portfolio()
 	{
 		// $this->output->cache(60);

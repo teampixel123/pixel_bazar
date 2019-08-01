@@ -2,6 +2,7 @@
 $title="Logo Design, Website & Print Designing in Kolhapur | PixelBazar";
 $description="Best &#10004; Logo Design &#10004; Website Design &#10004; Print Design Company in Kolhapur. Over 15+ Years of experience in all industry verticals. Book Now !";
 $keywords="graphic designer, design, designer, web design, websites, Logo design in Kolhapur, Innovative branding, Kolhapur,logo design,website design, graphic design, web design, logo, web page design, company logo, website development, web design company, business logo, logo creator, company logo design, custom logo design, business logo design, web development company, custom logo, Digital Marketing, SEO, Branding, Digital marketing sevices in kolhapur, logo design company in kolhapur, graphics design company in kolhapur, printing services in kolhapur, logo printing.";
+$active='index';
 include('head.php');
  ?>
 <body class="main-page pc">
@@ -214,7 +215,7 @@ include('head.php');
             <div class="row">
               <div class="trans " style="width:80px; height:80px">
                 <svg class="svg mt-3 ml-4" x="0px" y="0px" width="60px"
-      height="60px" viewBox="0 0 70 57" enable-background="new 0 0 70 57" xml:space="preserve">
+      height="60px" viewBox="0 0 55 47" enable-background="new 0 0 70 57" xml:space="preserve">
 
                 		<path d="M34.634,19.631c-0.011-0.229-0.021-0.465-0.028-0.708l-0.061,0.057c-0.271,0.249-0.487,0.445-0.693,0.651
                 			l-2.76,2.764c-2.632,2.638-5.353,5.364-8.063,8.012c-0.539,0.526-1.406,0.906-2.11,0.924c-1.619,0.042-3.238,0.048-4.858,0.048
@@ -293,7 +294,7 @@ include('head.php');
         <div class="sub-tabcontent">
           <div data-aos="fade-up"     data-aos-easing="linear"     data-aos-duration="1500"><img class="service-image" src="<?php echo base_url(); ?>assets/images/site/website_design_kolhapur.gif" alt="website design, website, website development, website developer, application developer, static website, dynamic website, ecommerce website, website design company in kolhapur"></div>
       <p class="paragraph service-para">Website is the face of your brand, our designers can give it an appealing look which can generate more traffic and ultimately quality leads in your pocket. Our website design company in Kolhapur is what you need to make your website stand out.</p>
-        <div data-aos="fade-up"     data-aos-easing="linear"     data-aos-duration="1500"><p class="service-btn"><a class="btn btn-md btn-outline-warning margin-top " href="<?php echo base_url(); ?>Creative-Design-Portfolio">VIEW MORE</a>
+        <div data-aos="fade-up"     data-aos-easing="linear"     data-aos-duration="1500"><p class="service-btn"><a class="btn btn-md btn-outline-warning margin-top " href="<?php echo base_url(); ?>website-design-development-kolhapur">READ MORE</a>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a class="btn btn-md btn-outline-warning2 margin-top" href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
       </p></div>
@@ -332,7 +333,7 @@ include('head.php');
       <div class="sub-tabcontent">
       <img class="service-image mt-5" src="<?php echo base_url(); ?>assets/images/site/branding_in_kolhapur.jpeg" alt="branading, advertising company in kolhapur">
     <p class="paragraph service-para">Earn name and fame in the market through our branding services. Make customers aware about your offerings and tell them why you are better than your competitors. Our strategic branding can create long lasting impression on your customer's mind and this is a good news, isn’t it?</p>
-    <p class="service-btn"><a class="btn btn-md btn-outline-warning margin-top " href="<?php echo base_url(); ?>Creative-Design-Portfolio">VIEW MORE</a>
+    <p class="service-btn"><a class="btn btn-md btn-outline-warning margin-top " href="<?php echo base_url(); ?>strategic-branding-kolhapur">READ MORE</a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a class="btn btn-md btn-outline-warning2 margin-top" href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
     </p>
@@ -355,7 +356,7 @@ include('head.php');
           <div class="sub-tabcontent">
             <img class="service-image mt-5" src="<?php echo base_url(); ?>assets/images/site/digital_marketing_company_kolhapur.jpeg" alt="digital marketing company in kolhapur, digital marketing services in kolhapur, social media marketing, facebook marketing, seo services in kolhapur">
         <p class="paragraph service-para">We have a vigorous approach towards providing digital marketing services which can bring extremely powerful results for the business. Any type of digital marketing campaign you want to run, we have got it all covered with prowess.</p>
-        <p class="service-btn"><a class="btn btn-md btn-outline-warning margin-top " href="<?php echo base_url(); ?>Creative-Design-Portfolio">VIEW MORE</a>
+        <p class="service-btn"><a class="btn btn-md btn-outline-warning margin-top " href="<?php echo base_url(); ?>digital-marketing-services-kolhapur">READ MORE</a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a class="btn btn-md btn-outline-warning2 margin-top" href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
         </p>
@@ -366,7 +367,7 @@ include('head.php');
         <div class="sub-tabcontent">
         <img class="service-image mt-5" src="<?php echo base_url(); ?>assets/images/site/signage_printing.jpg" alt="signage design in kolhapur, signage printing in kolhapur, signage services in kohapur">
       <p class="paragraph service-para">Impress your customers at the very first go through high quality signage. We have expertise in designing both interior and exterior signage. You can trust on us when it comes to signage solutions because of our good experience in the same. So, leave your signage designing hassle to us for making your work easy.</p>
-      <p class="service-btn"><a class="btn btn-md btn-outline-warning margin-top " href="<?php echo base_url(); ?>Creative-Design-Portfolio">VIEW MORE</a>
+      <p class="service-btn"><a class="btn btn-md btn-outline-warning margin-top " href="<?php echo base_url(); ?>signage-design-printing-kolhapur">READ MORE</a>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a class="btn btn-md btn-outline-warning2 margin-top" href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
       </p>
@@ -563,7 +564,7 @@ include('head.php');
         <span class="">Our Services</span>
       </h1>
       <div class="accordion" id="accordionExample">
-  <div class="card">
+  <div class="card" id="">
     <div class="card-header" id="headingOne">
       <h2 class="mb-0">
         <button class="btn btn-link service-btn-mob" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -600,7 +601,7 @@ include('head.php');
             <div class="sub-tabcontent">
             <img class="service-image" src="<?php echo base_url(); ?>assets/images/site/website_design_kolhapur.gif" alt="website design, website, website development, website developer, application developer, static website, dynamic website, ecommerce website">
           <p class="paragraph service-para">Website is the face of your brand, our designers can give it an appealing look which can generate more traffic and ultimately quality leads in your pocket. Our website design company in Kolhapur is what you need to make your website stand out.</p>
-          <p class="service-btn mb-5"><a class="btn btn-md btn-outline-warning margin-top mr-2" href="<?php echo base_url(); ?>Creative-Design-Portfolio">VIEW MORE</a>
+          <p class="service-btn mb-5"><a class="btn btn-md btn-outline-warning margin-top mr-2" href="<?php echo base_url(); ?>website-design-development-kolhapur">READ MORE</a>
               <a class="btn btn-md btn-outline-warning2 margin-top " href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
           </p>
             </div>
@@ -675,7 +676,7 @@ include('head.php');
           <div class="row " data-rel="content3">
             <div class="trans " style="width:80px; height:80px">
               <svg class="svg mt-3 ml-4" x="0px" y="0px" width="60px"
-    height="60px" viewBox="0 0 70 57" enable-background="new 0 0 70 57" xml:space="preserve">
+    height="60px" viewBox="0 0 55 47" enable-background="new 0 0 70 57" xml:space="preserve">
 
                   <path d="M34.634,19.631c-0.011-0.229-0.021-0.465-0.028-0.708l-0.061,0.057c-0.271,0.249-0.487,0.445-0.693,0.651
                     l-2.76,2.764c-2.632,2.638-5.353,5.364-8.063,8.012c-0.539,0.526-1.406,0.906-2.11,0.924c-1.619,0.042-3.238,0.048-4.858,0.048
@@ -764,7 +765,7 @@ include('head.php');
             <div class="sub-tabcontent">
             <img class="service-image " src="<?php echo base_url(); ?>assets/images/site/branding_in_kolhapur.jpeg" alt="branding, advertising company in kolhapur">
           <p class="paragraph service-para">Earn name and fame in the market through our branding services. Make customers aware about your offerings and tell them why you are better than your competitors. Our strategic branding can create long lasting impression on your customer's mind and this is a good news, isn’t it?</p>
-          <p class="service-btn mb-5"><a class="btn btn-md btn-outline-warning margin-top mr-2" href="<?php echo base_url(); ?>Creative-Design-Portfolio">VIEW MORE</a>
+          <p class="service-btn mb-5"><a class="btn btn-md btn-outline-warning margin-top mr-2" href="<?php echo base_url(); ?>strategic-branding-kolhapur">READ MORE</a>
               <a class="btn btn-md btn-outline-warning2 margin-top " href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
           </p>
             </div>
@@ -828,7 +829,7 @@ include('head.php');
             <div class="sub-tabcontent">
               <img class="service-image " src="<?php echo base_url(); ?>assets/images/site/digital_marketing_company_kolhapur.jpeg" alt="digital marketing company in kolhapur, digital marketing services in kolhapur, social media marketing, facebook marketing, seo services in kolhapur">
           <p class="paragraph service-para">We have a vigorous approach towards providing digital marketing services which can bring extremely powerful results for the business. Any type of digital marketing campaign you want to run, we have got it all covered with prowess.</p>
-          <p class="service-btn mb-5"><a class="btn btn-md btn-outline-warning margin-top mr-2" href="<?php echo base_url(); ?>Creative-Design-Portfolio">VIEW MORE</a>
+          <p class="service-btn mb-5"><a class="btn btn-md btn-outline-warning margin-top mr-2" href="<?php echo base_url(); ?>digital-marketing-services-kolhapur">READ MORE</a>
               <a class="btn btn-md btn-outline-warning2 margin-top " href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
           </p>
             </div>
@@ -880,7 +881,7 @@ include('head.php');
             <div class="sub-tabcontent">
             <img class="service-image " src="<?php echo base_url(); ?>assets/images/site/signage_printing.jpg" alt="signage design in kolhapur, signage printing in kolhapur, signage services in kohapur">
           <p class="paragraph service-para">Impress your customers at the very first go through high quality signage. We have expertise in designing both interior and exterior signage. You can trust on us when it comes to signage solutions because of our good experience in the same. So, leave your signage designing hassle to us for making your work easy.</p>
-          <p class="service-btn mb-5"><a class="btn btn-md btn-outline-warning margin-top mr-2" href="<?php echo base_url(); ?>Creative-Design-Portfolio">VIEW MORE</a>
+          <p class="service-btn mb-5"><a class="btn btn-md btn-outline-warning margin-top mr-2" href="<?php echo base_url(); ?>signage-design-printing-kolhapur">READ MORE</a>
               <a class="btn btn-md btn-outline-warning2 margin-top " href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
           </p>
             </div></div>

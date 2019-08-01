@@ -1,8 +1,12 @@
 <!-- page footer -->
 <footer id="footer">
   <div class="clear">
+    <!-- <div class="credits text-center">
+      Image credit goes to <span>pexels.com</span>, Icon credit goes to <span>thenounproject.com</span>
+    </div> -->
     <div class="footer">
-      <div id="copyright" class="mob-none">Copyright<span> PixelBazar</span> 2019-All Rights Reserved</div>
+      <div id="copyright" class="mob-none">Copyright<span> PixelBazar</span> 2019-All Rights Reserved.</div>
+
       <div class="social-media myrow">
         <div class="">
 

@@ -13,6 +13,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="clear navbar-nav ml-auto topnav">
                 <li><a class="home" href="<?php echo base_url(); ?>">Home</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle <?php if($active=='service'){ echo 'active'; }else{echo '';}?>" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="<?php echo base_url(); ?>website-design-development-kolhapur">Website Design</a>
+                    <a class="dropdown-item" href="<?php echo base_url(); ?>graphic-design-services-kolhapur">Graphic Design</a>
+                    <a class="dropdown-item" href="<?php echo base_url(); ?>logo-design-kolhapur">Logo Design</a>
+                    <a class="dropdown-item" href="<?php echo base_url(); ?>strategic-branding-kolhapur">Strategic Branding </a>
+                    <a class="dropdown-item" href="<?php echo base_url(); ?>digital-marketing-services-kolhapur">Digital Marketing</a>
+                    <a class="dropdown-item" href="<?php echo base_url(); ?>signage-design-printing-kolhapur">Signage Solution</a>
+                    <a class="dropdown-item" href="#">Printing Solution</a>
+                    <a class="dropdown-item" href="#">Corporate Event</a>
+                  </div>
+                </li>
                 <!-- <li><a class="home" href="<?php echo base_url();?>Services">Services</a></li> -->
                 <li><a href="<?php echo base_url(); ?>Creative-Design-Portfolio">Portfolio</a></li>
                 <li><a href="<?php echo base_url(); ?>Testimonials">Testimonials</a></li>

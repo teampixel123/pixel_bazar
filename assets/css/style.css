@@ -94,7 +94,7 @@ body{
 }
 @media screen and (max-width: 479px) {
   .btn-lg{
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 }
 /* Header */
@@ -804,7 +804,10 @@ section{
 }
 @media screen and (max-width: 479px) {
   .mobile-section .card{
-    border-bottom: 1px solid #000 !important;
+    border-bottom: 1px solid #ced4da !important;
+  }
+  .mobile-section .card-header{
+    padding-top: 6px !important;
   }
   .mobile-section .no-bt-br{
     border-bottom: none !important;
@@ -993,6 +996,9 @@ section{
   padding-left: 20px!important;
   padding-right: 0px !important;
 }
+.table-cell{
+  display: table-cell;
+}
 .service-pg-container P:not(.service-left-title){
   text-align: justify;
   font-size: 1.1rem;
@@ -1009,9 +1015,17 @@ section{
   padding-left: 50px;
   padding-right: 50px;
   margin-top: 40px;
+
   font-size: 24px;
   font-weight: 900;
   font-family: 'Glegoo',Helvetica, Arial, serif !important;
+  width:250px;
+  /* background-color: #fff; */
+}
+.btn-service:hover{
+  background-color: #fdc14d;
+  color: #000 !important;
+  border-color: #fdc14d !important;
 }
 
 .service-recommended{
@@ -1034,7 +1048,7 @@ section{
   padding-bottom: 30px!important;
 }
 .service-right-menu .service-img{
-  float: left;
+  /* float: left; */
   width: 50%;
   padding: 10px;
 }
@@ -1088,6 +1102,31 @@ outline: none;
 .nav-pills .nav-link.active {
   text-decoration: none;
 }
+.nav-link {
+ padding-top: 0px!important;
+ color: #000!important;
+}
+.nav-link:hover{
+  text-decoration: underline;
+  text-decoration-color: #fdc14d;
+}
+.dropdown-menu{
+  line-height: 32px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+}
+
+.dropdown-item:active, .dropdown-item.active{
+  background-color: #2b2b2b;
+  color: #fff!important;
+}
+.dropdown-item{
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
 .tabcontent{
   display: none;
 }
@@ -1119,6 +1158,9 @@ outline: none;
     padding-top: 0px !important;
     padding-bottom: 0px !important;
   }
+  .service-pg-container .col-md-8{
+    margin-bottom: 30px !important;
+  }
 }
 .card{
   border: none!important;
@@ -1128,7 +1170,7 @@ outline: none;
   .trans{
     background-color: #fff;
     border-radius: 50%;
-    fill:#ced4da!important;
+    fill:#888!important;
     /* border: 2px solid #ced4da; */
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.3), 0 0 5px rgba(0, 0, 0, 0.3);
     -webkit-transition: all .30s ease-in;
@@ -1146,7 +1188,7 @@ outline: none;
     border-radius: 50%;
     /* border: 2px solid #ced4da; */
       box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.3);
-    fill:#ced4da ;
+    fill:#888 ;
     -webkit-transition: all .30s ease-in;
     -moz-transition: all .30s ease-in;
     -ms-transition: all .30s ease-in;
@@ -1320,14 +1362,14 @@ outline: none;
   padding-left: 10px!important;
   padding-right: 10px !important;
 }
-.service-right-menu .service-img {
+/* .service-right-menu .service-img {
   float: none;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 .service-right-menu p{
-  width: 100%;
-text-align: center!important;
+  padding:0px;
+/* text-align: center!important; */
 }
 
 
@@ -1370,7 +1412,20 @@ text-align: center!important;
   height:26rem ;
   position: relative !important;
   /* width:350% !important */
-  z-index: 1;
+  overflow: hidden!important;
+  z-index: 2;
+}
+.dropdown-toggle::after{
+    display: inline-block;
+    margin-left: none;
+    vertical-align: 0.05rem!important;
+    content: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    color: #000;
+    /* display:none; */
 }
 
 .des-info{
@@ -1442,6 +1497,9 @@ text-align: center!important;
   }
 }
 /* Home Portfolio */
+.margin-top{
+  margin-top: 20px !important;
+}
 @media screen and (max-width: 479px) {
   #gallery{
     display:none !important;
@@ -1452,6 +1510,7 @@ text-align: center!important;
   #portfolio_mobile .carousel-item{
     height: 224px !important;
   }
+
 }
 /* @media screen and (min-width: 479px) { */
 #gallery{
@@ -1518,8 +1577,8 @@ text-align: center!important;
   background-color: rgba( 0, 0, 0, 0.6);
   position: absolute;
   display: inline-block!important;
-  height: 300px;
-  width: 330px;
+  height: 100%;
+  width: 45%;
 }
 
 .scroll-right {
@@ -1528,7 +1587,7 @@ text-align: center!important;
   position: absolute;
   display: inline-block!important;
   height: 300px;
-  width: 330px;
+  width: 45%;
 }
 
 /*Customer*/
@@ -1764,6 +1823,16 @@ footer .social-media {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: right;
+}
+footer .credits{
+  font-size: 14px;
+font-weight: 300;
+color: #000;
+vertical-align: middle;
+padding-left: 20px;
+}
+footer .credits span{
+  font-weight: 600;
 }
 .footer {
     width: 100%;

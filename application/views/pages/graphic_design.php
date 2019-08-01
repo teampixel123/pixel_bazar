@@ -2,6 +2,7 @@
 $title="Graphic Design, Web and Print Graphic Design Company in Kolhapur | PixelBazar";
 $description="PixelBazar is one of the leading Graphic design company in Kolhapur. From Designing a Logo to Corporate Graphics Designs. Get a Quote !";
 $keywords="Graphic Design in Kolhapur, Graphic Design services in kolhapur, graphic art, graphic design logo, graphic design books, digital graphic designer, graphic art designer, graphic design agency, free graphic design, Graphic design company in kolhapur";
+$active='service';
 include('head.php'); ?>
 <body class="woocommerce pc">
 	<!-- page header -->

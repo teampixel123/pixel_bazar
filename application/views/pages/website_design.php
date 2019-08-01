@@ -1,7 +1,7 @@
 <?php
-$title="Corporate Logo Design and Branding Company in Kolhapur | PixelBazar";
-$description=" &#10004; Company Logo  &#10004; Brand Logo  &#10004; Website Logo  &#10004; Business Logo Company in Kolhapur. Specializing in Corporate Branding solutions with world class Logo Designs";
-$keywords="Logo design in Kolhapur, Logo Design Company in Kolhapur, Logo Design services in kolhapur, logo, company logo, business logo, logo creator, company logo design, custom logo design, business logo design, custom logo, logo design company in kolhapur, logo printing.";
+$title="Web Design and Development in Kolhapur | PixelBazar";
+$description="Best Rated Website Designing Company in Kolhapur. We Create Variety of Websites for all Platforms. &#10004; 100% Mobile Responsive &#10004; Static &#10004; Dynamic &#10004; E-Commerce. Order Your Website Now !";
+$keywords="website design, web design, web page design, website development, web design company, web development company, ecommerce website, static website, dynamic website, web design company in kolhapur, website design company in kolhapur, web development company in kolhapur, website development company in kolhapur, web design services";
 $active='service';
 include('head.php'); ?>
 <body class="woocommerce pc">
@@ -14,11 +14,11 @@ include('head.php'); ?>
   <div class="container service-pg-container">
     <div class="row ">
       <div class="col-md-8">
-          <h1 class="service-title">Best Logo Design Company in Kolhapur</h1>
-          <h3 class="service-sub-title red-color">Great Things about logo design you can learn </h3>
+          <h1 class="service-title">Web Design and Development</h1>
+          <h3 class="service-sub-title red-color">Turn visitors into customers with beautiful designs</h3>
           <div class="social-media">
             <!-- <?php echo $email_msg; ?> -->
-            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo base_url(); ?>logo-design-kolhapur">
+            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo base_url(); ?>graphic-design-services-kolhapur">
               <div class="media-round fb-color-bg">
                 <i  class="">
                   <svg style="width:10px; padding-bottom:7px;" viewBox="0 0 320 512">
@@ -28,7 +28,7 @@ include('head.php'); ?>
               </div>
             </a>
 
-            <a class="display_mobile" target="_blank" href="whatsapp://send?text=<?php echo base_url(); ?>logo-design-kolhapur">
+            <a class="display_mobile" target="_blank" href="whatsapp://send?text=<?php echo base_url(); ?>graphic-design-services-kolhapur">
               <div class="media-round wa-color-bg">
                 <i class="">
                   <svg style="width:18px; padding-bottom:6px;" viewBox="0 0 448 512" ><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" class=""></path>
@@ -72,54 +72,51 @@ include('head.php'); ?>
            ?> -->
 
 
-          <p>Logo shouts loud about your brand. It is the face of your brand and it has the capability to remain in customers mind if designed creatively. A strong logo stands for your company and shows business vision. You only have few seconds to grab your audience attention. And a professional logo can convey company’s core values in a convincing manner.</p>
-          <p>Most viewers scan the full website in 3 seconds for creating their first impression about your business. And the next thing they see is your company’s logo. So, logo is not just an image which captures space on the top of your website, it’s an investment for connecting audience with your brand.</p>
-          <img class="service-top-image" src="<?php echo base_url(); ?>assets/images/site/logo_design_in_kolhapur.jpg" alt="" width="100%" >
-          <h3 class="service-sub-title">What qualities a logo should have?</h3>
+          <p>If customers only spend 15 seconds on any website, then most of them will love to see something very elegantly designed vs something simple. A website represents your brand and it has the power to make or break your reputation. Basically your efforts of making a strong online presence can’t end by making a basic website.</p>
+          <p>You can call a well-designed website, backbone of your company as it has the capability of keeping customers glued up with your brand. And easy to navigate website, enhances user experience and creates a positive impact about your business.</p>
+          <img class="service-top-image" src="<?php echo base_url(); ?>assets/images/site/WebL.jpg" alt="website design, web design, web page design, website development, web design company, web development company, ecommerce website, static website, dynamic website, web design company in kolhapur, website design company in kolhapur, web development company in kolhapur, website development company in kolhapur, web design services" width="100%" >
+          <h3 class="service-sub-title">Why Pixel Bazar</h3>
 
-          <p>For you a logo may be a combination of design and alphabets, but for our designers it is more than this. There are certain criterion which a logo should follow for calling it a perfect one.</p>
-          <ul class="service-ul">
-            <li>A logo should contain minimum number of objects.</li>
-            <li>It should look good in any color.</li>
-            <li>And last, it should be scalable which implies it should retain its quality in any size.</li>
-          </ul>
-          <p>Our designers understand the importance of all above criterion and follow the same for giving their best shot.</p>
+          <p>We come into picture when you want to give visual presence to your designing ideas. We create websites, which compel customers to take action. Gone are the days when websites were just a URL, as today customers are smart enough to check your website, before actually contacting your brand. We understand the same and create websites which can talk about your business with your target audience. Our team goes that extra mile to make your website work on all platforms like desktop, smartphone, tablet etc. So, make your website advertise 24*7 on behalf of you for adding more and more leads in your pocket.</p>
+          <p>We have a skilled and well-trained web designing team with knowledge of Advance programming languages such as PHP, HTML, CSS, JAVASCRIPT, JQUERY, BOOTSTRAP, WORDPRESS, MYSQL. As a professional web designing  company, we have intense capability in database management and project management. We have a separate team of for website designing and website development.</p>
+          <h3 class="service-sub-title">Website designing with perfection</h3>
+          <!-- <ul class="service-ul">
+            <li>Unique images, delivered on time without any trial error.</li>
+            <li>Designs are created by keeping target audience in mind.</li>
+            <li>You will never face copyright issue.</li>
+          </ul> -->
+          <p>Well! We have earned name and fame in the market because of our perfection. Pixel Bazar strives to meet client's expectations of website design right in the first attempt, hence this reduces trial error and saves customers valuable time. We have a team of experienced designers who have worked with international clients and hence can provide you world-class designing services. Designing needs creativity, and innovation for making it wow for customers. And our designers firstly take a deep dive in customers business for understanding it in a better way. Secondly, they create designs as per the interest of target audience. So, let your customers take interest on your website and allow them to spend more time on it for increasing conversion rate. </p>
 
-            <h3 class="service-sub-title">Why Pixel Bazar</h3>
-            <p>With Pixel Bazar you can be assured that your logo designing work is in the hands of experienced people. We are in this field from past 15 years and have catered our service in India and globally. The best thing about our logo design company in Kolhapur is we don’t believe in too much trial errors. This implies whatever logo we design in the first go is the perfect one for our client as it completely matches with company’s profile and client’s expectations. Such efforts save clients’ valuable time.</p>
-            <p>We have a long list of happy clients, whose reviews you can check from our website and yes they are 100% genuine.</p>
-
-
-            <h3 class="service-sub-title">Our Approach of logo designing</h3>
-            <p>Well! Before creating the final design of logo, our designers come up with different ideas of logo. By considering all the sketches, one logo design is finalized by our team’s experienced members. Once finalized our next step is to shape the logo and give it an amazing look, even before giving it color. And we ensure that your logo also looks good in reverse patch.Now the last step is to give color to your logo by considering your business profile. We also consider your target audience before finalizing the color. Hence we give an assurance of quality to our customers and our team goes that extra mile to fulfill that.</p>
-            <p>It is imperative to have a logo which your audience can remember for a long time. Our designing team has designed logos for small, medium and large companies. Hence you can trust on their original concepts for getting nothing but the best logo which your target audience will love.</p>
-            <p>So, are you always look for best things for your company? Then call us and know how our team can help you out in logo designing. It’s the time to invest some budget in logo, as your logo plays a pivotal role when it comes to making a healthy relationship with the clients.</p>
-            <a class="btn btn-service btn-outline-warning2 " href="https://www.pixelbazar.com/Contact">Get Started</a>
+            <h3 class="service-sub-title">Web design company in Kolhapur</h3>
+            <p>We have been called as the best web design company in Kolhapur and this title has given to us by our valuable customers. This makes us happy and motivates our team to work flawlessly. We have an experience of serving clients from different domains like education, IT, manufacturing, food industry etc and this has made our team more versatile. </p>
+            <p>So, contact us if you want to add a catchy factor on your website, as our designers are ready to talk with you, regarding your business. Give us a chance and never look back!</p>
+            <a class="btn btn-service btn-outline-warning2  d-none d-sm-block" href="<?php echo base_url(); ?>Contact">Get Started</a>
+            <div class="d-flex justify-content-center d-block d-sm-none">
+              <a class="btn btn-lg btn-outline-warning " href="<?php echo base_url(); ?>Contact">Get Started</a>
+            </div>
       </div>
       <div class="col-md-4">
           <h3 class="service-recommended">Recommended for you</h3>
-          <img class="service-pg-img" src="<?php echo base_url(); ?>assets/images/site/graphic_design_kolhapur.gif" alt="logo design, logo, company logo, business logo, logo creator, company logo design, custom logo design, business logo design, custom logo, best logo design, logo design services " width="100%" height="340px;">
-          <p class="red-color service-recommended-head-text" style="font-size:20px;">graphic design things you should know</p>
+          <img class="service-pg-img" src="<?php echo base_url(); ?>assets/images/site/branding_in_kolhapur.jpeg" alt="logo design, logo, company logo, business logo, logo creator, company logo design, custom logo design, business logo design, custom logo, best logo design, logo design services " style="width:100%; height:auto;">
+          <p class="red-color service-recommended-head-text" style="font-size:20px;">Transform your brand</p>
 
           <div class="service-right-menu">
-            <div class="row" >
-                <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/printing_services_kolhapur.jpeg" alt="custom logo design online free, logo design portfolio, creative logo maker, logo design blog, business card logo design, web logo designers, logo design help, logo maker design ">
-                    <p class="float-right align-self-center service-left-title">High quality <br>prints for <br>highly valuable <br> customers</p>
-            </div>
-            <div class="row" >
-                <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/Corporate_eventsS.jpg" alt="logo design, logo, company logo, business logo, logo creator, company logo design, custom logo design">
-                    <p class="float-right align-self-center service-left-title">Events which <br>will emain <br> memorable!</p>
-            </div>
               <div class="row" >
-                  <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/branding_in_kolhapur.jpeg" alt="design my logo, design your logo, logo service, brand logo design, new logo design, corporate logo design, buy logo, buy logo design, logo design site, best logo designers, great logo design, developer logo, simple logo design, brand logo, good logo design, logo and design, professional custom logo design ">
-                      <p class="float-right align-self-center service-left-title">Transform your<br> brand</p>
+                  <img class="service-img table-cell" src="<?php echo base_url(); ?>assets/images/site/branding_in_kolhapur.jpeg" alt="design my logo, design your logo, logo service, brand logo design, new logo design, corporate logo design, buy logo, buy logo design, logo design site, best logo designers, great logo design, developer logo, simple logo design, brand logo, good logo design, logo and design, professional custom logo design ">
+                      <p class="float-right align-self-center service-left-title table-cell">Transform your<br> brand</p>
               </div>
               <div class="row" >
-                  <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/digital_marketing_company_kolhapur.jpeg" alt="cool logo designs, graphic design custom logo,  new logo ">
-                      <p class="float-right align-self-center service-left-title">Make your <br> pocket full of <br>quality leads!</p>
+                  <img class="service-img table-cell" src="<?php echo base_url(); ?>assets/images/site/digital_marketing_company_kolhapur.jpeg" alt="cool logo designs, graphic design custom logo,  new logo ">
+                      <p class="float-right align-self-center service-left-title table-cell">Make your <br> pocket full of <br>quality leads!</p>
               </div>
-
-
+              <div class="row" >
+                  <img class="service-img table-cell" src="<?php echo base_url(); ?>assets/images/site/printing_services_kolhapur.jpeg" alt="custom logo design online free, logo design portfolio, creative logo maker, logo design blog, business card logo design, web logo designers, logo design help, logo maker design ">
+                      <p class="float-right align-self-center service-left-title table-cell">High quality <br>prints for <br>highly valuable <br> customers</p>
+              </div>
+              <div class="row" >
+                  <img class="service-img table-cell" src="<?php echo base_url(); ?>assets/images/site/Corporate_eventsS.jpg" alt="logo design, logo, company logo, business logo, logo creator, company logo design, custom logo design">
+                  <p class="float-right align-self-center service-left-title table-cell">Events which <br>will emain <br> memorable!</p>
+              </div>
               <div class="row">
 
               </div>
@@ -150,7 +147,7 @@ include('head.php'); ?>
         <div class="modal-body">
           <form id="portfolio_form" method="post" class="message-form clear">
               <input type="hidden" name="page_url" value="<?php echo base_url(); ?>">
-              <input type="hidden" name="title" value="Best Logo Design Company in Kolhapur">
+              <input type="hidden" name="title" value="Best Graphic Design Company in Kolhapur">
               <div class="form-row">
               <div class="form-group row w-100 ">
                 <label for="inputPassword" class="col-sm-3 col-form-label text-right pb-2">Your Name: </label>
