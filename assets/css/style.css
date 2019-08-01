@@ -1387,6 +1387,8 @@ outline: none;
   height:26rem ;
   position: relative !important;
   /* width:350% !important */
+  overflow: hidden!important;
+  z-index: 2;
 }
 @media screen and (max-width: 479px) {
   #counter{
