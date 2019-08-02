@@ -367,9 +367,10 @@ include('head.php');
         <div class="sub-tabcontent">
         <img class="service-image mt-5" src="<?php echo base_url(); ?>assets/images/site/signage_printing.jpg" alt="signage design in kolhapur, signage printing in kolhapur, signage services in kohapur">
       <p class="paragraph service-para">Impress your customers at the very first go through high quality signage. We have expertise in designing both interior and exterior signage. You can trust on us when it comes to signage solutions because of our good experience in the same. So, leave your signage designing hassle to us for making your work easy.</p>
-      <p class="service-btn"><a class="btn btn-md btn-outline-warning margin-top " href="<?php echo base_url(); ?>signage-design-printing-kolhapur">READ MORE</a>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a class="btn btn-md btn-outline-warning2 margin-top" href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
+      <p class="service-btn">
+        <a class="btn btn-md btn-outline-warning margin-top " href="<?php echo base_url(); ?>signage-design-printing-kolhapur">READ MORE</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="btn btn-md btn-outline-warning2 margin-top" href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
       </p>
         </div></div>
 
@@ -379,9 +380,10 @@ include('head.php');
         <div class="sub-tabcontent">
         <img class="service-image mt-5" src="<?php echo base_url(); ?>assets/images/site/printing_services_kolhapur.jpeg" alt="logo printing, brochure printing, signage printing, tshirt printing, pomplate printing, book printing">
       <p class="paragraph service-para">A perfect color combination makes a print eye-catchy. If you are looking for business cards, Envelop, Flyers, Book, Brochure Printing or any type of printing. Then we are here to give you a professional look through our stunning prints.</p>
-      <p class="service-btn"><a class="btn btn-md btn-outline-warning margin-top " href="<?php echo base_url(); ?>Creative-Design-Portfolio">VIEW MORE</a>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a class="btn btn-md btn-outline-warning2 margin-top" href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
+      <p class="service-btn">
+        <a class="btn btn-md btn-outline-warning margin-top " href="<?php echo base_url(); ?>printing-services-kolhapur">READ MORE</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="btn btn-md btn-outline-warning2 margin-top" href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
       </p>
     </div></div></div>
 
@@ -926,8 +928,9 @@ include('head.php');
             <div class="sub-tabcontent">
             <img class="service-image " src="<?php echo base_url(); ?>assets/images/site/printing_services_kolhapur.jpeg" alt="logo printing, brochure printing, signage printing, tshirt printing, pomplate printing, book printing">
           <p class="paragraph service-para">A perfect color combination makes a print eye-catchy. If you are looking for business cards, Envelop, Flyers, Book, Brochure Printing or any type of printing. Then we are here to give you a professional look through our stunning prints.</p>
-          <p class="service-btn mb-5"><a class="btn btn-md btn-outline-warning margin-top mr-2" href="<?php echo base_url(); ?>Creative-Design-Portfolio">VIEW MORE</a>
-              <a class="btn btn-md btn-outline-warning2 margin-top " href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
+          <p class="service-btn mb-5">
+            <a class="btn btn-md btn-outline-warning margin-top mr-2" href="<?php echo base_url(); ?>printing-services-kolhapur">VIEW MORE</a>
+            <a class="btn btn-md btn-outline-warning2 margin-top " href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
           </p>
             </div>  </div>
         </div>

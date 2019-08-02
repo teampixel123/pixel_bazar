@@ -52,12 +52,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'Welcome';
 $route['Graphic-Web-Design-Company'] = 'Welcome/home';
 $route['Creative-Design-Portfolio'] = 'Welcome/portfolio';
-$route['logo-design-kolhapur'] = 'Welcome/Logo_design';
+$route['logo-design-kolhapur'] = 'Welcome/logo_design';
 $route['website-design-development-kolhapur'] = 'Welcome/website_design';
-$route['graphic-design-services-kolhapur'] = 'Welcome/Graphic_design';
+$route['graphic-design-services-kolhapur'] = 'Welcome/graphic_design';
 $route['digital-marketing-services-kolhapur'] = 'Welcome/digital_marketing';
 $route['strategic-branding-kolhapur'] = 'Welcome/branding';
 $route['signage-design-printing-kolhapur'] = 'Welcome/signage';
+$route['printing-services-kolhapur'] = 'Welcome/printing_services';
+
 $route['Testimonials'] = 'Welcome/testimonials';
 $route['Contact'] = 'Welcome/contact';
 $route['Add-Portfolio'] = 'Welcome/add_portfolio';

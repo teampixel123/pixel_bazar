@@ -24,7 +24,7 @@
                     <a class="dropdown-item" href="<?php echo base_url(); ?>strategic-branding-kolhapur">Strategic Branding </a>
                     <a class="dropdown-item" href="<?php echo base_url(); ?>digital-marketing-services-kolhapur">Digital Marketing</a>
                     <a class="dropdown-item" href="<?php echo base_url(); ?>signage-design-printing-kolhapur">Signage Solution</a>
-                    <a class="dropdown-item" href="#">Printing Solution</a>
+                    <a class="dropdown-item" href="<?php echo base_url(); ?>printing-services-kolhapur">Printing Solution</a>
                     <a class="dropdown-item" href="#">Corporate Event</a>
                   </div>
                 </li>

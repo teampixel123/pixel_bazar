@@ -34,13 +34,13 @@ class Welcome extends CI_Controller {
 		// $this->output->cache(60);
 		$this->load->view('pages/contact');
 	}
-	public function Logo_design()
+	public function logo_design()
 	{
 		// $this->output->cache(60);
 		$this->load->view('pages/logo_design');
 	}
 
-	public function Graphic_design()
+	public function graphic_design()
 	{
 		// $this->output->cache(60);
 		$this->load->view('pages/graphic_design');
@@ -64,6 +64,11 @@ class Welcome extends CI_Controller {
 	{
 		// $this->output->cache(60);
 		$this->load->view('pages/branding');
+	}
+	public function printing_services()
+	{
+		// $this->output->cache(60);
+		$this->load->view('pages/printing_services');
 	}
 	public function portfolio()
 	{
