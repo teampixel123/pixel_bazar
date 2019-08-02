@@ -14,7 +14,7 @@ include('head.php'); ?>
   <div class="container service-pg-container">
     <div class="row ">
       <div class="col-md-8">
-          <h1 class="service-title">Graphic Design Company in Kolhapur</h1>
+          <h1 class="service-title">Leading Graphic design company in Kolhapur</h1>
           <h3 class="service-sub-title red-color">We create designs, which designs business!</h3>
           <div class="social-media">
             <!-- <?php echo $email_msg; ?> -->
@@ -92,10 +92,12 @@ include('head.php'); ?>
             <a class="btn btn-service btn-outline-warning2 " href="https://www.pixelbazar.com/Contact">Get Started</a>
       </div>
       <div class="col-md-4">
+
           <h3 class="service-recommended">Recommended for you</h3>
+            <a href="<?php echo base_url(); ?>website-design-development-kolhapur">
           <img class="service-pg-img" src="<?php echo base_url(); ?>assets/images/site/website_design_kolhapur.gif" alt="logo design, logo, company logo, business logo, logo creator, company logo design, custom logo design, business logo design, custom logo, best logo design, logo design services " width="120%" height="360px;">
           <p class="red-color service-recommended-head-text" style="font-size:20px;">Website design things you should know</p>
-
+        </a>
           <div class="service-right-menu">
               <div class="row" >
                   <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/branding_in_kolhapur.jpeg" alt="design my logo, design your logo, logo service, brand logo design, new logo design, corporate logo design, buy logo, buy logo design, logo design site, best logo designers, great logo design, developer logo, simple logo design, brand logo, good logo design, logo and design, professional custom logo design ">

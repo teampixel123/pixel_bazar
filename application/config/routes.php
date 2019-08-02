@@ -59,6 +59,7 @@ $route['digital-marketing-services-kolhapur'] = 'Welcome/digital_marketing';
 $route['strategic-branding-kolhapur'] = 'Welcome/branding';
 $route['signage-design-printing-kolhapur'] = 'Welcome/signage';
 $route['printing-services-kolhapur'] = 'Welcome/printing_services';
+$route['corporate-event-management'] = 'Welcome/corporate_event';
 
 $route['Testimonials'] = 'Welcome/testimonials';
 $route['Contact'] = 'Welcome/contact';

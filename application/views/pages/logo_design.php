@@ -14,7 +14,7 @@ include('head.php'); ?>
   <div class="container service-pg-container">
     <div class="row ">
       <div class="col-md-8">
-          <h1 class="service-title">Best Logo Design Company in Kolhapur</h1>
+          <h1 class="service-title">Give identity to your brand with our logo design company</h1>
           <h3 class="service-sub-title red-color">Great Things about logo design you can learn </h3>
           <div class="social-media">
             <!-- <?php echo $email_msg; ?> -->
@@ -97,10 +97,11 @@ include('head.php'); ?>
             <a class="btn btn-service btn-outline-warning2 " href="https://www.pixelbazar.com/Contact">Get Started</a>
       </div>
       <div class="col-md-4">
+          <a href="<?php echo base_url(); ?>graphic-design-services-kolhapur">
           <h3 class="service-recommended">Recommended for you</h3>
           <img class="service-pg-img" src="<?php echo base_url(); ?>assets/images/site/graphic_design_kolhapur.gif" alt="logo design, logo, company logo, business logo, logo creator, company logo design, custom logo design, business logo design, custom logo, best logo design, logo design services " width="100%" height="340px;">
           <p class="red-color service-recommended-head-text" style="font-size:20px;">graphic design things you should know</p>
-
+        </a>
           <div class="service-right-menu">
             <div class="row" >
                 <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/printing_services_kolhapur.jpeg" alt="custom logo design online free, logo design portfolio, creative logo maker, logo design blog, business card logo design, web logo designers, logo design help, logo maker design ">

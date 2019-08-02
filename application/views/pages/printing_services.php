@@ -1,7 +1,7 @@
 <?php
-$title="Graphic Design, Web and Print Graphic Design Company in Kolhapur | PixelBazar";
-$description="PixelBazar is one of the leading Graphic design company in Kolhapur. From Designing a Logo to Corporate Graphics Designs. Get a Quote !";
-$keywords="Graphic Design in Kolhapur, Graphic Design services in kolhapur, graphic art, graphic design logo, graphic design books, digital graphic designer, graphic art designer, graphic design agency, free graphic design, Graphic design company in kolhapur";
+$title="PixelBazar | Corporate Printing Services in Kolhapur";
+$description="PixelBazar gives a Professional look to our stunning Prints &#10004; Corporate Brochure &#10004; T-Shirt Printing &#10004; Business Cards &#10004; Book Prints &#10004; Flyers &#10004; Envelop Get in Touch Now!";
+$keywords="Printing, Printing Services in Kolhapur, Brochure Printing, Business Card Printing, Flyer Printing, Envelop Printing, books Printing, printing services in kolhapur, printing company";
 $active='service';
 include('head.php'); ?>
 <body class="woocommerce pc">
@@ -14,11 +14,11 @@ include('head.php'); ?>
   <div class="container service-pg-container">
     <div class="row ">
       <div class="col-md-8">
-          <h1 class="service-title">Printing Services</h1>
+          <h1 class="service-title">Clear, Crisp and Creative Printing Solutions</h1>
           <h3 class="service-sub-title red-color">High quality prints for highly valuable customers</h3>
           <div class="social-media">
             <!-- <?php echo $email_msg; ?> -->
-            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo base_url(); ?>graphic-design-services-kolhapur">
+            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo base_url(); ?>printing-services-kolhapur">
               <div class="media-round fb-color-bg">
                 <i  class="">
                   <svg style="width:10px; padding-bottom:7px;" viewBox="0 0 320 512">
@@ -28,7 +28,7 @@ include('head.php'); ?>
               </div>
             </a>
 
-            <a class="display_mobile" target="_blank" href="whatsapp://send?text=<?php echo base_url(); ?>graphic-design-services-kolhapur">
+            <a class="display_mobile" target="_blank" href="whatsapp://send?text=<?php echo base_url(); ?>printing-services-kolhapur">
               <div class="media-round wa-color-bg">
                 <i class="">
                   <svg style="width:18px; padding-bottom:6px;" viewBox="0 0 448 512" ><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" class=""></path>
@@ -72,14 +72,11 @@ include('head.php'); ?>
            ?> -->
 
 
-          <p>
-            A high quality prints grab customers’ attention right at the first instance. What type of print you have in your brochure, flyer or visiting card reflects the status of your company. So, in short printing can also be a status symbol for your business. Customers usually create the first impression of your company from the quality of your printed material. So, give a professional look to your printed material for making customers fan of your brand.
-          </p>
-          <img class="service-top-image" src="<?php echo base_url(); ?>assets/images/site/printing_services_kolhapur_l.jpeg" alt="Graphic Design in Kolhapur, Graphic Design services in kolhapur, graphic art, graphic design logo, graphic design books, digital graphic designer, graphic art designer, graphic design company in kolhapur" width="100%" >
+          <p>A high quality prints grab customers’ attention right at the first instance. What type of print you have in your brochure, flyer or visiting card reflects the status of your company. So, in short printing can also be a status symbol for your business. Customers usually create the first impression of your company from the quality of your printed material. So, give a professional look to your printed material for making customers fan of your brand.</p>
+          <img class="service-top-image" src="<?php echo base_url(); ?>assets/images/site/printing_services_kolhapur_l.jpeg" alt="Printing, Printing Services in Kolhapur, Brochure Printing, Business Card Printing, Flyer Printing, Envelop Printing, books Printing, printing services in kolhapur, printing company" width="100%" >
 
           <h3 class="service-sub-title">Why Pixel Bazar</h3>
-          <p>Get high quality prints at a pocket-friendly price. We strive to become a one stop solution for all your printing requirements. Whether you need printing services for brochure, flyer, visiting card, envelop, book etc we take care of all types of printing under one umbrella. Let’s talk about our printing services in detail. </p>
-          <p>Backed by an experienced team of professionals, Pixel Bazar gives you an assurance right from the pre press to printing to post press. We promise quality prints to our customers and we are known for keeping our promise. One more thing which is liked by our clients is less trial error. Our final prints matches with the exact requirements of clients and hence they approve it at the first go. This saves their time and add them in our long list of repeated customers. Our team has served international as well as national clients and they know how to make optimum use of available resources to cut down the cost without compromising on quality.</p>
+          <p>Get high quality prints at a pocket-friendly price. We strive to become a one stop solution for all your printing requirements. Whether you need printing services for business card, letter head, envelop, corporate brochure, catalogue, booklet printing, calenders, corporate printing, flyers, files and folders, menu cards, greeting cards, invitation cards, posters, magzine , mouse pad, mug, cap, dress or cloth, we take care of all types of printing under one umbrella. Let’s talk about our printing services in detail</p>
 
           <h3 class="service-sub-title">Brochure Printing</h3>
           <p>Allow your business to speak about its beauty through company brochures. Get maximum mileage for your business with us. We are here with eye-candy designs, vibrant colors and innovative inputs to make your brochure stand out.</p>
@@ -90,28 +87,19 @@ include('head.php'); ?>
           <h3 class="service-sub-title">Flyer printing</h3>
           <p>Promotion through flyer or leaflet is considered as one of the economical means for making your audience aware about your offerings. Our premium stock of paper comprises of matt, uncoated, gloss or recycled one for making your first impression an everlasting one for your customers.</p>
 
-          <h3 class="service-sub-title">Envelops</h3>
-          <p>Envelops create an impression right in the first sight, even before opening it. Apart from covering the official matter in a proper manner, these envelopes speaks about your brand. So impress your clients right from the envelope to give them a positive wipes about your company.</p>
+          <h3 class="service-sub-title">Our Team</h3>
+          <p>Backed by an experienced team of professionals, Pixel Bazar gives you an assurance right from the pre press to printing to post press. We promise quality prints to our customers and we are known for keeping our promise. One more thing which is liked by our clients is less trial error. Our final prints matches with the exact requirements of clients and hence they approve it at the first go. This saves their time and add them in our long list of repeated customers. Our team has served international as well as national clients and they know how to make optimum use of available resources to cut down the cost without compromising on quality.</p>
 
           <h3 class="service-sub-title">We promise excellent prints</h3>
           <p>Our entire printing work, focus on only one motto which is ‘Good Work’. At the end of the day, we want to see smile on customers’ face and this philosophy motivates us to give our 100% everyday.</p>
-          <!-- <h3 class="service-sub-title">Why you should hire us?</h3>
-          <ul class="service-ul">
-            <li>Unique images, delivered on time without any trial error.</li>
-            <li>Designs are created by keeping target audience in mind.</li>
-            <li>You will never face copyright issue.</li>
-          </ul>
-          <p>Pixel Bazar is here to cover all your graphic designing needs for promoting your brand or business. We believe that excellent designs can result in good business. Working with the latest software, well-honed creative designs, experienced designers, we are here to bring on the table our award-winning graphic designing services. Our clientele is not limited to India only, as we have experience of serving clients globally. We create designs which work and stand out in the crowd for giving a competitive edge to our clients.</p>
-
-            <h3 class="service-sub-title">Graphic design company in Kolhapur</h3>
-            <p>Our designers are always ready to take the most challenging projects and deliver that on time. Our team understands that the design trend and philosophy changes with time. Hence they keep themselves updated for matching clients requirements in this ever-evolving industry. By hiring our graphic designing services you can remain assured that our images will convey right message to your customers in the right way by hitting the right cord of the customers.</p>
-            <p>So, focus on your business side and let our designers take care of your graphic designing concern. As our graphic design company in Kolhapur is what you need to take a giant leap in your business through attention-grabbing designs which your audience will love to see repeatedly.</p> -->
-            <a class="btn btn-service btn-outline-warning2 " href="https://www.pixelbazar.com/Contact">Get Started</a>
+          <p>So, contact us for any kind of printing and get world-class prints at cost effective prices.</p>
+          <a class="btn btn-service btn-outline-warning2 " href="https://www.pixelbazar.com/Contact">Get Started</a>
       </div>
       <div class="col-md-4 recommend">
+
           <h3 class="service-recommended">Recommended for you</h3>
           <a href="<?php echo base_url(); ?>signage-design-printing-kolhapur">
-            <img class="service-pg-img" src="<?php echo base_url(); ?>assets/images/site/signage_printing.jpg" alt="logo design, logo, company logo, business logo, logo creator, company logo design, custom logo design, business logo design, custom logo, best logo design, logo design services " width="120%" height="360px;">
+            <img class="service-pg-img" src="<?php echo base_url(); ?>assets/images/site/signage_printing.jpg" alt="logo design, logo, company logo, business logo, logo creator, company logo design, custom logo design, business logo design, custom logo, best logo design, logo design services " style="width:100%; height:auto;">
             <p class="red-color service-recommended-head-text" style="font-size:20px;">Discover digital signage with us</p>
           </a>
 

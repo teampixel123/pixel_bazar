@@ -70,6 +70,11 @@ class Welcome extends CI_Controller {
 		// $this->output->cache(60);
 		$this->load->view('pages/printing_services');
 	}
+	public function corporate_event()
+	{
+		// $this->output->cache(60);
+		$this->load->view('pages/corporate_event');
+	}
 	public function portfolio()
 	{
 		// $this->output->cache(60);

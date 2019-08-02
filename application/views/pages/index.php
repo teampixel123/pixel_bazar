@@ -392,7 +392,7 @@ include('head.php');
         <div class="sub-tabcontent">
         <img class="service-image mt-5" src="<?php echo base_url(); ?>assets/images/site/Corporate_eventsS.jpg" alt="">
       <p class="paragraph service-para">Keep your customers glued up with your event through outstanding designs. We are here to design your signage, brochure, display booth or wall display for making your exhibition or event memorable. We have an experience of handling corporate events all over India and have made our customers happy by successfully completing their events.</p>
-      <p class="service-btn"><a class="btn btn-md btn-outline-warning margin-top " href="<?php echo base_url(); ?>Creative-Design-Portfolio">VIEW MORE</a>
+      <p class="service-btn"><a class="btn btn-md btn-outline-warning margin-top " href="<?php echo base_url(); ?>corporate-event-management">READ MORE</a>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a class="btn btn-md btn-outline-warning2 margin-top" href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
       </p>
@@ -996,7 +996,7 @@ include('head.php');
             <div class="sub-tabcontent">
             <img class="service-image " src="<?php echo base_url(); ?>assets/images/site/Corporate_eventsS.jpg" alt="">
           <p class="paragraph service-para">Keep your customers glued up with your event through outstanding designs. We are here to design your signage, brochure, display booth or wall display for making your exhibition or event memorable. We have an experience of handling corporate events all over India and have made our customers happy by successfully completing their events.</p>
-          <p class="service-btn mb-5"><a class="btn btn-md btn-outline-warning margin-top mr-2" href="<?php echo base_url(); ?>Creative-Design-Portfolio">VIEW MORE</a>
+          <p class="service-btn mb-5"><a class="btn btn-md btn-outline-warning margin-top mr-2" href="<?php echo base_url(); ?>corporate-event-management">READ MORE</a>
               <a class="btn btn-md btn-outline-warning2 margin-top " href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
           </p>
             </div>
