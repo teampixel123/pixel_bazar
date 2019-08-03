@@ -15,7 +15,8 @@
                 <li><a class="home" href="<?php echo base_url(); ?>">Home</a></li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle <?php if($active=='service'){ echo 'active'; }else{echo '';}?>" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Services
+                    Service <svg width="22px" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
+                      <!-- <svg width="12px"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-angle-down fa-w-10"><path fill="currentColor" d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z" class=""></path></svg> -->
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="<?php echo base_url(); ?>website-design-development-kolhapur">Website Design</a>
@@ -25,7 +26,7 @@
                     <a class="dropdown-item" href="<?php echo base_url(); ?>digital-marketing-services-kolhapur">Digital Marketing</a>
                     <a class="dropdown-item" href="<?php echo base_url(); ?>signage-design-printing-kolhapur">Signage Solution</a>
                     <a class="dropdown-item" href="<?php echo base_url(); ?>printing-services-kolhapur">Printing Solution</a>
-                    <a class="dropdown-item" href="<?php echo base_url(); ?>corporate-event-management">Corporate Event</a>
+                    <a class="dropdown-item" href="<?php echo base_url(); ?>event-management-services-kolhapur">Corporate Event</a>
                   </div>
                 </li>
                 <!-- <li><a class="home" href="<?php echo base_url();?>Services">Services</a></li> -->
