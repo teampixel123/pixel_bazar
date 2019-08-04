@@ -100,49 +100,56 @@ include('head.php'); ?>
           <p class="red-color service-recommended-head-text" style="font-size:20px;">Transform your brand</p>
           </a>
         <div class="service-right-menu">
-          <a href="<?php echo base_url(); ?>logo-design-kolhapur">
-            <div class="row">
-              <div class="col-6">
-                <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/logo_design_kolhapur.jpg" alt="professional custom logo design" >
-              </div>
-              <div class="col-6 mt-2">
-                <p class="service-left-title">Meaningful logos which can stand out! </p>
-              </div>
-            </div>
-          </a>
+          <!-- logo design -->
+        	       <a href="<?php echo base_url(); ?>logo-design-kolhapur">
+                    <div class="row">
+                      <div class="col-6">
+                        <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/logo_design_kolhapur.jpg" alt="Logo design in Kolhapur, Logo Design Company in Kolhapur, Logo Design services in kolhapur, logo, company logo, business logo, logo creator, company logo design, custom logo design, business logo design, custom logo, logo design company in kolhapur, logo printing." >
+                      </div>
+                      <div class="col-6 mt-2">
+                        <p class="service-left-title">Meaningful logos which can stand out! </p>
+                      </div>
+                    </div>
+                  </a>
 
-          <a href="<?php echo base_url(); ?>digital-marketing-services-kolhapur">
-            <div class="row">
-              <div class="col-6">
-                <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/digital_marketing_company_kolhapur.jpeg" alt="cool logo designs, graphic design custom logo,  new logo ">
-              </div>
-              <div class="col-6 mt-2">
-                <p class="service-left-title">Make your  pocket full of quality leads!</p>
-              </div>
-            </div>
-          </a>
+                  <!-- digital marketing -->
+                          <a href="<?php echo base_url(); ?>digital-marketing-services-kolhapur">
+                            <div class="row">
+                              <div class="col-6">
+                                <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/digital_marketing_company_kolhapur.jpeg" alt="Digital Marketing company in kolhapur, Digital Marketing services in kolhapur, Digital Marketing, seo, search engine optimization, seo services in kolhapur, branding services in kolhapur, facebook marketing, google adwords, ppc, pay per click, twitter marketing, instagram marketing">
+                              </div>
+                              <div class="col-6 mt-2">
+                                <p class="service-left-title">Make your  pocket full of quality leads!</p>
+                              </div>
+                            </div>
+                          </a>
 
-          <a href="<?php echo base_url(); ?>printing-services-kolhapur">
-            <div class="row">
-              <div class="col-6">
-                <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/printing_services_kolhapur.jpeg" alt="custom logo design online free, logo design portfolio, creative logo maker, logo design blog, business card logo design, web logo designers, logo design help, logo maker design ">
-                </div>
-              <div class="col-6 mt-1">
-                <p class="service-left-title ">High quality prints for highly valuable customers</p>
-              </div>
-            </div>
-          </a>
+                          <!-- printing services -->
+                                  <a href="<?php echo base_url(); ?>printing-services-kolhapur">
+                                    <div class="row">
+                                      <div class="col-6">
+                                        <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/printing_services_kolhapur.jpeg" alt="Printing, Printing Services in Kolhapur, Brochure Printing, Business Card Printing, Flyer Printing, Envelop Printing, books Printing, printing services in kolhapur, printing company">
+                                        </div>
+                                      <div class="col-6 mt-1">
+                                        <p class="service-left-title ">High quality prints for highly valuable customers</p>
+                                      </div>
+                                    </div>
+                                  </a>
 
-          <a href="<?php echo base_url(); ?>corporate-event-management">
-            <div class="row">
-              <div class="col-6">
-                <img class="service-img table-cell" src="<?php echo base_url(); ?>assets/images/site/Corporate_eventsS.jpg" alt="logo design, logo, company logo, business logo, logo creator, company logo design, custom logo design">
-                </div>
-              <div class="col-6 mt-2">
-                <p class="service-left-title">Events which will emain memorable!</p>
-              </div>
-            </div>
-          </a>
+                                  <!-- corporate events -->
+                                          <a href="<?php echo base_url(); ?>event-management-services-kolhapur">
+                                            <div class="row">
+                                              <div class="col-6">
+                                                <img class="service-img table-cell" src="<?php echo base_url(); ?>assets/images/site/Corporate_eventsS.jpg" alt="Corporate Events, industrial event, events">
+                                                </div>
+                                              <div class="col-6 mt-2">
+                                                <p class="service-left-title">Events which will emain memorable!</p>
+                                              </div>
+                                            </div>
+                                          </a>
+                                          <div class="row">
+
+                                          </div>
 
           </div>
           <div class="service-right-menu-bottom">
