@@ -115,7 +115,7 @@ include('head.php');
   <!-- About Start -->
 <section class="home-about" id="about">
   <div class="container">
-    <h3 class="text-center mb-5">Welcome to Pixelbazar</h3>
+    <h3 class="text-center mb-5 welcome-txt">Welcome to Pixelbazar</h3>
   <div class="row">
     <div class="col-md-5 col-12 info ">
       <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
@@ -127,7 +127,7 @@ include('head.php');
         <p class="paragraph">At PixelBazar, we create a compelling brand presence for your company with the help of our extremely talented and professional group of web developers and graphic designers. We are innovative and creative while providing an absorbing corporate identity for companies in various sectors. We are very much passionate about what we do and that is why we have flourished and delivered some of the superlative development and design solutions to our large clientele. Over the past 15 years, we have created a reputation for providing standout solutions for companies of various verticals.  The efficient team of PixelBazar is providing support to a wide array of businesses and making them satisfied with prowess. Currently, we are adding more to our long list of providing attractive logos, digital marketing, signage solutions, website design services and website development services to multiple businesses. All our services are comprehensive encompassing the expectations set by our clientele. We are also very much thankful to our clientele for giving us the opportunity of serving them holistically.
         </dt>
         </p><br>
-        <a class="btn btn-lg btn-outline-warning margin-top" href="<?php echo base_url(); ?>Contact">Just Drop us mail</a>
+        <!-- <a class="btn btn-lg btn-outline-warning margin-top" href="<?php echo base_url(); ?>Contact">Just Drop us mail</a> -->
       </div>
     </div>
     <div class="col-md-7 col-12 pb-3 frist-div about-services">
@@ -135,32 +135,11 @@ include('head.php');
         <div class="col-md-6 text-center">
           <div class="card-col-1" style="">
 
-            <div class="service1">
+            <div class="service1 service-div group1">
               <div class="card card1">
                 <div class="card-body">
-                  <div class="text-center card1-icon">
-                    <svg class="svg" x="0px" y="0px" width="58px" height="55px" viewBox="0 0 70 57" enable-background="new 0 0 70 57" xml:space="preserve">
-                  		<path d="M3.688,8.166h36.031v5.622h3.015V7.042c0-1.022-0.868-1.891-1.891-1.891H2.615
-                  			c-1.022,0-1.891,0.868-1.891,1.891v25.911c0,1.022,0.818,1.891,1.891,1.891h15.383v3.424h-3.373c-0.511,0-0.92,0.409-0.92,0.92
-                  			v1.788c0,0.511,0.409,0.92,0.92,0.92h14.31c0.511,0,0.92-0.409,0.92-0.92v-1.788c0-0.511-0.409-0.92-0.92-0.92h-3.424v-3.424
-                  			h7.053v-6.593H3.688V8.166z M21.729,30.193c0.716,0,1.329,0.613,1.329,1.329c0,0.716-0.613,1.329-1.329,1.329
-                  			c-0.716,0-1.329-0.613-1.329-1.329C20.4,30.806,21.014,30.193,21.729,30.193z"/>
-                  		<path d="M47.231,15.934H36.703c-1.124,0-1.993,0.92-1.993,2.044v21.976c0,1.124,0.92,2.044,1.993,2.044h10.528
-                  			c1.124,0,2.044-0.92,2.044-2.044V17.928C49.276,16.803,48.356,15.934,47.231,15.934z M40.281,17.416h3.322
-                  			c0.255,0,0.46,0.204,0.46,0.46c0,0.255-0.204,0.46-0.46,0.46h-3.322c-0.255,0-0.46-0.204-0.46-0.46
-                  			C39.821,17.62,40.026,17.416,40.281,17.416z M41.968,40.466c-0.716,0-1.329-0.613-1.329-1.329s0.613-1.329,1.329-1.329
-                  			c0.716,0,1.329,0.613,1.329,1.329C43.297,39.853,42.683,40.466,41.968,40.466z M47.078,36.326H36.857V19.818h10.272v16.507H47.078
-                  			z"/>
-                    </svg>
-                  </div>
-                    <h5 class="card-title service-title">Website<br>Design</h5>
-                    <a class="btn btn-md btn-service" href="<?php echo base_url(); ?>website-design-development-kolhapur">READ MORE</a>
-                </div>
-              </div>
-              <div class="card card-hvr1">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="text-center card1-icon">
+                  <div class="card-logo">
+                    <div class="text-center card1-icon card-icon">
                       <svg class="svg" x="0px" y="0px" width="58px" height="55px" viewBox="0 0 70 57" enable-background="new 0 0 70 57" xml:space="preserve">
                     		<path d="M3.688,8.166h36.031v5.622h3.015V7.042c0-1.022-0.868-1.891-1.891-1.891H2.615
                     			c-1.022,0-1.891,0.868-1.891,1.891v25.911c0,1.022,0.818,1.891,1.891,1.891h15.383v3.424h-3.373c-0.511,0-0.92,0.409-0.92,0.92
@@ -175,168 +154,126 @@ include('head.php');
                     			z"/>
                       </svg>
                     </div>
-                    <div class="card-content align-self-center">
-                      <h5 class="card-title service-title">Website Design</h5>
-                    </div>
+                    <h5 class="card-title service-title">Website Design</h5>
+                    <h5 class="card-title service-title2">Website Design</h5>
                   </div>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Website is the face of your brand, our designers can give it an appealing look which can generate more traffic and ultimately quality leads in your pocket. Our website design company in Kolhapur is what you need to make your website stand out.</p>
                   <a class="btn btn-md btn-service" href="<?php echo base_url(); ?>website-design-development-kolhapur">READ MORE</a>
                 </div>
               </div>
             </div>
 
-            <div class="service2">
+            <div class="service2 service-div group2">
               <div class="card card2">
                 <div class="card-body">
-                  <div class="text-center card2-icon">
-                    <svg class="svg" x="0px" y="0px" width="58px" height="55px" viewBox="0 0 70 57" enable-background="new 0 0 70 57" xml:space="preserve">
-                  		<path d="M3.688,8.166h36.031v5.622h3.015V7.042c0-1.022-0.868-1.891-1.891-1.891H2.615
-                  			c-1.022,0-1.891,0.868-1.891,1.891v25.911c0,1.022,0.818,1.891,1.891,1.891h15.383v3.424h-3.373c-0.511,0-0.92,0.409-0.92,0.92
-                  			v1.788c0,0.511,0.409,0.92,0.92,0.92h14.31c0.511,0,0.92-0.409,0.92-0.92v-1.788c0-0.511-0.409-0.92-0.92-0.92h-3.424v-3.424
-                  			h7.053v-6.593H3.688V8.166z M21.729,30.193c0.716,0,1.329,0.613,1.329,1.329c0,0.716-0.613,1.329-1.329,1.329
-                  			c-0.716,0-1.329-0.613-1.329-1.329C20.4,30.806,21.014,30.193,21.729,30.193z"/>
-                  		<path d="M47.231,15.934H36.703c-1.124,0-1.993,0.92-1.993,2.044v21.976c0,1.124,0.92,2.044,1.993,2.044h10.528
-                  			c1.124,0,2.044-0.92,2.044-2.044V17.928C49.276,16.803,48.356,15.934,47.231,15.934z M40.281,17.416h3.322
-                  			c0.255,0,0.46,0.204,0.46,0.46c0,0.255-0.204,0.46-0.46,0.46h-3.322c-0.255,0-0.46-0.204-0.46-0.46
-                  			C39.821,17.62,40.026,17.416,40.281,17.416z M41.968,40.466c-0.716,0-1.329-0.613-1.329-1.329s0.613-1.329,1.329-1.329
-                  			c0.716,0,1.329,0.613,1.329,1.329C43.297,39.853,42.683,40.466,41.968,40.466z M47.078,36.326H36.857V19.818h10.272v16.507H47.078
-                  			z"/>
+                  <div class="card-logo">
+                  <div class=" card2-icon card-icon">
+                    <svg class="svg" style="margin-left:20px;" x="0px" y="0px"  viewBox="0 0 60 47" enable-background="new 0 0 60 47" xml:space="preserve">
+                      <path d="M34.634,19.631c-0.011-0.229-0.021-0.465-0.028-0.708l-0.061,0.057c-0.271,0.249-0.487,0.445-0.693,0.651
+                  			l-2.76,2.764c-2.632,2.638-5.353,5.364-8.063,8.012c-0.539,0.526-1.406,0.906-2.11,0.924c-1.619,0.042-3.238,0.048-4.858,0.048
+                  			l-2.1-0.001c-1.017,0-2.033,0.003-3.099,0.015c-0.934,0-1.449-0.357-1.778-1.233c-0.773-2.061-2.192-3.501-4.219-4.28
+                  			c-1.044-0.401-1.247-1.045-1.236-1.951c0.031-2.859,0.055-6.235-0.009-9.602c-0.02-1.005,0.3-1.757,1.067-2.515
+                  			c2.908-2.864,5.791-5.754,8.674-8.644l2.134-2.139c0.185-0.185,0.358-0.378,0.536-0.576c-0.539-0.085-1.06-0.128-1.552-0.128
+                  			c-2.374,0-4.282,0.945-6.005,2.976C6.884,5.175,5.065,6.9,3.306,8.57L2.151,9.671c-1.253,1.2-1.83,2.583-1.819,4.352
+                  			c0.026,4.058,0.022,8.116,0.018,12.175c-0.002,2.086-0.004,4.172-0.002,6.258c0.002,1.755,0.458,2.21,2.217,2.212l11.715-0.001
+                  			c2.326,0,4.653,0.002,6.98,0.01h0.025c1.51,0,2.743-0.507,3.773-1.548c0.892-0.901,1.793-1.795,2.693-2.688
+                  			c1.779-1.763,3.619-3.587,5.352-5.447c0.646-0.692,1.172-1.769,1.442-2.953C34.711,21.316,34.675,20.535,34.634,19.631z"/>
+                  		<path d="M15.386,17.014c-0.229,0.194-0.454,0.387-0.675,0.578l2.491,2.57l0.035-0.031
+                  			c0.15-0.135,0.276-0.248,0.396-0.368c5.431-5.429,10.86-10.858,16.288-16.29c0.859-0.86,0.95-1.824,0.243-2.579
+                  			c-0.318-0.339-0.705-0.518-1.12-0.518c-0.511,0-1.039,0.258-1.527,0.745l-4.635,4.634c-3.14,3.141-6.279,6.281-9.432,9.408
+                  			C16.787,15.823,16.075,16.429,15.386,17.014z"/>
+                  		<path d="M19.953,23.295c-0.115,0.115-0.181,0.448-0.143,0.535c0.35,0.766,0.737,1.495,1.148,2.269l0.304,0.574
+                  			c0.031-0.018,0.057-0.033,0.069-0.047c4.314-4.299,8.628-8.601,12.929-12.914c0.196-0.196,0.335-0.429,0.338-0.565
+                  			c0.029-1.228,0.025-2.456,0.021-3.678l-0.001-0.801l-0.691,0.688C29.262,13.995,24.598,18.635,19.953,23.295z"/>
+                  		<path d="M8.761,13.288c-0.146,0.146-0.275,0.309-0.414,0.482l2.716,1.371L25.87,0.382
+                  			c-0.104,0.001-0.208,0.003-0.313,0.004c-0.381,0.005-0.772,0.01-1.17,0.01c-0.52,0-1.049-0.009-1.577-0.035l-0.165-0.005
+                  			c-0.695,0-1.231,0.244-1.795,0.815c-2.748,2.784-5.516,5.548-8.282,8.313L8.761,13.288z"/>
                     </svg>
                   </div>
-                    <h5 class="card-title service-title">Website<br>Design</h5>
-                    <a class="btn btn-md btn-service" href="<?php echo base_url(); ?>website-design-development-kolhapur">READ MORE</a>
-                </div>
-              </div>
-              <div class="card card-hvr2">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="text-center card2-icon">
-                      <svg class="svg" x="0px" y="0px" width="58px" height="55px" viewBox="0 0 70 57" enable-background="new 0 0 70 57" xml:space="preserve">
-                    		<path d="M3.688,8.166h36.031v5.622h3.015V7.042c0-1.022-0.868-1.891-1.891-1.891H2.615
-                    			c-1.022,0-1.891,0.868-1.891,1.891v25.911c0,1.022,0.818,1.891,1.891,1.891h15.383v3.424h-3.373c-0.511,0-0.92,0.409-0.92,0.92
-                    			v1.788c0,0.511,0.409,0.92,0.92,0.92h14.31c0.511,0,0.92-0.409,0.92-0.92v-1.788c0-0.511-0.409-0.92-0.92-0.92h-3.424v-3.424
-                    			h7.053v-6.593H3.688V8.166z M21.729,30.193c0.716,0,1.329,0.613,1.329,1.329c0,0.716-0.613,1.329-1.329,1.329
-                    			c-0.716,0-1.329-0.613-1.329-1.329C20.4,30.806,21.014,30.193,21.729,30.193z"/>
-                    		<path d="M47.231,15.934H36.703c-1.124,0-1.993,0.92-1.993,2.044v21.976c0,1.124,0.92,2.044,1.993,2.044h10.528
-                    			c1.124,0,2.044-0.92,2.044-2.044V17.928C49.276,16.803,48.356,15.934,47.231,15.934z M40.281,17.416h3.322
-                    			c0.255,0,0.46,0.204,0.46,0.46c0,0.255-0.204,0.46-0.46,0.46h-3.322c-0.255,0-0.46-0.204-0.46-0.46
-                    			C39.821,17.62,40.026,17.416,40.281,17.416z M41.968,40.466c-0.716,0-1.329-0.613-1.329-1.329s0.613-1.329,1.329-1.329
-                    			c0.716,0,1.329,0.613,1.329,1.329C43.297,39.853,42.683,40.466,41.968,40.466z M47.078,36.326H36.857V19.818h10.272v16.507H47.078
-                    			z"/>
-                      </svg>
-                    </div>
-                    <div class="card-content align-self-center">
-                      <h5 class="card-title service-title">Website Design</h5>
-                    </div>
+                  <h5 class="card-title service-title"><span>Logo</span>Design</h5>
+                  <h5 class="card-title service-title2">Logo Design</h5>
                   </div>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p>When it comes to creating custom logo designs, we are the first option for many of our customers. Our logo design services are for those who want to impress their client right from the logo.</p>
                   <a class="btn btn-md btn-service" href="<?php echo base_url(); ?>website-design-development-kolhapur">READ MORE</a>
                 </div>
               </div>
             </div>
-
           </div>
         </div>
 
         <div class="col-md-6 text-center">
           <div class="card-col-2">
-            <div class="service3">
+            <div class="service3 service-div group2">
               <div class="card card3">
                 <div class="card-body">
-                  <div class="text-center card3-icon">
+                  <div class="card-logo">
+                  <div class="text-center card3-icon card-icon">
                     <svg class="svg" x="0px" y="0px" width="58px" height="55px" viewBox="0 0 70 57" enable-background="new 0 0 70 57" xml:space="preserve">
-                  		<path d="M3.688,8.166h36.031v5.622h3.015V7.042c0-1.022-0.868-1.891-1.891-1.891H2.615
-                  			c-1.022,0-1.891,0.868-1.891,1.891v25.911c0,1.022,0.818,1.891,1.891,1.891h15.383v3.424h-3.373c-0.511,0-0.92,0.409-0.92,0.92
-                  			v1.788c0,0.511,0.409,0.92,0.92,0.92h14.31c0.511,0,0.92-0.409,0.92-0.92v-1.788c0-0.511-0.409-0.92-0.92-0.92h-3.424v-3.424
-                  			h7.053v-6.593H3.688V8.166z M21.729,30.193c0.716,0,1.329,0.613,1.329,1.329c0,0.716-0.613,1.329-1.329,1.329
-                  			c-0.716,0-1.329-0.613-1.329-1.329C20.4,30.806,21.014,30.193,21.729,30.193z"/>
-                  		<path d="M47.231,15.934H36.703c-1.124,0-1.993,0.92-1.993,2.044v21.976c0,1.124,0.92,2.044,1.993,2.044h10.528
-                  			c1.124,0,2.044-0.92,2.044-2.044V17.928C49.276,16.803,48.356,15.934,47.231,15.934z M40.281,17.416h3.322
-                  			c0.255,0,0.46,0.204,0.46,0.46c0,0.255-0.204,0.46-0.46,0.46h-3.322c-0.255,0-0.46-0.204-0.46-0.46
-                  			C39.821,17.62,40.026,17.416,40.281,17.416z M41.968,40.466c-0.716,0-1.329-0.613-1.329-1.329s0.613-1.329,1.329-1.329
-                  			c0.716,0,1.329,0.613,1.329,1.329C43.297,39.853,42.683,40.466,41.968,40.466z M47.078,36.326H36.857V19.818h10.272v16.507H47.078
-                  			z"/>
+                      <path d="M44.272,14.811c0.03,0.033,0.053,0.062,0.074,0.094l7.808,15.549c0.065,0.112,0.083,0.148,0.099,0.184
+                        l0.069,0.222l0.022,0.22l-0.006,0.095l-0.012,0.104l-0.028,0.115l-0.04,0.122l-0.08,0.158l-2.791,4.573v0.677
+                        c0.741,0.222,1.273,0.905,1.273,1.715v1.889c0,0.99-0.804,1.794-1.794,1.794H37.942c-0.989,0-1.793-0.804-1.793-1.794v-1.889
+                        c0-0.81,0.531-1.492,1.273-1.715v-0.677l-2.81-4.605l-0.025-0.057c-0.006-0.008-0.028-0.052-0.045-0.096l-0.062-0.226
+                        c0,0-0.014-0.172-0.013-0.214c0,0,0.017-0.167,0.026-0.208l0.032-0.11l0.048-0.13l0.053-0.094l7.858-15.634l0.036-0.038
+                        c0.035-0.05,0.061-0.081,0.091-0.108l0.116-0.095c0.088-0.064,0.123-0.082,0.158-0.101l0.129-0.057l0.224-0.069l0.034,0.011
+                        c0.033-0.007,0.082-0.013,0.133-0.013c0.133,0.008,0.178,0.012,0.222,0.021l0.105,0.029h0.042l0.1,0.05
+                        c0.095,0.049,0.134,0.071,0.171,0.097c0.093,0.07,0.131,0.101,0.165,0.135 M38.419,40.792l9.968-0.005l-0.001-2.832l-9.969,0.005
+                        L38.419,40.792z M47.613,34.792l2.248-3.683l-5.319-11.803l-0.286,7.243c0.845,0.344,1.415,1.171,1.415,2.098
+                        c0,1.249-1.017,2.266-2.266,2.266s-2.266-1.017-2.266-2.266c0-0.928,0.57-1.755,1.415-2.098l-0.285-7.243l-5.32,11.803
+                        l2.248,3.683H47.613z"/>
+                      <path d="M5.109,39.426c-2.455,0-4.453-1.998-4.453-4.453V5.131c0-2.455,1.998-4.453,4.453-4.453h35.809
+                        c2.455,0,4.453,1.998,4.453,4.453V9.11c0,0.81-0.659,1.469-1.469,1.469c-0.811,0-1.47-0.659-1.47-1.469V5.131
+                        c0-0.835-0.679-1.514-1.514-1.514H5.109c-0.835,0-1.514,0.679-1.514,1.514v29.841c0,0.835,0.679,1.514,1.514,1.514h0.386
+                        l16.479-16.479c0.277-0.277,0.646-0.43,1.039-0.43s0.762,0.153,1.039,0.43l3.934,3.934l4.93-4.929
+                        c0.281-0.272,0.643-0.418,1.027-0.418c0.383,0,0.745,0.146,1.02,0.412c0.282,0.272,0.441,0.639,0.448,1.031
+                        c0.006,0.393-0.14,0.765-0.412,1.046l-4.934,4.935l2.71,2.716c0.558,0.578,0.558,1.475,0.006,2.046
+                        c-0.28,0.29-0.656,0.449-1.058,0.449l0,0c-0.384,0-0.746-0.146-1.021-0.412l-7.689-7.695L7.143,38.995
+                        c-0.273,0.274-0.652,0.431-1.039,0.431H5.109z"/>
+                      <path d="M20.029,17.542c-3.004,0-5.448-2.444-5.448-5.448c0.004-3.001,2.448-5.445,5.447-5.448
+                        c3.005,0,5.449,2.444,5.449,5.448S23.033,17.542,20.029,17.542z M20.029,9.585c-1.384,0-2.509,1.126-2.509,2.51
+                        s1.125,2.509,2.509,2.509s2.51-1.125,2.51-2.509S21.413,9.585,20.029,9.585z"/>
+                      <path d="M12.073,39.426c-0.811,0-1.47-0.659-1.47-1.47c0-0.81,0.659-1.469,1.47-1.469h26.315v2.939H12.073z"/>
                     </svg>
                   </div>
-                    <h5 class="card-title service-title">Website<br>Design</h5>
-                    <a class="btn btn-md btn-service" href="<?php echo base_url(); ?>website-design-development-kolhapur">READ MORE</a>
-                </div>
-              </div>
-              <div class="card card-hvr3">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="text-center card3-icon">
-                      <svg class="svg" x="0px" y="0px" width="58px" height="55px" viewBox="0 0 70 57" enable-background="new 0 0 70 57" xml:space="preserve">
-                    		<path d="M3.688,8.166h36.031v5.622h3.015V7.042c0-1.022-0.868-1.891-1.891-1.891H2.615
-                    			c-1.022,0-1.891,0.868-1.891,1.891v25.911c0,1.022,0.818,1.891,1.891,1.891h15.383v3.424h-3.373c-0.511,0-0.92,0.409-0.92,0.92
-                    			v1.788c0,0.511,0.409,0.92,0.92,0.92h14.31c0.511,0,0.92-0.409,0.92-0.92v-1.788c0-0.511-0.409-0.92-0.92-0.92h-3.424v-3.424
-                    			h7.053v-6.593H3.688V8.166z M21.729,30.193c0.716,0,1.329,0.613,1.329,1.329c0,0.716-0.613,1.329-1.329,1.329
-                    			c-0.716,0-1.329-0.613-1.329-1.329C20.4,30.806,21.014,30.193,21.729,30.193z"/>
-                    		<path d="M47.231,15.934H36.703c-1.124,0-1.993,0.92-1.993,2.044v21.976c0,1.124,0.92,2.044,1.993,2.044h10.528
-                    			c1.124,0,2.044-0.92,2.044-2.044V17.928C49.276,16.803,48.356,15.934,47.231,15.934z M40.281,17.416h3.322
-                    			c0.255,0,0.46,0.204,0.46,0.46c0,0.255-0.204,0.46-0.46,0.46h-3.322c-0.255,0-0.46-0.204-0.46-0.46
-                    			C39.821,17.62,40.026,17.416,40.281,17.416z M41.968,40.466c-0.716,0-1.329-0.613-1.329-1.329s0.613-1.329,1.329-1.329
-                    			c0.716,0,1.329,0.613,1.329,1.329C43.297,39.853,42.683,40.466,41.968,40.466z M47.078,36.326H36.857V19.818h10.272v16.507H47.078
-                    			z"/>
-                      </svg>
-                    </div>
-                    <div class="card-content align-self-center">
-                      <h5 class="card-title service-title">Website Design</h5>
-                    </div>
+                  <h5 class="card-title service-title">Graphic Design</h5>
+                  <h5 class="card-title service-title2">Graphic Design</h5>
                   </div>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                  <a class="btn btn-md btn-service" href="<?php echo base_url(); ?>website-design-development-kolhapur">READ MORE</a>
+                  <p>Awesome graphics! So, what else you need? Whether you need graphic designing services for your brochure, flyer or for corporate profile. We are here for making you stand out with our stunning graphics. We have a team of designers who have done graduate diploma in GD ARTS. Our award winning designs are very much proficient in delivering creative designing work for our clientele.</p>
+                    <a class="btn btn-md btn-service" href="<?php echo base_url(); ?>website-design-development-kolhapur">READ MORE</a>
                 </div>
               </div>
             </div>
 
-            <div class="service4">
+            <div class="service4 service-div group1">
               <div class="card card4">
                 <div class="card-body">
-                  <div class="text-center card4-icon">
+                  <div class="card-logo">
+                  <div class="text-center card4-icon card-icon">
                     <svg class="svg" x="0px" y="0px" width="58px" height="55px" viewBox="0 0 70 57" enable-background="new 0 0 70 57" xml:space="preserve">
-                  		<path d="M3.688,8.166h36.031v5.622h3.015V7.042c0-1.022-0.868-1.891-1.891-1.891H2.615
-                  			c-1.022,0-1.891,0.868-1.891,1.891v25.911c0,1.022,0.818,1.891,1.891,1.891h15.383v3.424h-3.373c-0.511,0-0.92,0.409-0.92,0.92
-                  			v1.788c0,0.511,0.409,0.92,0.92,0.92h14.31c0.511,0,0.92-0.409,0.92-0.92v-1.788c0-0.511-0.409-0.92-0.92-0.92h-3.424v-3.424
-                  			h7.053v-6.593H3.688V8.166z M21.729,30.193c0.716,0,1.329,0.613,1.329,1.329c0,0.716-0.613,1.329-1.329,1.329
-                  			c-0.716,0-1.329-0.613-1.329-1.329C20.4,30.806,21.014,30.193,21.729,30.193z"/>
-                  		<path d="M47.231,15.934H36.703c-1.124,0-1.993,0.92-1.993,2.044v21.976c0,1.124,0.92,2.044,1.993,2.044h10.528
-                  			c1.124,0,2.044-0.92,2.044-2.044V17.928C49.276,16.803,48.356,15.934,47.231,15.934z M40.281,17.416h3.322
-                  			c0.255,0,0.46,0.204,0.46,0.46c0,0.255-0.204,0.46-0.46,0.46h-3.322c-0.255,0-0.46-0.204-0.46-0.46
-                  			C39.821,17.62,40.026,17.416,40.281,17.416z M41.968,40.466c-0.716,0-1.329-0.613-1.329-1.329s0.613-1.329,1.329-1.329
-                  			c0.716,0,1.329,0.613,1.329,1.329C43.297,39.853,42.683,40.466,41.968,40.466z M47.078,36.326H36.857V19.818h10.272v16.507H47.078
-                  			z"/>
+                      <path d="M43.092,0.696c-10.723,0-20.641,4.594-27.591,12.114H1.907c-0.49,0-0.931,0.295-1.119,0.747
+                        c-0.188,0.453-0.084,0.973,0.263,1.32l7.855,7.855c-0.812,1.788-1.495,3.653-2.025,5.591c-0.115,0.42,0.004,0.868,0.312,1.176
+                        l8.308,8.307c0.23,0.231,0.54,0.355,0.857,0.355c0.106,0,0.214-0.014,0.32-0.043c1.938-0.53,3.804-1.212,5.591-2.025l7.855,7.855
+                        c0.231,0.232,0.542,0.355,0.856,0.355c0.156,0,0.313-0.03,0.463-0.092c0.453-0.188,0.748-0.63,0.748-1.119V29.499
+                        c7.519-6.95,12.113-16.868,12.113-27.591C44.304,1.238,43.762,0.696,43.092,0.696z M16.711,35.591l-7.301-7.302
+                        c2.954-10.013,10.165-17.96,19.314-22.079L38.79,16.276C34.671,25.425,26.724,32.636,16.711,35.591z M41.86,3.14
+                        c-0.131,3.718-0.852,7.32-2.079,10.701L31.159,5.22C34.54,3.992,38.141,3.271,41.86,3.14z M4.831,15.232h8.615
+                        c-1.269,1.631-2.408,3.372-3.402,5.212L4.831,15.232z M29.768,40.168l-5.212-5.212c1.841-0.993,3.582-2.132,5.212-3.402V40.168z"
+                        />
+                      <path d="M1.907,44.304c0.31,0,0.62-0.118,0.857-0.355l4.845-4.845c0.473-0.473,0.473-1.24,0-1.713
+                        c-0.473-0.473-1.24-0.473-1.713,0l-4.845,4.845c-0.473,0.473-0.473,1.24,0,1.713C1.287,44.186,1.597,44.304,1.907,44.304z"/>
+                      <path d="M7.107,43.95c0.236,0.236,0.546,0.355,0.857,0.355c0.31,0,0.62-0.118,0.857-0.355l3.634-3.634
+                        c0.473-0.473,0.473-1.24,0-1.713c-0.473-0.473-1.24-0.473-1.713,0l-3.634,3.634C6.634,42.709,6.634,43.476,7.107,43.95z"/>
+                      <path d="M1.907,38.247c0.31,0,0.62-0.118,0.857-0.355l3.634-3.634c0.473-0.473,0.473-1.24,0-1.713
+                        c-0.473-0.473-1.24-0.473-1.713,0L1.052,36.18c-0.473,0.473-0.473,1.24,0,1.713C1.287,38.129,1.597,38.247,1.907,38.247z"/>
+                      <path d="M24.922,14.021c-3.34,0-6.056,2.716-6.056,6.056s2.716,6.056,6.056,6.056s6.056-2.716,6.056-6.056
+                        S28.262,14.021,24.922,14.021z M24.922,23.711c-2.004,0-3.634-1.63-3.634-3.634s1.63-3.634,3.634-3.634s3.634,1.63,3.634,3.634
+                        S26.927,23.711,24.922,23.711z"/>
                     </svg>
                   </div>
-                    <h5 class="card-title service-title">Website<br>Design</h5>
-                    <a class="btn btn-md btn-service" href="<?php echo base_url(); ?>website-design-development-kolhapur">READ MORE</a>
-                </div>
-              </div>
-
-              <div class="card card-hvr4">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="text-center card4-icon">
-                      <svg class="svg" x="0px" y="0px" width="58px" height="55px" viewBox="0 0 70 57" enable-background="new 0 0 70 57" xml:space="preserve">
-                    		<path d="M3.688,8.166h36.031v5.622h3.015V7.042c0-1.022-0.868-1.891-1.891-1.891H2.615
-                    			c-1.022,0-1.891,0.868-1.891,1.891v25.911c0,1.022,0.818,1.891,1.891,1.891h15.383v3.424h-3.373c-0.511,0-0.92,0.409-0.92,0.92
-                    			v1.788c0,0.511,0.409,0.92,0.92,0.92h14.31c0.511,0,0.92-0.409,0.92-0.92v-1.788c0-0.511-0.409-0.92-0.92-0.92h-3.424v-3.424
-                    			h7.053v-6.593H3.688V8.166z M21.729,30.193c0.716,0,1.329,0.613,1.329,1.329c0,0.716-0.613,1.329-1.329,1.329
-                    			c-0.716,0-1.329-0.613-1.329-1.329C20.4,30.806,21.014,30.193,21.729,30.193z"/>
-                    		<path d="M47.231,15.934H36.703c-1.124,0-1.993,0.92-1.993,2.044v21.976c0,1.124,0.92,2.044,1.993,2.044h10.528
-                    			c1.124,0,2.044-0.92,2.044-2.044V17.928C49.276,16.803,48.356,15.934,47.231,15.934z M40.281,17.416h3.322
-                    			c0.255,0,0.46,0.204,0.46,0.46c0,0.255-0.204,0.46-0.46,0.46h-3.322c-0.255,0-0.46-0.204-0.46-0.46
-                    			C39.821,17.62,40.026,17.416,40.281,17.416z M41.968,40.466c-0.716,0-1.329-0.613-1.329-1.329s0.613-1.329,1.329-1.329
-                    			c0.716,0,1.329,0.613,1.329,1.329C43.297,39.853,42.683,40.466,41.968,40.466z M47.078,36.326H36.857V19.818h10.272v16.507H47.078
-                    			z"/>
-                      </svg>
-                    </div>
-                    <div class="card-content align-self-center">
-                      <h5 class="card-title service-title">Website Design</h5>
-                    </div>
+                  <h5 class="card-title service-title">Strategic Branding</h5>
+                  <h5 class="card-title service-title2">Strategic Branding</h5>
                   </div>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                  <a class="btn btn-md btn-service" href="<?php echo base_url(); ?>website-design-development-kolhapur">READ MORE</a>
+                  <p>Earn name and fame in the market through our branding services. Make customers aware about your offerings and tell them why you are better than your competitors. Our strategic branding can create long lasting impression on your customer's mind and this is a good news, isn’t it?</p>
+                    <a class="btn btn-md btn-service" href="<?php echo base_url(); ?>website-design-development-kolhapur">READ MORE</a>
                 </div>
               </div>
             </div>
@@ -344,16 +281,24 @@ include('head.php');
           </div>
         </div>
       </div>
-      <!-- <a data-href="<?php echo base_url(); ?>assets/images/site/logo_design_services_kolhapur.jpg" class="boxout2 progressive replace">
-        <img src="<?php echo base_url(); ?>assets/images/site/logo_design_services_kolhapur.jpg" class="preview" alt="logo design, website design, graphic design, web design, web page design, company logo, website development, web design company, business logo, website design services in kolhapur, logo design services in kolhapur, Graphic design services in kolhapur" />
-      </a> -->
+    </div>
+    <div class="row text-center w-100">
+      <p class="text-center w-100">
+        <a class="btn btn-lg btn-outline-warning2 margin-top mr-5" href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
+        <a class="btn btn-lg btn-outline-warning margin-top" href="<?php echo base_url(); ?>website-design-development-kolhapur">SEE SUCCESSFULL WORK</a>
+      </p>
     </div>
   </div>
 </div>
 </section>
-<hr>
+<!-- <hr> -->
+
+<div class="container">
+
+</div>
+
 <!-- Our Services Start-->
-<section class="home-services d-none d-sm-block" id="services">
+<!-- <section class="home-services d-none d-sm-block" id="services">
     <div class="container home-services">
       <h1 class="title text-center ">
         <span class="">Our Services</span>
@@ -490,20 +435,9 @@ include('head.php');
 
       </div>
     <div class="col-md-8  service-row-text">
-      <!-- <div class="tabcontent  shadow image-default ">
-        <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div>
-        <div class="sub-tabcontent">
-        <img class="service-image" src="<?php echo base_url(); ?>assets/images/site/webs.gif" alt="">
-      <p class="paragraph service-para">Website is the face of your brand, our designers can give it an appealing look which can generate more traffic and ultimately quality leads in your pocket. Our website design company in Kolhapur is what you need to make your website stand out.</p>
-      <p class="service-btn"><a class="btn btn-md btn-outline-warning margin-top " href="<?php echo base_url(); ?>Creative-Design-Portfolio">VIEW MORE</a>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a class="btn btn-md btn-outline-warning2 margin-top" href="<?php echo base_url(); ?>Contact">JUST DROP US MAIL</a>
-      </p>
-        </div>
-      </div> -->
+
       <div data-aos="fade-up"     data-aos-easing="linear"     data-aos-duration="1500">
       <div id="London" class="tabcontent shadow ">
-        <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
         <div class="sub-tabcontent">
           <div data-aos="fade-up"     data-aos-easing="linear"     data-aos-duration="1500"><img class="service-image" src="<?php echo base_url(); ?>assets/images/site/website_design_kolhapur.gif" alt="website design, website, website development, website developer, application developer, static website, dynamic website, ecommerce website, website design company in kolhapur"></div>
       <p class="paragraph service-para">Website is the face of your brand, our designers can give it an appealing look which can generate more traffic and ultimately quality leads in your pocket. Our website design company in Kolhapur is what you need to make your website stand out.</p>
@@ -517,7 +451,6 @@ include('head.php');
 
     <div class="animation">
     <div id="Paris" class="tabcontent  shadow">
-      <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
       <div class="sub-tabcontent">
       <img class="service-image" src="<?php echo base_url(); ?>assets/images/site/graphic_design_kolhapur.gif" alt="Graphic design, graphic design company in kolhapur, graphic design service in kolhapur, graphic designers">
     <p class="paragraph service-para">Awesome graphics! So, what else you need? Whether you need graphic designing services for your brochure, flyer or for corporate profile. We are here for making you stand out with our stunning graphics. We have a team of designers who have done graduate diploma in GD ARTS. Our award winning designs are very much proficient in delivering creative designing work for our clientele. </p>
@@ -530,7 +463,6 @@ include('head.php');
     </div>
 
     <div id="Tokyo" class="tabcontent shadow">
-      <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
       <div class="sub-tabcontent">
       <img class="service-image mt-5" src="<?php echo base_url(); ?>assets/images/site/logo_design_kolhapur.jpg" alt="logo design company in kolhapur, logo design service in kolhapur, logo designers, logo, logo creator">
     <p class="paragraph service-para">When it comes to creating custom logo designs, we are the first option for many of our customers. Our logo design services are for those who want to impress their client right from the logo.</p>
@@ -542,7 +474,6 @@ include('head.php');
     </div>
 
     <div id="delhi" class="tabcontent shadow">
-      <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
       <div class="sub-tabcontent">
       <img class="service-image mt-5" src="<?php echo base_url(); ?>assets/images/site/branding_in_kolhapur.jpeg" alt="branading, advertising company in kolhapur">
     <p class="paragraph service-para">Earn name and fame in the market through our branding services. Make customers aware about your offerings and tell them why you are better than your competitors. Our strategic branding can create long lasting impression on your customer's mind and this is a good news, isn’t it?</p>
@@ -565,7 +496,6 @@ include('head.php');
         </div>
 
         <div id="London1" class="tabcontent2 shadow">
-          <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
           <div class="sub-tabcontent">
             <img class="service-image mt-5" src="<?php echo base_url(); ?>assets/images/site/digital_marketing_company_kolhapur.jpeg" alt="digital marketing company in kolhapur, digital marketing services in kolhapur, social media marketing, facebook marketing, seo services in kolhapur">
         <p class="paragraph service-para">We have a vigorous approach towards providing digital marketing services which can bring extremely powerful results for the business. Any type of digital marketing campaign you want to run, we have got it all covered with prowess.</p>
@@ -576,7 +506,6 @@ include('head.php');
       </div>  </div>
 
       <div id="Paris1" class="tabcontent2 shadow">
-        <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
         <div class="sub-tabcontent">
         <img class="service-image mt-5" src="<?php echo base_url(); ?>assets/images/site/signage_printing.jpg" alt="signage design in kolhapur, signage printing in kolhapur, signage services in kohapur">
       <p class="paragraph service-para">Impress your customers at the very first go through high quality signage. We have expertise in designing both interior and exterior signage. You can trust on us when it comes to signage solutions because of our good experience in the same. So, leave your signage designing hassle to us for making your work easy.</p>
@@ -589,7 +518,6 @@ include('head.php');
 
       <div data-aos="fade-up"     data-aos-easing="linear"     data-aos-duration="1500">
       <div id="Tokyo1" class="tabcontent2 shadow">
-        <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
         <div class="sub-tabcontent">
         <img class="service-image mt-5" src="<?php echo base_url(); ?>assets/images/site/printing_services_kolhapur.jpeg" alt="logo printing, brochure printing, signage printing, tshirt printing, pomplate printing, book printing">
       <p class="paragraph service-para">A perfect color combination makes a print eye-catchy. If you are looking for business cards, Envelop, Flyers, Book, Brochure Printing or any type of printing. Then we are here to give you a professional look through our stunning prints.</p>
@@ -601,7 +529,6 @@ include('head.php');
     </div></div></div>
 
       <div id="delhi1" class="tabcontent2 shadow">
-        <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
         <div class="sub-tabcontent">
         <img class="service-image mt-5" src="<?php echo base_url(); ?>assets/images/site/Corporate_eventsS.jpg" alt="">
       <p class="paragraph service-para">Keep your customers glued up with your event through outstanding designs. We are here to design your signage, brochure, display booth or wall display for making your exhibition or event memorable. We have an experience of handling corporate events all over India and have made our customers happy by successfully completing their events.</p>
@@ -768,12 +695,12 @@ include('head.php');
 
     </div>
     </div>
-</section>
+</section> -->
 
 
 
 <!-- mobile view start -->
-<section class="home-services  mobile-section  d-block d-sm-none" id="services">
+<!-- <section class="home-services  mobile-section  d-block d-sm-none" id="services">
     <div class="container home-services">
       <h1 class="title text-center ">
         <span class="">Our Services</span>
@@ -812,7 +739,6 @@ include('head.php');
       <div class="card-body">
         <div class="col-12">
           <div id="website_design" class="mobile-tab ">
-            <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
             <div class="sub-tabcontent">
             <img class="service-image" src="<?php echo base_url(); ?>assets/images/site/website_design_kolhapur.gif" alt="website design, website, website development, website developer, application developer, static website, dynamic website, ecommerce website">
           <p class="paragraph service-para">Website is the face of your brand, our designers can give it an appealing look which can generate more traffic and ultimately quality leads in your pocket. Our website design company in Kolhapur is what you need to make your website stand out.</p>
@@ -871,7 +797,6 @@ include('head.php');
       <div class="card-body">
         <div class="col-12">
             <div id="graphic_design" class="mobile-tab ">
-              <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
               <div class="sub-tabcontent">
               <img class="service-image" src="<?php echo base_url(); ?>assets/images/site/graphic_design_kolhapur.gif" alt="Graphic design, graphic design company in kolhapur, graphic design service in kolhapur, graphic designers">
             <p class="paragraph service-para">Awesome graphics! So, what else you need? Whether you need graphic designing services for your brochure, flyer or for corporate profile. We are here for making you stand out with our stunning graphics. We have a team of designers who have done graduate diploma in GD ARTS. Our award winning designs are very much proficient in delivering creative designing work for our clientele. </p>
@@ -925,7 +850,6 @@ include('head.php');
       <div class="card-body">
         <div class="col-12">
           <div id="logo_design" class="mobile-tab ">
-            <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
             <div class="sub-tabcontent">
             <img class="service-image " src="<?php echo base_url(); ?>assets/images/site/logo_design_kolhapur.jpg" alt="logo design company in kolhapur, logo design service in kolhapur, logo designers, logo, logo creator">
           <p class="paragraph service-para">When it comes to creating custom logo designs, we are the first option for many of our customers. Our logo design services are for those who want to impress their client right from the logo.</p>
@@ -976,7 +900,6 @@ include('head.php');
       <div class="card-body">
         <div class="col-12">
           <div id="strategic_branding" class="mobile-tab ">
-            <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
             <div class="sub-tabcontent">
             <img class="service-image " src="<?php echo base_url(); ?>assets/images/site/branding_in_kolhapur.jpeg" alt="branding, advertising company in kolhapur">
           <p class="paragraph service-para">Earn name and fame in the market through our branding services. Make customers aware about your offerings and tell them why you are better than your competitors. Our strategic branding can create long lasting impression on your customer's mind and this is a good news, isn’t it?</p>
@@ -1040,7 +963,6 @@ include('head.php');
       <div class="card-body">
         <div class="col-12">
           <div id="digital_marketing" class="mobile-tab">
-            <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
             <div class="sub-tabcontent">
               <img class="service-image " src="<?php echo base_url(); ?>assets/images/site/digital_marketing_company_kolhapur.jpeg" alt="digital marketing company in kolhapur, digital marketing services in kolhapur, social media marketing, facebook marketing, seo services in kolhapur">
           <p class="paragraph service-para">We have a vigorous approach towards providing digital marketing services which can bring extremely powerful results for the business. Any type of digital marketing campaign you want to run, we have got it all covered with prowess.</p>
@@ -1092,7 +1014,6 @@ include('head.php');
       <div class="card-body">
         <div class="col-12">
           <div id="signage_solution" class="mobile-tab ">
-            <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
             <div class="sub-tabcontent">
             <img class="service-image " src="<?php echo base_url(); ?>assets/images/site/signage_printing.jpg" alt="signage design in kolhapur, signage printing in kolhapur, signage services in kohapur">
           <p class="paragraph service-para">Impress your customers at the very first go through high quality signage. We have expertise in designing both interior and exterior signage. You can trust on us when it comes to signage solutions because of our good experience in the same. So, leave your signage designing hassle to us for making your work easy.</p>
@@ -1137,7 +1058,6 @@ include('head.php');
       <div class="card-body">
         <div class="col-12">
           <div id="printing_service" class="mobile-tab">
-            <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
             <div class="sub-tabcontent">
             <img class="service-image " src="<?php echo base_url(); ?>assets/images/site/printing_services_kolhapur.jpeg" alt="logo printing, brochure printing, signage printing, tshirt printing, pomplate printing, book printing">
           <p class="paragraph service-para">A perfect color combination makes a print eye-catchy. If you are looking for business cards, Envelop, Flyers, Book, Brochure Printing or any type of printing. Then we are here to give you a professional look through our stunning prints.</p>
@@ -1205,7 +1125,6 @@ include('head.php');
       <div class="card-body">
         <div class="col-12">
           <div id="corporate_event" class="mobile-tab ">
-            <!-- <div class="cancel float-right" onclick="alert();"><svg  x="0" y="200" width="60" height="20" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path></svg></div> -->
             <div class="sub-tabcontent">
             <img class="service-image " src="<?php echo base_url(); ?>assets/images/site/Corporate_eventsS.jpg" alt="">
           <p class="paragraph service-para">Keep your customers glued up with your event through outstanding designs. We are here to design your signage, brochure, display booth or wall display for making your exhibition or event memorable. We have an experience of handling corporate events all over India and have made our customers happy by successfully completing their events.</p>
@@ -1221,7 +1140,7 @@ include('head.php');
   </div>
 </div>
 </div>
-</section>
+</section> -->
 <!-- mobile view ends -->
 
 <!-- Our Services End-->
@@ -1826,6 +1745,62 @@ include('head.php');
   </script>
 
   <script>
+  $(document).ready(function(){
+    $('.group2').find('.card').addClass('hvr-card');
+    $('.group2').find('.card-icon').addClass('hvr-card-icon');
+    $('.group2').find('.card-logo').addClass('hvr-card-logo');
+    $('.group2').find('.service-title2').addClass('hvr-service-title2');
+    $('.group2').find('.service-title').addClass('hvr-service-title');
+    $('.group2').find('svg').addClass('hvr-svg');
+    $('.service2').find('svg').addClass('hvr-svg2');
+    $('.service3').find('svg').addClass('hvr-svg3');
+    $('.group2').find('p').addClass('hvr-p');
+  });
+
+  $('.group1').mouseover(function(){
+    $('.group1').find('.card').addClass('hvr-card');
+    $('.group1').find('.card-icon').addClass('hvr-card-icon');
+    $('.group1').find('.card-logo').addClass('hvr-card-logo');
+    $('.group1').find('.service-title2').addClass('hvr-service-title2');
+    $('.group1').find('.service-title').addClass('hvr-service-title');
+    $('.group1').find('svg').addClass('hvr-svg');
+    $('.service1').find('svg').addClass('hvr-svg1');
+    $('.service4').find('svg').addClass('hvr-svg4');
+    $('.group1').find('p').addClass('hvr-p');
+
+    $('.group2').find('.card').removeClass('hvr-card');
+    $('.group2').find('.card-icon').removeClass('hvr-card-icon');
+    $('.group2').find('.card-logo').removeClass('hvr-card-logo');
+    $('.group2').find('.service-title2').removeClass('hvr-service-title2');
+    $('.group2').find('.service-title').removeClass('hvr-service-title');
+    $('.group2').find('svg').removeClass('hvr-svg');
+    $('.service2').find('svg').removeClass('hvr-svg2');
+    $('.service3').find('svg').removeClass('hvr-svg3');
+    $('.group2').find('p').removeClass('hvr-p');
+  });
+
+  $('.group2').mouseover(function(){
+    $('.group2').find('.card').addClass('hvr-card');
+    $('.group2').find('.card-icon').addClass('hvr-card-icon');
+    $('.group2').find('.card-logo').addClass('hvr-card-logo');
+    $('.group2').find('.service-title2').addClass('hvr-service-title2');
+    $('.group2').find('.service-title').addClass('hvr-service-title');
+    $('.group2').find('svg').addClass('hvr-svg');
+    $('.service2').find('svg').addClass('hvr-svg2');
+    $('.service3').find('svg').addClass('hvr-svg3');
+    $('.group2').find('p').addClass('hvr-p');
+
+    $('.group1').find('.card').removeClass('hvr-card');
+    $('.group1').find('.card-icon').removeClass('hvr-card-icon');
+    $('.group1').find('.card-logo').removeClass('hvr-card-logo');
+    $('.group1').find('.service-title2').removeClass('hvr-service-title2');
+    $('.group1').find('.service-title').removeClass('hvr-service-title');
+    $('.group1').find('svg').removeClass('hvr-svg');
+    $('.service1').find('svg').removeClass('hvr-svg1');
+    $('.service4').find('svg').removeClass('hvr-svg4');
+    $('.group1').find('p').removeClass('hvr-p');
+  });
+
   function openCity(evt, cityName, tab) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -1845,7 +1820,6 @@ include('head.php');
     $('#'+cityName).find('img').addClass("fadeInUp");
     $('#'+cityName).addClass("animated");
     $('#'+cityName).addClass("fadeInUp");
-    // paragraph
   }
 
   function openCity2(evt, cityName, tab) {
