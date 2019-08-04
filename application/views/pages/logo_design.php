@@ -103,24 +103,53 @@ include('head.php'); ?>
           <p class="red-color service-recommended-head-text" style="font-size:20px;">graphic design things you should know</p>
         </a>
           <div class="service-right-menu">
-            <div class="row" >
-                <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/printing_services_kolhapur.jpeg" alt="custom logo design online free, logo design portfolio, creative logo maker, logo design blog, business card logo design, web logo designers, logo design help, logo maker design ">
-                    <p class="float-right align-self-center service-left-title">High quality <br>prints for <br>highly valuable <br> customers</p>
-            </div>
-            <div class="row" >
-                <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/Corporate_eventsS.jpg" alt="logo design, logo, company logo, business logo, logo creator, company logo design, custom logo design">
-                    <p class="float-right align-self-center service-left-title">Events which <br>will emain <br> memorable!</p>
-            </div>
-              <div class="row" >
-                  <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/branding_in_kolhapur.jpeg" alt="design my logo, design your logo, logo service, brand logo design, new logo design, corporate logo design, buy logo, buy logo design, logo design site, best logo designers, great logo design, developer logo, simple logo design, brand logo, good logo design, logo and design, professional custom logo design ">
-                      <p class="float-right align-self-center service-left-title">Transform your<br> brand</p>
-              </div>
-              <div class="row" >
-                  <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/digital_marketing_company_kolhapur.jpeg" alt="cool logo designs, graphic design custom logo,  new logo ">
-                      <p class="float-right align-self-center service-left-title">Make your <br> pocket full of <br>quality leads!</p>
-              </div>
+            <!-- printing services -->
+                    <a href="<?php echo base_url(); ?>printing-services-kolhapur">
+                      <div class="row">
+                        <div class="col-6">
+                          <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/printing_services_kolhapur.jpeg" alt="Printing, Printing Services in Kolhapur, Brochure Printing, Business Card Printing, Flyer Printing, Envelop Printing, books Printing, printing services in kolhapur, printing company">
+                          </div>
+                        <div class="col-6 mt-1">
+                          <p class="service-left-title ">High quality prints for highly valuable customers</p>
+                        </div>
+                      </div>
+                    </a>
 
+                    <!-- corporate events -->
+                            <a href="<?php echo base_url(); ?>event-management-services-kolhapur">
+                              <div class="row">
+                                <div class="col-6">
+                                  <img class="service-img table-cell" src="<?php echo base_url(); ?>assets/images/site/Corporate_eventsS.jpg" alt="Corporate Events, industrial event, events">
+                                  </div>
+                                <div class="col-6 mt-2">
+                                  <p class="service-left-title">Events which will emain memorable!</p>
+                                </div>
+                              </div>
+                            </a>
 
+                            <!-- branding -->
+                          	 <a href="<?php echo base_url(); ?>strategic-branding-kolhapur">
+                                      <div class="row">
+                                        <div class="col-6">
+                                          <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/branding_in_kolhapur.jpeg" alt="Strategic Branding Services, branding in kolhapur, Brand Identity, Branding">
+                                         </div>
+                                        <div class="col-6 mt-2">
+                                         <p class="float-right align-self-center service-left-title">Transform your<br> brand</p>
+                                        </div>
+                                      </div>
+                                    </a>
+
+                                    <!-- digital marketing -->
+                                            <a href="<?php echo base_url(); ?>digital-marketing-services-kolhapur">
+                                              <div class="row">
+                                                <div class="col-6">
+                                                  <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/digital_marketing_company_kolhapur.jpeg" alt="Digital Marketing company in kolhapur, Digital Marketing services in kolhapur, Digital Marketing, seo, search engine optimization, seo services in kolhapur, branding services in kolhapur, facebook marketing, google adwords, ppc, pay per click, twitter marketing, instagram marketing">
+                                                </div>
+                                                <div class="col-6 mt-2">
+                                                  <p class="service-left-title">Make your  pocket full of quality leads!</p>
+                                                </div>
+                                              </div>
+                                            </a>
               <div class="row">
 
               </div>
