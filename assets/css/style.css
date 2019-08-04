@@ -35,10 +35,12 @@ body{
 .font-35{
   font-size:35px;
 }
-
 h1, h2, h3, h4, h5{
   font-family: 'Glegoo', Helvetica, Arial, serif !important;
   font-weight: 600;
+}
+a:hover{
+  text-decoration: none;
 }
 /* Colors */
 .fb-color-bg{
@@ -67,6 +69,11 @@ h1, h2, h3, h4, h5{
 .btn{
   font-family: "Roboto", Helvetica, Arial, sans-serif !important;
 }
+/* .service-btn  .btn-outline-warning {
+    color: #000 ;
+    border-color: #000 !important;
+    border-radius: 0 !important;
+} */
 .btn-outline-warning {
     color: #000 ;
     border-color: #fdc14d ;
@@ -788,6 +795,15 @@ section{
   left: 42%;
   bottom: 0;
 }
+@media screen and (max-width: 479px) {
+  /* .home-about .image{
+    padding-top:0px;
+  } */
+  /* .home-about .frist-div{
+    padding-top:40px !important;
+  } */
+}
+/* About Section Services */
 .service1, .service2, .service3, .service4{
   position: relative;
   height: 350px;
@@ -841,7 +857,6 @@ section{
   height: 85px;
   margin: auto;
   border-radius: 50%;
-  /* transition: 150ms; */
 }
 .hvr-card-icon{
   width: 65px !important;
@@ -897,7 +912,6 @@ section{
   height: auto !important;
   margin-bottom: 10px !important;
 }
-
 .hvr-card-logo{
   display: -ms-flexbox !important;
   display: flex !important;
@@ -918,7 +932,6 @@ section{
   fill: #24BDCB !important;
 }
 
-
 /* Service 1 */
 .service1 .card{
   background: #F84775;
@@ -926,9 +939,6 @@ section{
 .home-about .card1-icon{
   background: #CF3464;
 }
-
-
-
 /* Service 2 */
 .service2 .card{
   background: #20B6FD;
@@ -937,9 +947,6 @@ section{
 .home-about .card2-icon{
   background: #149dde;
 }
-
-
-
 /* Service 3 */
 .service3 .card{
   background: #A25FCC;
@@ -947,9 +954,6 @@ section{
 .home-about .card3-icon{
   background: #8e47ba;
 }
-
-
-
 /* service 4 */
 .service4 .card{
   background: #24BDCB;
@@ -958,20 +962,130 @@ section{
 .home-about .card4-icon{
   background: #11A5A5;
 }
-
-.card1-icon svg,{
-  margin-top: 10px;
-  margin-left: 13px;
+@media screen and (max-width: 479px) {
+  .about-services{
+    display: none;
+  }
 }
+/* About Section Services End*/
+
+/* Our Services in Row */
+.trans{
+  background-color: #fff;
+  border-radius: 50%;
+  fill:#000 ;
+  width:100px;
+  height:100px;
+  /* -webkit-transition: all .30s ease-in;
+  -moz-transition: all .30s ease-in;
+  -ms-transition: all .30s ease-in;
+  -o-transition: all .30s ease-in;
+  transition: all .30s ease-in !important; */
+}
+.trans1{
+  fill:rgba(163, 98, 204, 1);
+  box-shadow: 1px 1px 2px rgba(163, 98, 204, 0.5), 0 0 15px rgba(163, 98, 204, 0.5);
+}
+.trans2{
+  fill:rgba(234, 73, 115, 1);
+  box-shadow: 1px 1px 2px rgba(234, 73, 115, 0.5), 0 0 15px rgba(234, 73, 115, 0.5);
+}
+.trans3{
+  fill:rgba(44, 186, 201, 1);
+  box-shadow: 1px 1px 2px rgba(44, 186, 201, 0.5), 0 0 15px rgba(44, 186, 201, 0.5);
+}
+.trans svg{
+  margin-top: 25px;
+}
+/* Classes */
+.classes{
+  background-color: #fdc14d;
+  padding: 3rem 1rem 3rem 1rem;
+}
+.classes .col-md-6{
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.classes .web-classes, .classes .digital-classes{
+  background-color: #fff;
+  border-radius: 2rem;
+  padding: 40px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.classes-title{
+  font-size: 32px;
+}
+.classes-sub-title{
+  font-size: 20px;
+  padding-bottom: 7px;
+  position: relative;
+  line-height: 1.7rem;
+}
+.classes-sub-title::after{
+  content: '';
+  height: 3px;
+  width: 15%;
+  background: #EA4973;
+  position: absolute;
+  left: 42%;
+  bottom: 0;
+}
+
+/* .services-box:hover .trans{
+  background-color: #fdc14d !important;
+  border-radius: 50% !important;
+  fill:#fff !important;
+  -webkit-transition: all .30s ease-in;
+  -moz-transition: all .30s ease-in;
+  -ms-transition: all .30s ease-in;
+  -o-transition: all .30s ease-in;
+  transition: all .30s ease-in !important;
+} */
+.home-services h3 {
+    margin-top: 15px !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
+}
+.services-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.services-box p {
+    margin-top: 10px;
+    text-align: center;
+}
+/* .line-hr {
+	margin: 0 auto;
+	margin-top: 15px;
+	width: 40px;
+	height: 1px;
+	background-color: #fdc14d;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-ms-transition:all 0.3s;
+	transition:all 0.3s;
+}
+.services-box:hover .line-hr{
+	background-color: #000;
+} */
 
 @media screen and (max-width: 479px) {
-  .home-about .image{
-    padding-top:0px;
+  .trans{
+    background-color: #fdc14d !important;
+    border-radius: 50% !important;
+    fill:#fff !important;
+    -webkit-transition: all .30s ease-in;
+    -moz-transition: all .30s ease-in;
+    -ms-transition: all .30s ease-in;
+    -o-transition: all .30s ease-in;
+    transition: all .30s ease-in !important;
   }
-  .home-about .frist-div{
-    padding-top:40px !important;
+  .services-box {
+    margin-bottom: 1rem;
   }
 }
+/* Our Services in Row End*/
 
 
 /* Our services */
@@ -1053,7 +1167,7 @@ section{
     transition: all .30s ease-in !important;
   } */
 }
-.home-services .service-h3{
+/* .home-services .service-h3{
   text-align: left;
 }
 .home-services .service-h3-2{
@@ -1061,8 +1175,8 @@ section{
   width: 280px;
   margin-left: -5px!important;
 
-}
-.services-box:hover .service-h3 {
+} */
+/* .services-box:hover .service-h3 {
   z-index: -1;
   background-color: #fdc14d;
   color: #000!important;
@@ -1081,10 +1195,9 @@ section{
   z-index: -1;
   background-color: #fdc14d;
   color: #000!important;
-}
-.home-services .col-md-4, .home-services .col-md-8{
+} */
+/* .home-services .col-md-4, .home-services .col-md-8{
   padding: 0px!important;
-
 }
 .home-services .col-md-8{
   z-index: 1;
@@ -1099,10 +1212,9 @@ section{
     width: 300px;
     z-index: -1;
     color: #888;
-}
-.tabcontent{
+} */
+/* .tabcontent{
   padding: 10px;
-
 }
 .sub-tabcontent{
   padding-left: 50px;
@@ -1111,19 +1223,12 @@ section{
 .service-para{
   padding-bottom: 10px;
   padding-top: 20px;
-}
+} */
 /* service Buttons */
-.service-btn  .btn-outline-warning {
-    color: #000 ;
-    border-color: #000 !important;
-    border-radius: 0 !important;
-}
 
-a:hover{
-  text-decoration: none;
 
-}
-.service-btn .btn-outline-warning:hover{
+
+/* .service-btn .btn-outline-warning:hover{
 	background-color: #000 ;
   color: #fff !important;
   border-color: #000 !important;
@@ -1138,7 +1243,12 @@ a:hover{
 .service-btn .btn-outline-warning2:hover{
   background-color: #fff;
   color: #000!important;
-}
+} */
+
+
+
+
+
 
 /* service page design */
 .service-pg-container{
