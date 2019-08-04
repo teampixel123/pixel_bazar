@@ -1258,8 +1258,11 @@ a:hover{
 }
 .service-right-menu .service-img{
   /* float: left; */
-  width: 50%;
-  padding: 10px;
+  width: 120%;
+  padding: 2px 8px 2px 8px;
+}
+.service-right-menu a{
+  color: #000;
 }
 .red-color{
   color: #F16522;

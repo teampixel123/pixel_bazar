@@ -99,26 +99,51 @@ include('head.php'); ?>
           <img class="service-pg-img" src="<?php echo base_url(); ?>assets/images/site/branding_in_kolhapur.jpeg" alt="logo design, logo, company logo, business logo, logo creator, company logo design, custom logo design, business logo design, custom logo, best logo design, logo design services " style="width:100%; height:auto;">
           <p class="red-color service-recommended-head-text" style="font-size:20px;">Transform your brand</p>
           </a>
-          <div class="service-right-menu">
-            <div class="row" >
-                <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/logo_design_kolhapur.jpg" alt=" professional custom logo design ">
-                    <p class="float-right align-self-center service-left-title">Meaningful logos <br>which can <br>stand out! </p>
+        <div class="service-right-menu">
+          <a href="<?php echo base_url(); ?>logo-design-kolhapur">
+            <div class="row">
+              <div class="col-6">
+                <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/logo_design_kolhapur.jpg" alt="professional custom logo design" >
+              </div>
+              <div class="col-6 mt-2">
+                <p class="service-left-title">Meaningful logos which can stand out! </p>
+              </div>
             </div>
-              <div class="row" >
-                  <img class="service-img table-cell" src="<?php echo base_url(); ?>assets/images/site/digital_marketing_company_kolhapur.jpeg" alt="cool logo designs, graphic design custom logo,  new logo ">
-                      <p class="float-right align-self-center service-left-title table-cell">Make your <br> pocket full of <br>quality leads!</p>
-              </div>
-              <div class="row" >
-                  <img class="service-img table-cell" src="<?php echo base_url(); ?>assets/images/site/printing_services_kolhapur.jpeg" alt="custom logo design online free, logo design portfolio, creative logo maker, logo design blog, business card logo design, web logo designers, logo design help, logo maker design ">
-                      <p class="float-right align-self-center service-left-title table-cell">High quality <br>prints for <br>highly valuable <br> customers</p>
-              </div>
-              <div class="row" >
-                  <img class="service-img table-cell" src="<?php echo base_url(); ?>assets/images/site/Corporate_eventsS.jpg" alt="logo design, logo, company logo, business logo, logo creator, company logo design, custom logo design">
-                  <p class="float-right align-self-center service-left-title table-cell">Events which <br>will emain <br> memorable!</p>
-              </div>
-              <div class="row">
+          </a>
 
+          <a href="<?php echo base_url(); ?>digital-marketing-services-kolhapur">
+            <div class="row">
+              <div class="col-6">
+                <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/digital_marketing_company_kolhapur.jpeg" alt="cool logo designs, graphic design custom logo,  new logo ">
               </div>
+              <div class="col-6 mt-2">
+                <p class="service-left-title">Make your  pocket full of quality leads!</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="<?php echo base_url(); ?>printing-services-kolhapur">
+            <div class="row">
+              <div class="col-6">
+                <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/printing_services_kolhapur.jpeg" alt="custom logo design online free, logo design portfolio, creative logo maker, logo design blog, business card logo design, web logo designers, logo design help, logo maker design ">
+                </div>
+              <div class="col-6 mt-1">
+                <p class="service-left-title ">High quality prints for highly valuable customers</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="<?php echo base_url(); ?>corporate-event-management">
+            <div class="row">
+              <div class="col-6">
+                <img class="service-img table-cell" src="<?php echo base_url(); ?>assets/images/site/Corporate_eventsS.jpg" alt="logo design, logo, company logo, business logo, logo creator, company logo design, custom logo design">
+                </div>
+              <div class="col-6 mt-2">
+                <p class="service-left-title">Events which will emain memorable!</p>
+              </div>
+            </div>
+          </a>
+
           </div>
           <div class="service-right-menu-bottom">
             <div class="row" >
