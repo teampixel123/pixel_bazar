@@ -203,8 +203,10 @@ class Welcome extends CI_Controller {
 		$name = $this->input->post('name');
 		$sender_email = 'info@pixelbazar.com';
 		$rec_email = $this->input->post('rec_email');
-
 		 $message = '
+		 	 <p style="text-align:center;">
+			 	<img height="100px" width="100px" src="'.base_url().'assets/images/site/Pixel_Bazar_Logo-01.png">
+			 <p>
 			 <p style="text-align:center; color:#698291; font-weight: normal; margin: 0; padding: 0; line-height: 20px; font-size: 20px;font-family: Georgia, serif; ">
 			 Welcome to Pixel Bazar
 			 </p><br>
@@ -213,9 +215,10 @@ class Welcome extends CI_Controller {
 			 </p><br>
 			 <p style="text-align:center; color:#698291; font-weight: normal; margin: 0; padding: 0; line-height: 20px; font-size: 16px;font-family: Georgia, serif; ">
 			 '.$title.'
-			 </p>
+			 </p><br>
+
 			 <p style="text-align:center; color:#767676; font-weight: normal; margin: 0; padding: 0; line-height: 20px; font-size: 14px;font-family: Georgia, serif; ">
-			 <a href='.$page_url.'>Details</a> | <a href='.base_url().'Creative-Design-Portfolio>See More Work</a>
+			 <a href='.$page_url.'>Details</a> | <a href='.base_url().'Creative-Design-Portfolio>See Our Work</a>
 			 </p>
 				<hr>
 			 <br>
@@ -238,6 +241,7 @@ class Welcome extends CI_Controller {
 			 else{
 				$this->session->set_flashdata("email_msg","email_error");
 			 }
+			 header('location:'.$page_url.'');
 		 }
 
 	public function send_feedback(){

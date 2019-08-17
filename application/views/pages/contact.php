@@ -38,7 +38,7 @@ include('head.php'); ?>
           </i>
           <div class="contact-info">
             <h5 class="contact-title">Call Us:</h5>
-            <p><a href="tel:9158995505">9158995505</a></p>
+            <p><a href="tel:+919158995505">+919158995505</a></p>
           </div>
         </div>
         <div class="contact-tab">

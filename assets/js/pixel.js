@@ -260,7 +260,6 @@ star_rating();
 onpageload_menu = function () {
 for (var lnk = document.links, j = 0; j < lnk.length; j++)
   if (lnk [j].href === document.URL) {
-
     $(lnk [j]).addClass('active');
     $(lnk [j]).parent().parent().parent('li').children('a').addClass('active');
   }
@@ -333,8 +332,8 @@ $(document).ready(function(){
         else
         {
           //alert(value);
-             $(".item").not('.'+value).hide('3000');
-             $('.item').filter('.'+value).show('3000');
+           $(".item").not('.'+value).hide('3000');
+           $('.item').filter('.'+value).show('3000');
         }
         if ($(".port-btn").removeClass("active")) {
         $(this).removeClass("active");
@@ -458,40 +457,41 @@ function star_rating(){
 
 // Portfolio Scroll Mouse Hover Effect
 // $('.tile1').removeClass("margin-minus-20");
-$('.scroller').mousedown(function(event) {
-  $(this).data('down', true).data('x', event.clientX).data('scrollLeft', this.scrollLeft);
-  return false;
-}).mouseup(function(event) {
-  $(this).data('down', false);
-}).mousemove(function(event) {
-  $('.tile1').removeClass("margin-minus-20");
-    // alert('this-div');
-  if ($(this).data('down') == true) {
-      this.scrollLeft = $(this).data('scrollLeft') + $(this).data('x') - event.clientX;
-  }
+// $('.scroller').mousedown(function(event) {
+//   // $(this).data('down', true).data('x', event.clientX).data('scrollLeft', this.scrollLeft);
+//   return false;
+// }).mouseup(function(event) {
+//   $(this).data('down', false);
+// }).mousemove(function(event) {
+//   $('.tile1').removeClass("margin-minus-20");
+//     // alert('this-div');
+//   if ($(this).data('down') == true) {
+//       this.scrollLeft = $(this).data('scrollLeft') + $(this).data('x') - event.clientX;
+//   }
+// });
+
+// var pos = 5;
+
+// $.fn.loopingScroll = function(direction, scrollElement) {
+//   if (direction == "right") {
+//       pos += 5;
+//   }
+//   else if (direction == "left") {
+//       pos -= 5;
+//   }
+//   $(scrollElement).parent().scrollLeft($(scrollElement).parent().data('scrollLeft') + pos);
+//   return this;
+// }
+$(document).ready(function(){
+  $(".scroll-left").parent().animate({scrollLeft: 250});
 });
-
-var pos = 5;
-
-$.fn.loopingScroll = function(direction, scrollElement) {
-  if (direction == "right") {
-      pos += 5;
-  }
-  else if (direction == "left") {
-      pos -= 5;
-  }
-  $(scrollElement).parent().scrollLeft($(scrollElement).parent().data('scrollLeft') + pos);
-  return this;
-}
-
 $(".scroll-left").hover(function() {
     $(this).parent().animate({scrollLeft: 0}, 2000);
     $(this).fadeIn('fast');
-    // $('.row-scroll').find("div").animate({opacity: 1}, 600);
+    // $(this).closest(".tile").addClass('w-85');
 }, function() {
     $(this).parent().stop();
     $(this).fadeOut('fast');
-    // $('.scroller').find(".img-overlay:first").animate({opacity: 0}, 600);
 });
 
 $(".scroll-right").hover(function() {
@@ -501,6 +501,9 @@ $(".scroll-right").hover(function() {
     $(this).parent().stop();
     $(this).fadeOut('fast');
 });
+
+
+
 
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     document.getElementById("whats_app").href = "https://api.whatsapp.com/send?phone=+919158995505";   //change url

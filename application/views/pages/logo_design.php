@@ -179,8 +179,8 @@ include('head.php'); ?>
         </div>
         <div class="modal-body">
           <form id="portfolio_form" method="post" class="message-form clear" action="<?php echo base_url(); ?>Welcome/send_service_email">
-              <input type="hidden" name="page_url" value="<?php echo base_url(); ?>">
-              <input type="hidden" name="title" value="Best Logo Design Company in Kolhapur">
+              <input type="hidden" name="page_url" value="<?php echo base_url(); ?>logo-design-kolhapur">
+              <input type="hidden" name="title" value="Give identity to your brand with our logo design company">
               <div class="form-row">
               <div class="form-group row w-100 ">
                 <label for="inputPassword" class="col-sm-3 col-form-label text-right pb-2">Your Name: </label>
@@ -204,6 +204,7 @@ include('head.php'); ?>
       </div>
     </div>
   </div>
+  <div id="snackbar"></div>
 <?php include('footer.php'); ?>
 <script type="text/javascript">
   $('#send_portfolio_email').click(function(){
@@ -212,20 +213,31 @@ include('head.php'); ?>
   $('#send_portfolio_email').click(function() {
     $('#portfolio_form').submit();
   });
-  // $('#portfolio_form').submit(function(e){
-  //   var data = $(this).serialize();
-  //   $.ajax({
-  //     url:'<?php echo base_url(); ?>Welcome/send_service_email',
-  //     type:"post",
-  //     data:data,
-  //     processData:false,
-  //     contenttype:false,
-  //     cache:false,
-  //     async:false,
-  //     success:function(data){
-  //     }
-  //   });
-  // });
 </script>
+<?php if($this->session->flashdata("email_msg")){
+  $email_msg = $this->session->flashdata("email_msg");
+ ?>
+<input type="hidden" id="email_msg" name="email_msg" value="<?php echo $email_msg; ?>">
+<script>
+  $('document').ready(function(){
+    function myFunction() {
+      var x = document.getElementById("snackbar");
+      var email_msg = $('#email_msg').val();
+      if(email_msg == 'email_success'){
+        x.className = "show_success";
+        $('#snackbar').html('Email sent successfully.');
+        setTimeout(function(){ x.className = x.className.replace("show_success", ""); }, 3000);
+        gtag_report_conversion('https://www.pixelbazar.com/');
+      }
+      else{
+        x.className = "show_error";
+        $('#snackbar').html('Email not sent.');
+        setTimeout(function(){ x.className = x.className.replace("show_error", ""); }, 3000);
+      }
+    }
+    myFunction();
+  });
+</script>
+<?php } ?>
     </body>
   </html>
