@@ -18,7 +18,7 @@ include('head.php'); ?>
     </div> -->
 
     <div class="row ">
-      <div class="col-md-8">
+      <div class="col-md-8" id="left-col">
           <h1 class="service-title">Beautify you website with Web design and development services </h1>
           <h3 class="service-sub-title red-color">Turn visitors into customers with beautiful designs</h3>
           <div class="social-media">
@@ -100,7 +100,7 @@ include('head.php'); ?>
               <a class="btn btn-lg btn-outline-warning " href="<?php echo base_url(); ?>Contact">Get Started</a>
             </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4" id="right-col">
 
           <h3 class="service-recommended">Recommended for you</h3>
           <a href="<?php echo base_url(); ?>strategic-branding-kolhapur">
@@ -135,11 +135,11 @@ include('head.php'); ?>
                           <!-- printing services -->
                                   <a href="<?php echo base_url(); ?>printing-services-kolhapur">
                                     <div class="row">
-                                      <div class="col-6">
+                                      <div class="col-6 ">
                                         <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/printing_services_kolhapur.jpeg" alt="Printing, Printing Services in Kolhapur, Brochure Printing, Business Card Printing, Flyer Printing, Envelop Printing, books Printing, printing services in kolhapur, printing company">
                                         </div>
-                                      <div class="col-6 mt-1">
-                                        <p class="service-left-title ">High quality prints for highly valuable customers</p>
+                                      <div class="col-6 mt-2">
+                                        <p class="service-left-title">High quality prints for highly valuable customers</p>
                                       </div>
                                     </div>
                                   </a>
