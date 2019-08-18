@@ -159,7 +159,7 @@ include('head.php');
                     </div>
                     <p class="service-web">Website is represents your brand, our team can give it an appealing look which can generate more traffic and ultimately quality leads. Our website design company in Kolhapur is what you need to make your website stand out.</p>
                     <a class="btn btn-md btn-service" href="<?php echo base_url(); ?>website-design-development-kolhapur">READ MORE</a>
-                    <!-- <a class="btn btn-md btn-service2" href="<?php echo base_url(); ?>website-design-development-kolhapur">READ MORE</a> -->
+                    <a class="btn btn-md btn-service2" href="<?php echo base_url(); ?>website-design-development-kolhapur">READ MORE</a>
 
                   </div>
                 </div>
@@ -198,6 +198,8 @@ include('head.php');
                     <p>When it comes to creating custom logo designs, we are the first option for many of our customers. Our logo design services are for those who want to impress their client right from the logo. We are creative GD Art team with extensive experience.
                     </p>
                     <a class="btn btn-md btn-service" href="<?php echo base_url(); ?>logo-design-kolhapur">READ MORE</a>
+                    <a class="btn btn-md btn-service2" href="<?php echo base_url(); ?>logo-design-kolhapur">READ MORE</a>
+
                   </div>
                 </div>
               </div>
@@ -243,6 +245,8 @@ include('head.php');
                     <p>Awesome graphics! Whether you need graphic designing services for your brochure, flyer or for corporate profile. We are here for making you stand out with our stunning graphics. Our award winning designs are very much proficient in delivering creative.
                     </p>
                       <a class="btn btn-md btn-service" href="<?php echo base_url(); ?>graphic-design-services-kolhapur">READ MORE</a>
+                      <a class="btn btn-md btn-service2" href="<?php echo base_url(); ?>graphic-design-services-kolhapur">READ MORE</a>
+
                   </div>
                 </div>
               </div>
@@ -279,6 +283,8 @@ include('head.php');
                     <p>Earn name and fame in the market. Aware customers about your offerings and tell them why you are better than your competitors. Our strategic branding can create long lasting impression on your customer and this is a good news, isn’t it?
                     </p>
                       <a class="btn btn-md btn-service" href="<?php echo base_url(); ?>strategic-branding-kolhapur">READ MORE</a>
+                      <a class="btn btn-md btn-service2" href="<?php echo base_url(); ?>strategic-branding-kolhapur">READ MORE</a>
+
                   </div>
                 </div>
               </div>
@@ -2277,6 +2283,8 @@ include('head.php');
     $('.service2').find('svg').addClass('hvr-svg2');
     $('.service3').find('svg').addClass('hvr-svg3');
     $('.group2').find('p').addClass('hvr-p');
+    $('.group2').find('.btn-service').addClass('btn-hvr-hide');
+    $('.group2').find('.btn-service2').addClass('btn-hvr-show');
   });
 
   $('.group1').mouseover(function(){
@@ -2289,7 +2297,9 @@ include('head.php');
     $('.service1').find('svg').addClass('hvr-svg1');
     $('.service4').find('svg').addClass('hvr-svg4');
     $('.group1').find('p').addClass('hvr-p');
-    $('.service1').find('.btn-service').addClass('hvr-btn-web');
+    $('.service1').find('.btn-service2').addClass('hvr-btn-web');
+    $('.group1').find('.btn-service').addClass('btn-hvr-hide');
+    $('.group1').find('.btn-service2').addClass('btn-hvr-show');
 
     $('.group2').find('.card').removeClass('hvr-card');
     $('.group2').find('.card-icon').removeClass('hvr-card-icon');
@@ -2300,6 +2310,8 @@ include('head.php');
     $('.service2').find('svg').removeClass('hvr-svg2');
     $('.service3').find('svg').removeClass('hvr-svg3');
     $('.group2').find('p').removeClass('hvr-p');
+    $('.group2').find('.btn-service').removeClass('btn-hvr-hide');
+    $('.group2').find('.btn-service2').removeClass('btn-hvr-show');
   });
 
   $('.group2').mouseover(function(){
@@ -2312,6 +2324,8 @@ include('head.php');
     $('.service2').find('svg').addClass('hvr-svg2');
     $('.service3').find('svg').addClass('hvr-svg3');
     $('.group2').find('p').addClass('hvr-p');
+    $('.group2').find('.btn-service').addClass('btn-hvr-hide');
+    $('.group2').find('.btn-service2').addClass('btn-hvr-show');
 
     $('.group1').find('.card').removeClass('hvr-card');
     $('.group1').find('.card-icon').removeClass('hvr-card-icon');
@@ -2322,7 +2336,9 @@ include('head.php');
     $('.service1').find('svg').removeClass('hvr-svg1');
     $('.service4').find('svg').removeClass('hvr-svg4');
     $('.group1').find('p').removeClass('hvr-p');
-    $('.service1').find('.btn-service').removeClass('hvr-btn-web');
+    $('.service1').find('.btn-service2').removeClass('hvr-btn-web');
+    $('.group1').find('.btn-service').removeClass('btn-hvr-hide');
+    $('.group1').find('.btn-service2').removeClass('btn-hvr-show');
   });
 
   function openCity(evt, cityName, tab) {
