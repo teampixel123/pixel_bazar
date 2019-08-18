@@ -850,8 +850,29 @@ section{
   /* left:20%; */
 }
 .hvr-btn-web{
-  margin-top: 20px;
+  margin-top: 20px !important;
 }
+.home-about .about-services .btn-service2{
+  color: #fff ;
+  border-color: #fdc14d ;
+  border-radius: 0 !important;
+  border-color: #fff;
+  opacity: 0;
+  /* display: none; */
+  transition: 550ms;
+}
+.btn-hvr-hide{
+  display: none;
+}
+.btn-hvr-show{
+  opacity: 1 !important;
+  /* display: block !important; */
+  width:130px !important;
+  /* margin: auto !important; */
+  transition-delay: 550ms !important;
+}
+
+
 .service2 .service-title span{
   display: block;
 }
