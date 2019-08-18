@@ -13,7 +13,7 @@ include('head.php'); ?>
 	</div> -->
   <div class="container service-pg-container">
     <div class="row ">
-      <div class="col-md-8">
+      <div class="col-md-8" id="left-col">
           <h1 class="service-title">Leading Graphic design company in Kolhapur</h1>
           <h3 class="service-sub-title red-color">We create designs, which designs business!</h3>
           <div class="social-media">
@@ -91,7 +91,7 @@ include('head.php'); ?>
             <p>So, focus on your business side and let our designers take care of your graphic designing concern. As our graphic design company in Kolhapur is what you need to take a giant leap in your business through attention-grabbing designs which your audience will love to see repeatedly.</p>
             <a class="btn btn-service btn-outline-warning2 " href="https://www.pixelbazar.com/Contact">Get Started</a>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4" id="right-col">
 
           <h3 class="service-recommended">Recommended for you</h3>
             <a href="<?php echo base_url(); ?>website-design-development-kolhapur">
@@ -106,7 +106,7 @@ include('head.php'); ?>
                           <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/branding_in_kolhapur.jpeg" alt="Strategic Branding Services, branding in kolhapur, Brand Identity, Branding">
                          </div>
                         <div class="col-6 mt-2">
-                         <p class="float-right align-self-center service-left-title">Transform your<br> brand</p>
+                         <p class="align-self-center service-left-title">Transform your<br> brand</p>
                         </div>
                       </div>
                     </a>

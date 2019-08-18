@@ -1864,6 +1864,12 @@ outline: none;
   background-color: rgba(255, 255, 255, 0.1)!important;
 }
 @media screen and (max-width: 400px) {
+  #left-col{
+    padding-right: 10px!important;
+  }
+  #right-col{
+    padding-left: 0px!important;
+  }
   /* .trans{
     background-color: #fff;
     border-radius: 50%;

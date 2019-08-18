@@ -151,7 +151,7 @@ include('head.php'); ?>
                                                 <img class="service-img table-cell" src="<?php echo base_url(); ?>assets/images/site/Corporate_eventsS.jpg" alt="Corporate Events, industrial event, events">
                                                 </div>
                                               <div class="col-6 mt-2">
-                                                <p class="service-left-title">Events which will emain memorable!</p>
+                                                <p class="service-left-title">Events which will remain memorable!</p>
                                               </div>
                                             </div>
                                           </a>

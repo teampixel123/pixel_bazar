@@ -13,7 +13,7 @@ include('head.php'); ?>
 	</div> -->
   <div class="container service-pg-container">
     <div class="row ">
-      <div class="col-md-8">
+      <div class="col-md-8" id="left-col">
           <h1 class="service-title">Corporate event management for your comfort</h1>
           <h3 class="service-sub-title red-color">Events which will remain memorable!</h3>
           <div class="social-media">
@@ -93,7 +93,7 @@ include('head.php'); ?>
           <p>Your quest for the perfect event management solutions finds fulfillment at Pixel Media. Contact us today for more details.</p>
           <a class="btn btn-service btn-outline-warning2 " href="https://www.pixelbazar.com/Contact">Get Started</a>
       </div>
-      <div class="col-md-4 recommend">
+      <div class="col-md-4 recommend" id="right-col">
 
         <h3 class="service-recommended">Recommended for you</h3>
         <a href="<?php echo base_url(); ?>website-design-development-kolhapur">
@@ -109,7 +109,7 @@ include('head.php'); ?>
                   <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/branding_in_kolhapur.jpeg" alt="Strategic Branding Services, branding in kolhapur, Brand Identity, Branding">
                  </div>
                 <div class="col-6 mt-2">
-                 <p class="float-right align-self-center service-left-title">Transform your<br> brand</p>
+                 <p class="align-self-center service-left-title">Transform your<br> brand</p>
                 </div>
               </div>
             </a>

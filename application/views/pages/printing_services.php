@@ -13,7 +13,7 @@ include('head.php'); ?>
 	</div> -->
   <div class="container service-pg-container">
     <div class="row ">
-      <div class="col-md-8">
+      <div class="col-md-8" id="left-col">
           <h1 class="service-title">Clear, Crisp and Creative Printing Solutions</h1>
           <h3 class="service-sub-title red-color">High quality prints for highly valuable customers</h3>
           <div class="social-media">
@@ -95,7 +95,7 @@ include('head.php'); ?>
           <p>So, contact us for any kind of printing and get world-class prints at cost effective prices.</p>
           <a class="btn btn-service btn-outline-warning2 " href="https://www.pixelbazar.com/Contact">Get Started</a>
       </div>
-      <div class="col-md-4 recommend">
+      <div class="col-md-4 recommend" id="right-col">
 
           <h3 class="service-recommended">Recommended for you</h3>
           <a href="<?php echo base_url(); ?>signage-design-printing-kolhapur">
@@ -104,15 +104,15 @@ include('head.php'); ?>
           </a>
 
           <div class="service-right-menu">
-            <!-- Website design -->
-             <a href="<?php echo base_url(); ?>website-design-development-kolhapur">
+            <!-- corporate events -->
+                    <a href="<?php echo base_url(); ?>event-management-services-kolhapur">
                       <div class="row">
                         <div class="col-6">
-                          <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/website_design_kolhapur.gif" alt="website design, web design, web page design, website development, web design company, web development company, ecommerce website, static website, dynamic website, web design company in kolhapur, website design company in kolhapur, web development company in kolhapur, website development company in kolhapur">
-                         </div>
+                          <img class="service-img table-cell" src="<?php echo base_url(); ?>assets/images/site/Corporate_eventsS.jpg" alt="Corporate Events, industrial event, events">
+                          </div>
                         <div class="col-6 mt-2">
-                         <p class="float-right align-self-center service-left-title">Turn visitors<br>into customers<br>with beautiful<br>designs</p>
-                      </div>
+                          <p class="service-left-title">Events which will remain memorable!</p>
+                        </div>
                       </div>
                     </a>
 
@@ -135,7 +135,7 @@ include('head.php'); ?>
                           <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/branding_in_kolhapur.jpeg" alt="Strategic Branding Services, branding in kolhapur, Brand Identity, Branding">
                          </div>
                         <div class="col-6 mt-2">
-                         <p class="float-right align-self-center service-left-title">Transform your<br> brand</p>
+                         <p class=" align-self-center service-left-title">Transform your<br> brand</p>
                         </div>
                       </div>
                     </a>

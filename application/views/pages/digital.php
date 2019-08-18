@@ -13,7 +13,7 @@ include('head.php'); ?>
 	</div> -->
   <div class="container service-pg-container">
     <div class="row ">
-      <div class="col-md-8">
+      <div class="col-md-8" id="left-col">
           <h1 class="service-title">Shout loud on internet with digital marketing services in Kolhapur</h1>
           <h3 class="service-sub-title red-color">Make your pocket full of quality leads!</h3>
           <div class="social-media">
@@ -94,7 +94,7 @@ include('head.php'); ?>
           <p>Contact us for speaking with our passionate digital marketing team.</p>
           <a class="btn btn-service btn-outline-warning2 " href="https://www.pixelbazar.com/Contact">Get Started</a>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4" id="right-col">
         <a href="<?php echo base_url(); ?>website-design-development-kolhapur">
           <h3 class="service-recommended">Recommended for you</h3>
           <img class="service-pg-img" src="<?php echo base_url(); ?>assets/images/site/website_design_kolhapur.gif" alt="logo design, logo, company logo, business logo, logo creator, company logo design, custom logo design, business logo design, custom logo, best logo design, logo design services " width="120%" height="360px;">
@@ -120,7 +120,7 @@ include('head.php'); ?>
                                   <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/branding_in_kolhapur.jpeg" alt="Strategic Branding Services, branding in kolhapur, Brand Identity, Branding">
                                  </div>
                                 <div class="col-6 mt-2">
-                                 <p class="float-right align-self-center service-left-title">Transform your<br> brand</p>
+                                 <p class=" align-self-center service-left-title">Transform your<br> brand</p>
                                 </div>
                               </div>
                             </a>
@@ -131,7 +131,7 @@ include('head.php'); ?>
                                         <div class="col-6">
                                           <img class="service-img" src="<?php echo base_url(); ?>assets/images/site/printing_services_kolhapur.jpeg" alt="Printing, Printing Services in Kolhapur, Brochure Printing, Business Card Printing, Flyer Printing, Envelop Printing, books Printing, printing services in kolhapur, printing company">
                                           </div>
-                                        <div class="col-6 mt-1">
+                                        <div class="col-6 mt-2">
                                           <p class="service-left-title ">High quality prints for highly valuable customers</p>
                                         </div>
                                       </div>
@@ -144,7 +144,7 @@ include('head.php'); ?>
                                                   <img class="service-img table-cell" src="<?php echo base_url(); ?>assets/images/site/Corporate_eventsS.jpg" alt="Corporate Events, industrial event, events">
                                                   </div>
                                                 <div class="col-6 mt-2">
-                                                  <p class="service-left-title">Events which will emain memorable!</p>
+                                                  <p class="service-left-title">Events which will remain memorable!</p>
                                                 </div>
                                               </div>
                                             </a>
