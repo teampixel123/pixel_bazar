@@ -1,5 +1,5 @@
 <?php
-$title="Best Digital Marketing  Institute in Kolhapur | PixelBazar";
+$title="Best Rated Digital Marketing Training Institute in Kolhapur | Pixelbazar";
 $description="Go Digital with our Best Digital Marketing Services in Kolhapur We offer &#10004; SEO &#10004; PPC &#10004; Social Media Marketing &#10004; Branding Join Now!";
 $keywords="Digital Marketing company in kolhapur, Digital Marketing services in kolhapur, Digital Marketing, seo, search engine optimization, seo services in kolhapur, branding services in kolhapur, facebook marketing, google adwords, ppc, pay per click, twitter marketing, instagram marketing";
 $active='service';
@@ -19,7 +19,7 @@ include('head.php'); ?>
 
     <div class="row ">
       <div class="col-md-8" id="left-col">
-          <h1 class="service-title">Digital Marketing training course</h1>
+          <h1 class="service-title">Best Rated Digital Marketing Training Institute in Kolhapur</h1>
           <!-- <h3 class="service-sub-title red-color">Turn visitors into customers with beautiful designs</h3> -->
           <div class="social-media">
             <!-- <?php echo $email_msg; ?> -->

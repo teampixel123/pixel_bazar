@@ -1,5 +1,5 @@
 <?php
-$title="Web Design and Development in Kolhapur | PixelBazar";
+$title="Best Rated Web Development Training Institute in Kolhapur | Pixelbazar";
 $description="Best Rated Website Designing Company in Kolhapur. We Create Variety of Websites for all Platforms. &#10004; 100% Mobile Responsive &#10004; Static &#10004; Dynamic &#10004; E-Commerce. Order Your Website Now !";
 $keywords="website design, web design, web page design, website development, web design company, web development company, ecommerce website, static website, dynamic website, web design company in kolhapur, website design company in kolhapur, web development company in kolhapur, website development company in kolhapur, web design services";
 $active='service';
@@ -19,7 +19,7 @@ include('head.php'); ?>
 
     <div class="row ">
       <div class="col-md-8" id="left-col">
-          <h1 class="service-title">Web designing and development training</h1>
+          <h1 class="service-title">Website Design and Development Training Academy in Kolhapur</h1>
           <!-- <h3 class="service-sub-title red-color">Turn visitors into customers with beautiful designs</h3> -->
           <div class="social-media">
             <!-- <?php echo $email_msg; ?> -->
