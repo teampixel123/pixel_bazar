@@ -682,11 +682,13 @@ include('head.php');
             </div>
             <h3 class="classes-sub-title text-center">Web Design & Development<br>Training Course</h3>
             <a class="btn btn-md btn-outline-warning btn-classes" href="<?php echo base_url(); ?>website-design-development-kolhapur">READ MORE</a>
-            <p class="paragraph text-center">The popularity and demand of digital marketing is fueling up by leaps and bounds.The count of digital marketing jobs is booming up.  We feel proud to have the best digital marketing trainers. We strive to come up with new ideas and strategies related to digital marketing for giving training on core digital concepts.   We believe in efficient training and try to bring out the best in students.</p>
+            <p class="paragraph text-center">When it comes to training students on today’s technology, Pixel Bazar is a leading institute. Our web design course content is created and updated by experienced web designers to match the present standards of web technologies. In our website program, we teach all the aspects of layout designing, coding, and testing. Many of our students are now placed in renowned companies and we feel happy for the same.</p>
+            <a class="btn btn-lg  btn-outline-warning2 class-btn" href="<?php echo base_url(); ?>web-design-and-development">Read More</a>
+            <br>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="digital-classes classes-div">
+          <div class="digital-classes classes-div text-center" id="digital_traning">
             <div class="text-center classes-icon">
               <svg class="svg" x="0px" y="0px" width="68px" height="68px" viewBox="0 0 70 57" enable-background="new 0 0 70 57" xml:space="preserve">
             		<path d="M3.688,8.166h36.031v5.622h3.015V7.042c0-1.022-0.868-1.891-1.891-1.891H2.615
@@ -705,8 +707,11 @@ include('head.php');
             <h3 class="classes-sub-title text-center">Digital Marketing Training<br>Course</h3>
             <a class="btn btn-md btn-outline-warning btn-classes" href="<?php echo base_url(); ?>digital-marketing-services-kolhapur">READ MORE</a>
             <p class="paragraph text-center">
-              When it comes to training students on today’s technology, Pixel Bazar is a leading institute. Our web design course content is created and updated by experienced web designers to match the present standards of web technologies. In our website program, we teach all the aspects of layout designing, coding, and testing. Many of our students are now placed in renowned companies and we feel happy for the same.
+              The popularity and demand of digital marketing is fueling up by leaps and bounds.The count of digital marketing jobs is booming up.  We feel proud to have the best digital marketing trainers. We strive to come up with new ideas and strategies related to digital marketing for giving training on core digital concepts.   We believe in efficient training and try to bring out the best in students.
             </p>
+            <br>
+            <a class="btn btn-lg text-center btn-outline-warning2 class-btn" href="<?php echo base_url(); ?>digital-marketing-training">Read More</a>
+            <br>
           </div>
         </div>
       </div>

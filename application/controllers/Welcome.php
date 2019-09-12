@@ -75,6 +75,16 @@ class Welcome extends CI_Controller {
 		// $this->output->cache(60);
 		$this->load->view('pages/corporate_event');
 	}
+	public function acadamy_web()
+	{
+		// $this->output->cache(60);
+		$this->load->view('pages/acadamy_web');
+	}
+	public function acadamy_dmark()
+	{
+		// $this->output->cache(60);
+		$this->load->view('pages/acadamy_dmark');
+	}
 	public function portfolio()
 	{
 		// $this->output->cache(60);
