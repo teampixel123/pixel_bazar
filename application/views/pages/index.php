@@ -25,45 +25,6 @@ include('head.php');
       +91 91 58 99 55 05
       </a>
 	  </span>
-	  <!-- <div class="home-enquiry" style="background-color:#D3D3D3; ">
-      <div class="pt-2 pb-2 pr-3 pl-3 enquiry_form1" style="background-color:#fff;">
-        <form  action="<?php echo base_url(); ?>welcome/send_enquiry" method="post" id="enquiry_form" autocomplete="off" >
-  			<div class="text-center set-font pb-1 pt-1">
-  			  <h4><b>Get a Free Quote</b></h4>
-  			</div>
-        <div class="pl-1 alert-danger" style="display:none;">
-          Request Not Sent
-        </div>
-        <div class="pl-1 alert-success" style="display:none;">
-          Request Sent Successfully
-        </div>
-  			<div class="form-row">
-  			  <div class="col-md-12 col-12">
-  				<label for="exampleInputEmail1">Name/Company</label>
-  				<input style="" type="text" id="name" name="name" class="form-control valid" placeholder="Full Name">
-  			  </div>
-  			</div>
-  			<div class="form-row">
-  			  <div class="col-md-12 col-12">
-  				<label for="exampleInputEmail1">Email</label>
-  				<input type="text" id="email" name="email" class="form-control valid" placeholder="Email Address">
-  			  </div>
-  			</div>
-  			<div class="form-row">
-  			  <div class="col-md-12 col-12">
-  				<label for="exampleInputEmail1">Mobile Number</label>
-  				<input type="number" id="mobile" name="mobile" class="form-control valid" placeholder="Enter Mobile Number">
-  			  </div>
-  			</div>
-  			<br>
-  		  </form>
-        <div class="form-row">
-  			  <div class="col-md-12 col-12 text-center" >
-            <button id="btn_enquiry" type="button" class="btn btn-md btn-outline-warning2">Submit</button>
-  			  </div>
-  			</div>
-      </div>
-	  </div> -->
 	</div>
   </div>
   <!-- Banner End -->
